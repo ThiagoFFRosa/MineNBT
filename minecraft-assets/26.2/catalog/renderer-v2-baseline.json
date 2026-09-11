@@ -1,0 +1,4697 @@
+{
+  "total": 174,
+  "items": [
+    {
+      "id": "minecraft:acacia_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/acacia_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/acacia_leaves.json",
+        "assets/minecraft/models/block/acacia_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/textures/block/acacia_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:bee_nest",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/bee_nest.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/bee_nest.json",
+        "assets/minecraft/models/block/bee_nest_empty.json",
+        "assets/minecraft/models/block/bee_nest_honey.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/cube.json",
+        "assets/minecraft/models/block/orientable_with_bottom.json",
+        "assets/minecraft/textures/block/bee_nest_bottom.png",
+        "assets/minecraft/textures/block/bee_nest_front.png",
+        "assets/minecraft/textures/block/bee_nest_front_honey.png",
+        "assets/minecraft/textures/block/bee_nest_side.png",
+        "assets/minecraft/textures/block/bee_nest_top.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:beehive",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/beehive.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/beehive.json",
+        "assets/minecraft/models/block/beehive_empty.json",
+        "assets/minecraft/models/block/beehive_honey.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/cube.json",
+        "assets/minecraft/models/block/orientable_with_bottom.json",
+        "assets/minecraft/textures/block/beehive_end.png",
+        "assets/minecraft/textures/block/beehive_front.png",
+        "assets/minecraft/textures/block/beehive_front_honey.png",
+        "assets/minecraft/textures/block/beehive_side.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:birch_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/birch_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/birch_leaves.json",
+        "assets/minecraft/models/block/birch_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/textures/block/birch_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:black_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/black_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/black_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:black_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/black_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/black_bed.json",
+        "assets/minecraft/models/block/black_bed_foot.json",
+        "assets/minecraft/models/block/black_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/black_bed_foot_east.png",
+        "assets/minecraft/textures/block/black_bed_foot_south.png",
+        "assets/minecraft/textures/block/black_bed_foot_up.png",
+        "assets/minecraft/textures/block/black_bed_foot_west.png",
+        "assets/minecraft/textures/block/black_bed_head_east.png",
+        "assets/minecraft/textures/block/black_bed_head_up.png",
+        "assets/minecraft/textures/block/black_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:black_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/black_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/black_bundle.json",
+        "assets/minecraft/models/item/black_bundle.json",
+        "assets/minecraft/models/item/black_bundle_open_back.json",
+        "assets/minecraft/models/item/black_bundle_open_front.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/black_bundle.png",
+        "assets/minecraft/textures/item/black_bundle_open_back.png",
+        "assets/minecraft/textures/item/black_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:black_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/black_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/black_shulker_box.json",
+        "assets/minecraft/models/item/black_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_black"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:blue_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/blue_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/blue_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:blue_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/blue_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/blue_bed.json",
+        "assets/minecraft/models/block/blue_bed_foot.json",
+        "assets/minecraft/models/block/blue_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/blue_bed_foot_east.png",
+        "assets/minecraft/textures/block/blue_bed_foot_south.png",
+        "assets/minecraft/textures/block/blue_bed_foot_up.png",
+        "assets/minecraft/textures/block/blue_bed_foot_west.png",
+        "assets/minecraft/textures/block/blue_bed_head_east.png",
+        "assets/minecraft/textures/block/blue_bed_head_up.png",
+        "assets/minecraft/textures/block/blue_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:blue_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/blue_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/blue_bundle.json",
+        "assets/minecraft/models/item/blue_bundle.json",
+        "assets/minecraft/models/item/blue_bundle_open_back.json",
+        "assets/minecraft/models/item/blue_bundle_open_front.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/blue_bundle.png",
+        "assets/minecraft/textures/item/blue_bundle_open_back.png",
+        "assets/minecraft/textures/item/blue_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:blue_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/blue_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/blue_shulker_box.json",
+        "assets/minecraft/models/item/blue_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_blue"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:bow",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/bow.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:range_dispatch"
+      ],
+      "references": [
+        "assets/minecraft/items/bow.json",
+        "assets/minecraft/models/item/bow.json",
+        "assets/minecraft/models/item/bow_pulling_0.json",
+        "assets/minecraft/models/item/bow_pulling_1.json",
+        "assets/minecraft/models/item/bow_pulling_2.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/bow.png",
+        "assets/minecraft/textures/item/bow_pulling_0.png",
+        "assets/minecraft/textures/item/bow_pulling_1.png",
+        "assets/minecraft/textures/item/bow_pulling_2.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:brown_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/brown_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/brown_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:brown_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/brown_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/brown_bed.json",
+        "assets/minecraft/models/block/brown_bed_foot.json",
+        "assets/minecraft/models/block/brown_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/brown_bed_foot_east.png",
+        "assets/minecraft/textures/block/brown_bed_foot_south.png",
+        "assets/minecraft/textures/block/brown_bed_foot_up.png",
+        "assets/minecraft/textures/block/brown_bed_foot_west.png",
+        "assets/minecraft/textures/block/brown_bed_head_east.png",
+        "assets/minecraft/textures/block/brown_bed_head_up.png",
+        "assets/minecraft/textures/block/brown_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:brown_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/brown_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/brown_bundle.json",
+        "assets/minecraft/models/item/brown_bundle.json",
+        "assets/minecraft/models/item/brown_bundle_open_back.json",
+        "assets/minecraft/models/item/brown_bundle_open_front.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/brown_bundle.png",
+        "assets/minecraft/textures/item/brown_bundle_open_back.png",
+        "assets/minecraft/textures/item/brown_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:brown_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/brown_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/brown_shulker_box.json",
+        "assets/minecraft/models/item/brown_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_brown"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:brush",
+      "currentReason": "range_dispatch",
+      "definition": "assets/minecraft/items/brush.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:range_dispatch"
+      ],
+      "references": [
+        "assets/minecraft/items/brush.json",
+        "assets/minecraft/models/item/brush.json",
+        "assets/minecraft/models/item/brush_brushing_0.json",
+        "assets/minecraft/models/item/brush_brushing_1.json",
+        "assets/minecraft/models/item/brush_brushing_2.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/brush.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/bundle.json",
+        "assets/minecraft/models/item/bundle.json",
+        "assets/minecraft/models/item/bundle_open_back.json",
+        "assets/minecraft/models/item/bundle_open_front.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/bundle.png",
+        "assets/minecraft/textures/item/bundle_open_back.png",
+        "assets/minecraft/textures/item/bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:bush",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/bush.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/bush.json",
+        "assets/minecraft/models/item/bush.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/block/bush.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:chainmail_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/chainmail_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/chainmail_boots.json",
+        "assets/minecraft/models/item/chainmail_boots.json",
+        "assets/minecraft/models/item/chainmail_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_copper_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_diamond_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_emerald_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_gold_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_iron_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_lapis_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_netherite_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_quartz_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_redstone_trim.json",
+        "assets/minecraft/models/item/chainmail_boots_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/chainmail_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:chainmail_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/chainmail_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/chainmail_chestplate.json",
+        "assets/minecraft/models/item/chainmail_chestplate.json",
+        "assets/minecraft/models/item/chainmail_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/chainmail_chestplate_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/chainmail_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:chainmail_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/chainmail_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/chainmail_helmet.json",
+        "assets/minecraft/models/item/chainmail_helmet.json",
+        "assets/minecraft/models/item/chainmail_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_copper_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_gold_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_iron_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/chainmail_helmet_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/chainmail_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:chainmail_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/chainmail_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/chainmail_leggings.json",
+        "assets/minecraft/models/item/chainmail_leggings.json",
+        "assets/minecraft/models/item/chainmail_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_copper_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_gold_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_iron_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/chainmail_leggings_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/chainmail_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/chest.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/chest.json",
+        "assets/minecraft/models/item/chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:christmas",
+        "special_texture:minecraft:normal"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:clock",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/clock.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:range_dispatch",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/clock.json",
+        "assets/minecraft/models/item/clock_00.json",
+        "assets/minecraft/models/item/clock_01.json",
+        "assets/minecraft/models/item/clock_02.json",
+        "assets/minecraft/models/item/clock_03.json",
+        "assets/minecraft/models/item/clock_04.json",
+        "assets/minecraft/models/item/clock_05.json",
+        "assets/minecraft/models/item/clock_06.json",
+        "assets/minecraft/models/item/clock_07.json",
+        "assets/minecraft/models/item/clock_08.json",
+        "assets/minecraft/models/item/clock_09.json",
+        "assets/minecraft/models/item/clock_10.json",
+        "assets/minecraft/models/item/clock_11.json",
+        "assets/minecraft/models/item/clock_12.json",
+        "assets/minecraft/models/item/clock_13.json",
+        "assets/minecraft/models/item/clock_14.json",
+        "assets/minecraft/models/item/clock_15.json",
+        "assets/minecraft/models/item/clock_16.json",
+        "assets/minecraft/models/item/clock_17.json",
+        "assets/minecraft/models/item/clock_18.json",
+        "assets/minecraft/models/item/clock_19.json",
+        "assets/minecraft/models/item/clock_20.json",
+        "assets/minecraft/models/item/clock_21.json",
+        "assets/minecraft/models/item/clock_22.json",
+        "assets/minecraft/models/item/clock_23.json",
+        "assets/minecraft/models/item/clock_24.json",
+        "assets/minecraft/models/item/clock_25.json",
+        "assets/minecraft/models/item/clock_26.json",
+        "assets/minecraft/models/item/clock_27.json",
+        "assets/minecraft/models/item/clock_28.json",
+        "assets/minecraft/models/item/clock_29.json",
+        "assets/minecraft/models/item/clock_30.json",
+        "assets/minecraft/models/item/clock_31.json",
+        "assets/minecraft/models/item/clock_32.json",
+        "assets/minecraft/models/item/clock_33.json",
+        "assets/minecraft/models/item/clock_34.json",
+        "assets/minecraft/models/item/clock_35.json",
+        "assets/minecraft/models/item/clock_36.json",
+        "assets/minecraft/models/item/clock_37.json",
+        "assets/minecraft/models/item/clock_38.json",
+        "assets/minecraft/models/item/clock_39.json",
+        "assets/minecraft/models/item/clock_40.json",
+        "assets/minecraft/models/item/clock_41.json",
+        "assets/minecraft/models/item/clock_42.json",
+        "assets/minecraft/models/item/clock_43.json",
+        "assets/minecraft/models/item/clock_44.json",
+        "assets/minecraft/models/item/clock_45.json",
+        "assets/minecraft/models/item/clock_46.json",
+        "assets/minecraft/models/item/clock_47.json",
+        "assets/minecraft/models/item/clock_48.json",
+        "assets/minecraft/models/item/clock_49.json",
+        "assets/minecraft/models/item/clock_50.json",
+        "assets/minecraft/models/item/clock_51.json",
+        "assets/minecraft/models/item/clock_52.json",
+        "assets/minecraft/models/item/clock_53.json",
+        "assets/minecraft/models/item/clock_54.json",
+        "assets/minecraft/models/item/clock_55.json",
+        "assets/minecraft/models/item/clock_56.json",
+        "assets/minecraft/models/item/clock_57.json",
+        "assets/minecraft/models/item/clock_58.json",
+        "assets/minecraft/models/item/clock_59.json",
+        "assets/minecraft/models/item/clock_60.json",
+        "assets/minecraft/models/item/clock_61.json",
+        "assets/minecraft/models/item/clock_62.json",
+        "assets/minecraft/models/item/clock_63.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/clock_00.png",
+        "assets/minecraft/textures/item/clock_01.png",
+        "assets/minecraft/textures/item/clock_02.png",
+        "assets/minecraft/textures/item/clock_03.png",
+        "assets/minecraft/textures/item/clock_04.png",
+        "assets/minecraft/textures/item/clock_05.png",
+        "assets/minecraft/textures/item/clock_06.png",
+        "assets/minecraft/textures/item/clock_07.png",
+        "assets/minecraft/textures/item/clock_08.png",
+        "assets/minecraft/textures/item/clock_09.png",
+        "assets/minecraft/textures/item/clock_10.png",
+        "assets/minecraft/textures/item/clock_11.png",
+        "assets/minecraft/textures/item/clock_12.png",
+        "assets/minecraft/textures/item/clock_13.png",
+        "assets/minecraft/textures/item/clock_14.png",
+        "assets/minecraft/textures/item/clock_15.png",
+        "assets/minecraft/textures/item/clock_16.png",
+        "assets/minecraft/textures/item/clock_17.png",
+        "assets/minecraft/textures/item/clock_18.png",
+        "assets/minecraft/textures/item/clock_19.png",
+        "assets/minecraft/textures/item/clock_20.png",
+        "assets/minecraft/textures/item/clock_21.png",
+        "assets/minecraft/textures/item/clock_22.png",
+        "assets/minecraft/textures/item/clock_23.png",
+        "assets/minecraft/textures/item/clock_24.png",
+        "assets/minecraft/textures/item/clock_25.png",
+        "assets/minecraft/textures/item/clock_26.png",
+        "assets/minecraft/textures/item/clock_27.png",
+        "assets/minecraft/textures/item/clock_28.png",
+        "assets/minecraft/textures/item/clock_29.png",
+        "assets/minecraft/textures/item/clock_30.png",
+        "assets/minecraft/textures/item/clock_31.png",
+        "assets/minecraft/textures/item/clock_32.png",
+        "assets/minecraft/textures/item/clock_33.png",
+        "assets/minecraft/textures/item/clock_34.png",
+        "assets/minecraft/textures/item/clock_35.png",
+        "assets/minecraft/textures/item/clock_36.png",
+        "assets/minecraft/textures/item/clock_37.png",
+        "assets/minecraft/textures/item/clock_38.png",
+        "assets/minecraft/textures/item/clock_39.png",
+        "assets/minecraft/textures/item/clock_40.png",
+        "assets/minecraft/textures/item/clock_41.png",
+        "assets/minecraft/textures/item/clock_42.png",
+        "assets/minecraft/textures/item/clock_43.png",
+        "assets/minecraft/textures/item/clock_44.png",
+        "assets/minecraft/textures/item/clock_45.png",
+        "assets/minecraft/textures/item/clock_46.png",
+        "assets/minecraft/textures/item/clock_47.png",
+        "assets/minecraft/textures/item/clock_48.png",
+        "assets/minecraft/textures/item/clock_49.png",
+        "assets/minecraft/textures/item/clock_50.png",
+        "assets/minecraft/textures/item/clock_51.png",
+        "assets/minecraft/textures/item/clock_52.png",
+        "assets/minecraft/textures/item/clock_53.png",
+        "assets/minecraft/textures/item/clock_54.png",
+        "assets/minecraft/textures/item/clock_55.png",
+        "assets/minecraft/textures/item/clock_56.png",
+        "assets/minecraft/textures/item/clock_57.png",
+        "assets/minecraft/textures/item/clock_58.png",
+        "assets/minecraft/textures/item/clock_59.png",
+        "assets/minecraft/textures/item/clock_60.png",
+        "assets/minecraft/textures/item/clock_61.png",
+        "assets/minecraft/textures/item/clock_62.png",
+        "assets/minecraft/textures/item/clock_63.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:compass",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/compass.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:range_dispatch"
+      ],
+      "references": [
+        "assets/minecraft/items/compass.json",
+        "assets/minecraft/models/item/compass_00.json",
+        "assets/minecraft/models/item/compass_01.json",
+        "assets/minecraft/models/item/compass_02.json",
+        "assets/minecraft/models/item/compass_03.json",
+        "assets/minecraft/models/item/compass_04.json",
+        "assets/minecraft/models/item/compass_05.json",
+        "assets/minecraft/models/item/compass_06.json",
+        "assets/minecraft/models/item/compass_07.json",
+        "assets/minecraft/models/item/compass_08.json",
+        "assets/minecraft/models/item/compass_09.json",
+        "assets/minecraft/models/item/compass_10.json",
+        "assets/minecraft/models/item/compass_11.json",
+        "assets/minecraft/models/item/compass_12.json",
+        "assets/minecraft/models/item/compass_13.json",
+        "assets/minecraft/models/item/compass_14.json",
+        "assets/minecraft/models/item/compass_15.json",
+        "assets/minecraft/models/item/compass_16.json",
+        "assets/minecraft/models/item/compass_17.json",
+        "assets/minecraft/models/item/compass_18.json",
+        "assets/minecraft/models/item/compass_19.json",
+        "assets/minecraft/models/item/compass_20.json",
+        "assets/minecraft/models/item/compass_21.json",
+        "assets/minecraft/models/item/compass_22.json",
+        "assets/minecraft/models/item/compass_23.json",
+        "assets/minecraft/models/item/compass_24.json",
+        "assets/minecraft/models/item/compass_25.json",
+        "assets/minecraft/models/item/compass_26.json",
+        "assets/minecraft/models/item/compass_27.json",
+        "assets/minecraft/models/item/compass_28.json",
+        "assets/minecraft/models/item/compass_29.json",
+        "assets/minecraft/models/item/compass_30.json",
+        "assets/minecraft/models/item/compass_31.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/compass_00.png",
+        "assets/minecraft/textures/item/compass_01.png",
+        "assets/minecraft/textures/item/compass_02.png",
+        "assets/minecraft/textures/item/compass_03.png",
+        "assets/minecraft/textures/item/compass_04.png",
+        "assets/minecraft/textures/item/compass_05.png",
+        "assets/minecraft/textures/item/compass_06.png",
+        "assets/minecraft/textures/item/compass_07.png",
+        "assets/minecraft/textures/item/compass_08.png",
+        "assets/minecraft/textures/item/compass_09.png",
+        "assets/minecraft/textures/item/compass_10.png",
+        "assets/minecraft/textures/item/compass_11.png",
+        "assets/minecraft/textures/item/compass_12.png",
+        "assets/minecraft/textures/item/compass_13.png",
+        "assets/minecraft/textures/item/compass_14.png",
+        "assets/minecraft/textures/item/compass_15.png",
+        "assets/minecraft/textures/item/compass_16.png",
+        "assets/minecraft/textures/item/compass_17.png",
+        "assets/minecraft/textures/item/compass_18.png",
+        "assets/minecraft/textures/item/compass_19.png",
+        "assets/minecraft/textures/item/compass_20.png",
+        "assets/minecraft/textures/item/compass_21.png",
+        "assets/minecraft/textures/item/compass_22.png",
+        "assets/minecraft/textures/item/compass_23.png",
+        "assets/minecraft/textures/item/compass_24.png",
+        "assets/minecraft/textures/item/compass_25.png",
+        "assets/minecraft/textures/item/compass_26.png",
+        "assets/minecraft/textures/item/compass_27.png",
+        "assets/minecraft/textures/item/compass_28.png",
+        "assets/minecraft/textures/item/compass_29.png",
+        "assets/minecraft/textures/item/compass_30.png",
+        "assets/minecraft/textures/item/compass_31.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:conduit",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/conduit.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/conduit.json",
+        "assets/minecraft/models/item/conduit.json",
+        "special_renderer:minecraft:conduit"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:copper_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/copper_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/copper_boots.json",
+        "assets/minecraft/models/item/copper_boots.json",
+        "assets/minecraft/models/item/copper_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/copper_boots_copper_trim.json",
+        "assets/minecraft/models/item/copper_boots_diamond_trim.json",
+        "assets/minecraft/models/item/copper_boots_emerald_trim.json",
+        "assets/minecraft/models/item/copper_boots_gold_trim.json",
+        "assets/minecraft/models/item/copper_boots_iron_trim.json",
+        "assets/minecraft/models/item/copper_boots_lapis_trim.json",
+        "assets/minecraft/models/item/copper_boots_netherite_trim.json",
+        "assets/minecraft/models/item/copper_boots_quartz_trim.json",
+        "assets/minecraft/models/item/copper_boots_redstone_trim.json",
+        "assets/minecraft/models/item/copper_boots_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/copper_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper_darker",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/copper_chest.json",
+        "assets/minecraft/models/item/copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:copper_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/copper_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/copper_chestplate.json",
+        "assets/minecraft/models/item/copper_chestplate.json",
+        "assets/minecraft/models/item/copper_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/copper_chestplate_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/copper_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper_darker",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:copper_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/copper_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/copper_helmet.json",
+        "assets/minecraft/models/item/copper_helmet.json",
+        "assets/minecraft/models/item/copper_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/copper_helmet_copper_trim.json",
+        "assets/minecraft/models/item/copper_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/copper_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/copper_helmet_gold_trim.json",
+        "assets/minecraft/models/item/copper_helmet_iron_trim.json",
+        "assets/minecraft/models/item/copper_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/copper_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/copper_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/copper_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/copper_helmet_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/copper_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper_darker",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:copper_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/copper_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/copper_leggings.json",
+        "assets/minecraft/models/item/copper_leggings.json",
+        "assets/minecraft/models/item/copper_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/copper_leggings_copper_trim.json",
+        "assets/minecraft/models/item/copper_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/copper_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/copper_leggings_gold_trim.json",
+        "assets/minecraft/models/item/copper_leggings_iron_trim.json",
+        "assets/minecraft/models/item/copper_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/copper_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/copper_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/copper_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/copper_leggings_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/copper_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper_darker",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:copper_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/copper_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/copper_spear.json",
+        "assets/minecraft/models/item/copper_spear.json",
+        "assets/minecraft/models/item/copper_spear_in_hand.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/textures/item/copper_spear.png",
+        "assets/minecraft/textures/item/copper_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:creeper_head",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/creeper_head.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/creeper_head.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:crossbow",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/crossbow.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:range_dispatch",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/crossbow.json",
+        "assets/minecraft/models/item/crossbow.json",
+        "assets/minecraft/models/item/crossbow_arrow.json",
+        "assets/minecraft/models/item/crossbow_firework.json",
+        "assets/minecraft/models/item/crossbow_pulling_0.json",
+        "assets/minecraft/models/item/crossbow_pulling_1.json",
+        "assets/minecraft/models/item/crossbow_pulling_2.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/crossbow_arrow.png",
+        "assets/minecraft/textures/item/crossbow_firework.png",
+        "assets/minecraft/textures/item/crossbow_pulling_0.png",
+        "assets/minecraft/textures/item/crossbow_pulling_1.png",
+        "assets/minecraft/textures/item/crossbow_pulling_2.png",
+        "assets/minecraft/textures/item/crossbow_standby.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:cyan_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/cyan_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/cyan_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:cyan_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/cyan_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/cyan_bed.json",
+        "assets/minecraft/models/block/cyan_bed_foot.json",
+        "assets/minecraft/models/block/cyan_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/cyan_bed_foot_east.png",
+        "assets/minecraft/textures/block/cyan_bed_foot_south.png",
+        "assets/minecraft/textures/block/cyan_bed_foot_up.png",
+        "assets/minecraft/textures/block/cyan_bed_foot_west.png",
+        "assets/minecraft/textures/block/cyan_bed_head_east.png",
+        "assets/minecraft/textures/block/cyan_bed_head_up.png",
+        "assets/minecraft/textures/block/cyan_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:cyan_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/cyan_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/cyan_bundle.json",
+        "assets/minecraft/models/item/cyan_bundle.json",
+        "assets/minecraft/models/item/cyan_bundle_open_back.json",
+        "assets/minecraft/models/item/cyan_bundle_open_front.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/cyan_bundle.png",
+        "assets/minecraft/textures/item/cyan_bundle_open_back.png",
+        "assets/minecraft/textures/item/cyan_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:cyan_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/cyan_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/cyan_shulker_box.json",
+        "assets/minecraft/models/item/cyan_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_cyan"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:dark_oak_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/dark_oak_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/dark_oak_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/dark_oak_leaves.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/textures/block/dark_oak_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:decorated_pot",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/decorated_pot.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/decorated_pot.json",
+        "assets/minecraft/models/item/decorated_pot.json",
+        "special_renderer:minecraft:decorated_pot"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/diamond_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/diamond_boots.json",
+        "assets/minecraft/models/item/diamond_boots.json",
+        "assets/minecraft/models/item/diamond_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/diamond_boots_copper_trim.json",
+        "assets/minecraft/models/item/diamond_boots_diamond_trim.json",
+        "assets/minecraft/models/item/diamond_boots_emerald_trim.json",
+        "assets/minecraft/models/item/diamond_boots_gold_trim.json",
+        "assets/minecraft/models/item/diamond_boots_iron_trim.json",
+        "assets/minecraft/models/item/diamond_boots_lapis_trim.json",
+        "assets/minecraft/models/item/diamond_boots_netherite_trim.json",
+        "assets/minecraft/models/item/diamond_boots_quartz_trim.json",
+        "assets/minecraft/models/item/diamond_boots_redstone_trim.json",
+        "assets/minecraft/models/item/diamond_boots_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/diamond_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond_darker",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/diamond_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/diamond_chestplate.json",
+        "assets/minecraft/models/item/diamond_chestplate.json",
+        "assets/minecraft/models/item/diamond_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/diamond_chestplate_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/diamond_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond_darker",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/diamond_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/diamond_helmet.json",
+        "assets/minecraft/models/item/diamond_helmet.json",
+        "assets/minecraft/models/item/diamond_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_copper_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_gold_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_iron_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/diamond_helmet_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/diamond_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond_darker",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/diamond_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/diamond_leggings.json",
+        "assets/minecraft/models/item/diamond_leggings.json",
+        "assets/minecraft/models/item/diamond_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_copper_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_gold_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_iron_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/diamond_leggings_resin_trim.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/diamond_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond_darker",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:diamond_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/diamond_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/diamond_spear.json",
+        "assets/minecraft/models/item/diamond_spear.json",
+        "assets/minecraft/models/item/diamond_spear_in_hand.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/textures/item/diamond_spear.png",
+        "assets/minecraft/textures/item/diamond_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:dragon_head",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/dragon_head.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/dragon_head.json",
+        "assets/minecraft/models/item/dragon_head.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:elytra",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/elytra.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/elytra.json",
+        "assets/minecraft/models/item/elytra.json",
+        "assets/minecraft/models/item/elytra_broken.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/elytra.png",
+        "assets/minecraft/textures/item/elytra_broken.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:ender_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/ender_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/ender_chest.json",
+        "assets/minecraft/models/item/ender_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:ender"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:exposed_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/exposed_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/exposed_copper_chest.json",
+        "assets/minecraft/models/item/exposed_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_exposed"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:exposed_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/exposed_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/exposed_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_exposed.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:fern",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/fern.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/fern.json",
+        "assets/minecraft/models/item/fern.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/block/fern.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:filled_map",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/filled_map.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/filled_map.json",
+        "assets/minecraft/models/item/filled_map.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/filled_map.png",
+        "assets/minecraft/textures/item/filled_map_markings.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:firework_star",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/firework_star.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/firework_star.json",
+        "assets/minecraft/models/item/firework_star.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/textures/item/firework_star.png",
+        "assets/minecraft/textures/item/firework_star_overlay.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:fishing_rod",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/fishing_rod.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/fishing_rod.json",
+        "assets/minecraft/models/item/fishing_rod.json",
+        "assets/minecraft/models/item/fishing_rod_cast.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/handheld.json",
+        "assets/minecraft/models/item/handheld_rod.json",
+        "assets/minecraft/textures/item/fishing_rod.png",
+        "assets/minecraft/textures/item/fishing_rod_cast.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:goat_horn",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/goat_horn.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/goat_horn.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/goat_horn.json",
+        "assets/minecraft/models/item/tooting_goat_horn.json",
+        "assets/minecraft/textures/item/goat_horn.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:golden_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/golden_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/golden_boots.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/golden_boots.json",
+        "assets/minecraft/models/item/golden_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/golden_boots_copper_trim.json",
+        "assets/minecraft/models/item/golden_boots_diamond_trim.json",
+        "assets/minecraft/models/item/golden_boots_emerald_trim.json",
+        "assets/minecraft/models/item/golden_boots_gold_trim.json",
+        "assets/minecraft/models/item/golden_boots_iron_trim.json",
+        "assets/minecraft/models/item/golden_boots_lapis_trim.json",
+        "assets/minecraft/models/item/golden_boots_netherite_trim.json",
+        "assets/minecraft/models/item/golden_boots_quartz_trim.json",
+        "assets/minecraft/models/item/golden_boots_redstone_trim.json",
+        "assets/minecraft/models/item/golden_boots_resin_trim.json",
+        "assets/minecraft/textures/item/golden_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold_darker",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:golden_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/golden_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/golden_chestplate.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/golden_chestplate.json",
+        "assets/minecraft/models/item/golden_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/golden_chestplate_resin_trim.json",
+        "assets/minecraft/textures/item/golden_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold_darker",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:golden_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/golden_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/golden_helmet.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/golden_helmet.json",
+        "assets/minecraft/models/item/golden_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/golden_helmet_copper_trim.json",
+        "assets/minecraft/models/item/golden_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/golden_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/golden_helmet_gold_trim.json",
+        "assets/minecraft/models/item/golden_helmet_iron_trim.json",
+        "assets/minecraft/models/item/golden_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/golden_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/golden_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/golden_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/golden_helmet_resin_trim.json",
+        "assets/minecraft/textures/item/golden_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold_darker",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:golden_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/golden_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/golden_leggings.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/golden_leggings.json",
+        "assets/minecraft/models/item/golden_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/golden_leggings_copper_trim.json",
+        "assets/minecraft/models/item/golden_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/golden_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/golden_leggings_gold_trim.json",
+        "assets/minecraft/models/item/golden_leggings_iron_trim.json",
+        "assets/minecraft/models/item/golden_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/golden_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/golden_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/golden_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/golden_leggings_resin_trim.json",
+        "assets/minecraft/textures/item/golden_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold_darker",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:golden_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/golden_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/golden_spear.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/golden_spear.json",
+        "assets/minecraft/models/item/golden_spear_in_hand.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/textures/item/golden_spear.png",
+        "assets/minecraft/textures/item/golden_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:grass_block",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/grass_block.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/grass_block.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/grass_block.json",
+        "assets/minecraft/textures/block/dirt.png",
+        "assets/minecraft/textures/block/grass_block_side.png",
+        "assets/minecraft/textures/block/grass_block_side_overlay.png",
+        "assets/minecraft/textures/block/grass_block_top.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:gray_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/gray_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/gray_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:gray_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/gray_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/gray_bed.json",
+        "assets/minecraft/models/block/gray_bed_foot.json",
+        "assets/minecraft/models/block/gray_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/gray_bed_foot_east.png",
+        "assets/minecraft/textures/block/gray_bed_foot_south.png",
+        "assets/minecraft/textures/block/gray_bed_foot_up.png",
+        "assets/minecraft/textures/block/gray_bed_foot_west.png",
+        "assets/minecraft/textures/block/gray_bed_head_east.png",
+        "assets/minecraft/textures/block/gray_bed_head_up.png",
+        "assets/minecraft/textures/block/gray_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:gray_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/gray_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/gray_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/gray_bundle.json",
+        "assets/minecraft/models/item/gray_bundle_open_back.json",
+        "assets/minecraft/models/item/gray_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/gray_bundle.png",
+        "assets/minecraft/textures/item/gray_bundle_open_back.png",
+        "assets/minecraft/textures/item/gray_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:gray_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/gray_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/gray_shulker_box.json",
+        "assets/minecraft/models/item/gray_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_gray"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:green_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/green_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/green_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:green_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/green_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/green_bed.json",
+        "assets/minecraft/models/block/green_bed_foot.json",
+        "assets/minecraft/models/block/green_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/green_bed_foot_east.png",
+        "assets/minecraft/textures/block/green_bed_foot_south.png",
+        "assets/minecraft/textures/block/green_bed_foot_up.png",
+        "assets/minecraft/textures/block/green_bed_foot_west.png",
+        "assets/minecraft/textures/block/green_bed_head_east.png",
+        "assets/minecraft/textures/block/green_bed_head_up.png",
+        "assets/minecraft/textures/block/green_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:green_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/green_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/green_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/green_bundle.json",
+        "assets/minecraft/models/item/green_bundle_open_back.json",
+        "assets/minecraft/models/item/green_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/green_bundle.png",
+        "assets/minecraft/textures/item/green_bundle_open_back.png",
+        "assets/minecraft/textures/item/green_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:green_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/green_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/green_shulker_box.json",
+        "assets/minecraft/models/item/green_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_green"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:iron_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/iron_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/iron_boots.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/iron_boots.json",
+        "assets/minecraft/models/item/iron_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/iron_boots_copper_trim.json",
+        "assets/minecraft/models/item/iron_boots_diamond_trim.json",
+        "assets/minecraft/models/item/iron_boots_emerald_trim.json",
+        "assets/minecraft/models/item/iron_boots_gold_trim.json",
+        "assets/minecraft/models/item/iron_boots_iron_trim.json",
+        "assets/minecraft/models/item/iron_boots_lapis_trim.json",
+        "assets/minecraft/models/item/iron_boots_netherite_trim.json",
+        "assets/minecraft/models/item/iron_boots_quartz_trim.json",
+        "assets/minecraft/models/item/iron_boots_redstone_trim.json",
+        "assets/minecraft/models/item/iron_boots_resin_trim.json",
+        "assets/minecraft/textures/item/iron_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron_darker",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:iron_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/iron_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/iron_chestplate.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/iron_chestplate.json",
+        "assets/minecraft/models/item/iron_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/iron_chestplate_resin_trim.json",
+        "assets/minecraft/textures/item/iron_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron_darker",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:iron_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/iron_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/iron_helmet.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/iron_helmet.json",
+        "assets/minecraft/models/item/iron_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/iron_helmet_copper_trim.json",
+        "assets/minecraft/models/item/iron_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/iron_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/iron_helmet_gold_trim.json",
+        "assets/minecraft/models/item/iron_helmet_iron_trim.json",
+        "assets/minecraft/models/item/iron_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/iron_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/iron_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/iron_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/iron_helmet_resin_trim.json",
+        "assets/minecraft/textures/item/iron_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron_darker",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:iron_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/iron_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/iron_leggings.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/iron_leggings.json",
+        "assets/minecraft/models/item/iron_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/iron_leggings_copper_trim.json",
+        "assets/minecraft/models/item/iron_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/iron_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/iron_leggings_gold_trim.json",
+        "assets/minecraft/models/item/iron_leggings_iron_trim.json",
+        "assets/minecraft/models/item/iron_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/iron_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/iron_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/iron_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/iron_leggings_resin_trim.json",
+        "assets/minecraft/textures/item/iron_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron_darker",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:iron_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/iron_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/iron_spear.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/iron_spear.json",
+        "assets/minecraft/models/item/iron_spear_in_hand.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/textures/item/iron_spear.png",
+        "assets/minecraft/textures/item/iron_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:jungle_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/jungle_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/jungle_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/jungle_leaves.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/textures/block/jungle_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:large_amethyst_bud",
+      "currentReason": "invalid_asset",
+      "definition": "assets/minecraft/items/large_amethyst_bud.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/large_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/large_amethyst_bud.json",
+        "assets/minecraft/textures/block/large_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:large_fern",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/large_fern.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/large_fern.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/large_fern.json",
+        "assets/minecraft/textures/block/large_fern_top.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:leather_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/leather_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/leather_boots.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/leather_boots.json",
+        "assets/minecraft/models/item/leather_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/leather_boots_copper_trim.json",
+        "assets/minecraft/models/item/leather_boots_diamond_trim.json",
+        "assets/minecraft/models/item/leather_boots_emerald_trim.json",
+        "assets/minecraft/models/item/leather_boots_gold_trim.json",
+        "assets/minecraft/models/item/leather_boots_iron_trim.json",
+        "assets/minecraft/models/item/leather_boots_lapis_trim.json",
+        "assets/minecraft/models/item/leather_boots_netherite_trim.json",
+        "assets/minecraft/models/item/leather_boots_quartz_trim.json",
+        "assets/minecraft/models/item/leather_boots_redstone_trim.json",
+        "assets/minecraft/models/item/leather_boots_resin_trim.json",
+        "assets/minecraft/textures/item/leather_boots.png",
+        "assets/minecraft/textures/item/leather_boots_overlay.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:leather_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/leather_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/leather_chestplate.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/leather_chestplate.json",
+        "assets/minecraft/models/item/leather_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/leather_chestplate_resin_trim.json",
+        "assets/minecraft/textures/item/leather_chestplate.png",
+        "assets/minecraft/textures/item/leather_chestplate_overlay.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:leather_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/leather_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/leather_helmet.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/leather_helmet.json",
+        "assets/minecraft/models/item/leather_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/leather_helmet_copper_trim.json",
+        "assets/minecraft/models/item/leather_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/leather_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/leather_helmet_gold_trim.json",
+        "assets/minecraft/models/item/leather_helmet_iron_trim.json",
+        "assets/minecraft/models/item/leather_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/leather_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/leather_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/leather_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/leather_helmet_resin_trim.json",
+        "assets/minecraft/textures/item/leather_helmet.png",
+        "assets/minecraft/textures/item/leather_helmet_overlay.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:leather_horse_armor",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/leather_horse_armor.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/leather_horse_armor.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/leather_horse_armor.json",
+        "assets/minecraft/textures/item/leather_horse_armor.png",
+        "assets/minecraft/textures/item/leather_horse_armor_overlay.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:leather_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/leather_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/leather_leggings.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/leather_leggings.json",
+        "assets/minecraft/models/item/leather_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/leather_leggings_copper_trim.json",
+        "assets/minecraft/models/item/leather_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/leather_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/leather_leggings_gold_trim.json",
+        "assets/minecraft/models/item/leather_leggings_iron_trim.json",
+        "assets/minecraft/models/item/leather_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/leather_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/leather_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/leather_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/leather_leggings_resin_trim.json",
+        "assets/minecraft/textures/item/leather_leggings.png",
+        "assets/minecraft/textures/item/leather_leggings_overlay.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:light",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/light.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/light.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/light.json",
+        "assets/minecraft/models/item/light_00.json",
+        "assets/minecraft/models/item/light_01.json",
+        "assets/minecraft/models/item/light_02.json",
+        "assets/minecraft/models/item/light_03.json",
+        "assets/minecraft/models/item/light_04.json",
+        "assets/minecraft/models/item/light_05.json",
+        "assets/minecraft/models/item/light_06.json",
+        "assets/minecraft/models/item/light_07.json",
+        "assets/minecraft/models/item/light_08.json",
+        "assets/minecraft/models/item/light_09.json",
+        "assets/minecraft/models/item/light_10.json",
+        "assets/minecraft/models/item/light_11.json",
+        "assets/minecraft/models/item/light_12.json",
+        "assets/minecraft/models/item/light_13.json",
+        "assets/minecraft/models/item/light_14.json",
+        "assets/minecraft/models/item/light_15.json",
+        "assets/minecraft/textures/item/light.png",
+        "assets/minecraft/textures/item/light_00.png",
+        "assets/minecraft/textures/item/light_01.png",
+        "assets/minecraft/textures/item/light_02.png",
+        "assets/minecraft/textures/item/light_03.png",
+        "assets/minecraft/textures/item/light_04.png",
+        "assets/minecraft/textures/item/light_05.png",
+        "assets/minecraft/textures/item/light_06.png",
+        "assets/minecraft/textures/item/light_07.png",
+        "assets/minecraft/textures/item/light_08.png",
+        "assets/minecraft/textures/item/light_09.png",
+        "assets/minecraft/textures/item/light_10.png",
+        "assets/minecraft/textures/item/light_11.png",
+        "assets/minecraft/textures/item/light_12.png",
+        "assets/minecraft/textures/item/light_13.png",
+        "assets/minecraft/textures/item/light_14.png",
+        "assets/minecraft/textures/item/light_15.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:light_blue_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/light_blue_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/light_blue_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:light_blue_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/light_blue_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/light_blue_bed.json",
+        "assets/minecraft/models/block/light_blue_bed_foot.json",
+        "assets/minecraft/models/block/light_blue_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/light_blue_bed_foot_east.png",
+        "assets/minecraft/textures/block/light_blue_bed_foot_south.png",
+        "assets/minecraft/textures/block/light_blue_bed_foot_up.png",
+        "assets/minecraft/textures/block/light_blue_bed_foot_west.png",
+        "assets/minecraft/textures/block/light_blue_bed_head_east.png",
+        "assets/minecraft/textures/block/light_blue_bed_head_up.png",
+        "assets/minecraft/textures/block/light_blue_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:light_blue_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/light_blue_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/light_blue_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/light_blue_bundle.json",
+        "assets/minecraft/models/item/light_blue_bundle_open_back.json",
+        "assets/minecraft/models/item/light_blue_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/light_blue_bundle.png",
+        "assets/minecraft/textures/item/light_blue_bundle_open_back.png",
+        "assets/minecraft/textures/item/light_blue_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:light_blue_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/light_blue_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/light_blue_shulker_box.json",
+        "assets/minecraft/models/item/light_blue_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_light_blue"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:light_gray_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/light_gray_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/light_gray_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:light_gray_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/light_gray_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/light_gray_bed.json",
+        "assets/minecraft/models/block/light_gray_bed_foot.json",
+        "assets/minecraft/models/block/light_gray_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/light_gray_bed_foot_east.png",
+        "assets/minecraft/textures/block/light_gray_bed_foot_south.png",
+        "assets/minecraft/textures/block/light_gray_bed_foot_up.png",
+        "assets/minecraft/textures/block/light_gray_bed_foot_west.png",
+        "assets/minecraft/textures/block/light_gray_bed_head_east.png",
+        "assets/minecraft/textures/block/light_gray_bed_head_up.png",
+        "assets/minecraft/textures/block/light_gray_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:light_gray_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/light_gray_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/light_gray_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/light_gray_bundle.json",
+        "assets/minecraft/models/item/light_gray_bundle_open_back.json",
+        "assets/minecraft/models/item/light_gray_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/light_gray_bundle.png",
+        "assets/minecraft/textures/item/light_gray_bundle_open_back.png",
+        "assets/minecraft/textures/item/light_gray_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:light_gray_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/light_gray_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/light_gray_shulker_box.json",
+        "assets/minecraft/models/item/light_gray_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_light_gray"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:lily_pad",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/lily_pad.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/lily_pad.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/lily_pad.json",
+        "assets/minecraft/textures/block/lily_pad.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:lime_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/lime_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/lime_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:lime_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/lime_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/lime_bed.json",
+        "assets/minecraft/models/block/lime_bed_foot.json",
+        "assets/minecraft/models/block/lime_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/lime_bed_foot_east.png",
+        "assets/minecraft/textures/block/lime_bed_foot_south.png",
+        "assets/minecraft/textures/block/lime_bed_foot_up.png",
+        "assets/minecraft/textures/block/lime_bed_foot_west.png",
+        "assets/minecraft/textures/block/lime_bed_head_east.png",
+        "assets/minecraft/textures/block/lime_bed_head_up.png",
+        "assets/minecraft/textures/block/lime_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:lime_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/lime_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/lime_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/lime_bundle.json",
+        "assets/minecraft/models/item/lime_bundle_open_back.json",
+        "assets/minecraft/models/item/lime_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/lime_bundle.png",
+        "assets/minecraft/textures/item/lime_bundle_open_back.png",
+        "assets/minecraft/textures/item/lime_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:lime_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/lime_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/lime_shulker_box.json",
+        "assets/minecraft/models/item/lime_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_lime"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:lingering_potion",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/lingering_potion.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/lingering_potion.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/lingering_potion.json",
+        "assets/minecraft/textures/item/lingering_potion.png",
+        "assets/minecraft/textures/item/potion_overlay.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:magenta_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/magenta_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/magenta_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:magenta_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/magenta_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/magenta_bed.json",
+        "assets/minecraft/models/block/magenta_bed_foot.json",
+        "assets/minecraft/models/block/magenta_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/magenta_bed_foot_east.png",
+        "assets/minecraft/textures/block/magenta_bed_foot_south.png",
+        "assets/minecraft/textures/block/magenta_bed_foot_up.png",
+        "assets/minecraft/textures/block/magenta_bed_foot_west.png",
+        "assets/minecraft/textures/block/magenta_bed_head_east.png",
+        "assets/minecraft/textures/block/magenta_bed_head_up.png",
+        "assets/minecraft/textures/block/magenta_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:magenta_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/magenta_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/magenta_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/magenta_bundle.json",
+        "assets/minecraft/models/item/magenta_bundle_open_back.json",
+        "assets/minecraft/models/item/magenta_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/magenta_bundle.png",
+        "assets/minecraft/textures/item/magenta_bundle_open_back.png",
+        "assets/minecraft/textures/item/magenta_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:magenta_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/magenta_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/magenta_shulker_box.json",
+        "assets/minecraft/models/item/magenta_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_magenta"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:mangrove_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/mangrove_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/mangrove_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/models/block/mangrove_leaves.json",
+        "assets/minecraft/textures/block/mangrove_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:medium_amethyst_bud",
+      "currentReason": "invalid_asset",
+      "definition": "assets/minecraft/items/medium_amethyst_bud.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/medium_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/medium_amethyst_bud.json",
+        "assets/minecraft/textures/block/medium_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/netherite_boots.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/netherite_boots.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/netherite_boots.json",
+        "assets/minecraft/models/item/netherite_boots_amethyst_trim.json",
+        "assets/minecraft/models/item/netherite_boots_copper_trim.json",
+        "assets/minecraft/models/item/netherite_boots_diamond_trim.json",
+        "assets/minecraft/models/item/netherite_boots_emerald_trim.json",
+        "assets/minecraft/models/item/netherite_boots_gold_trim.json",
+        "assets/minecraft/models/item/netherite_boots_iron_trim.json",
+        "assets/minecraft/models/item/netherite_boots_lapis_trim.json",
+        "assets/minecraft/models/item/netherite_boots_netherite_trim.json",
+        "assets/minecraft/models/item/netherite_boots_quartz_trim.json",
+        "assets/minecraft/models/item/netherite_boots_redstone_trim.json",
+        "assets/minecraft/models/item/netherite_boots_resin_trim.json",
+        "assets/minecraft/textures/item/netherite_boots.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/boots_trim_amethyst",
+        "sprite:minecraft:trims/items/boots_trim_copper",
+        "sprite:minecraft:trims/items/boots_trim_diamond",
+        "sprite:minecraft:trims/items/boots_trim_emerald",
+        "sprite:minecraft:trims/items/boots_trim_gold",
+        "sprite:minecraft:trims/items/boots_trim_iron",
+        "sprite:minecraft:trims/items/boots_trim_lapis",
+        "sprite:minecraft:trims/items/boots_trim_netherite_darker",
+        "sprite:minecraft:trims/items/boots_trim_quartz",
+        "sprite:minecraft:trims/items/boots_trim_redstone",
+        "sprite:minecraft:trims/items/boots_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/netherite_chestplate.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/netherite_chestplate.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/netherite_chestplate.json",
+        "assets/minecraft/models/item/netherite_chestplate_amethyst_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_copper_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_diamond_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_emerald_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_gold_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_iron_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_lapis_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_netherite_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_quartz_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_redstone_trim.json",
+        "assets/minecraft/models/item/netherite_chestplate_resin_trim.json",
+        "assets/minecraft/textures/item/netherite_chestplate.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/chestplate_trim_amethyst",
+        "sprite:minecraft:trims/items/chestplate_trim_copper",
+        "sprite:minecraft:trims/items/chestplate_trim_diamond",
+        "sprite:minecraft:trims/items/chestplate_trim_emerald",
+        "sprite:minecraft:trims/items/chestplate_trim_gold",
+        "sprite:minecraft:trims/items/chestplate_trim_iron",
+        "sprite:minecraft:trims/items/chestplate_trim_lapis",
+        "sprite:minecraft:trims/items/chestplate_trim_netherite_darker",
+        "sprite:minecraft:trims/items/chestplate_trim_quartz",
+        "sprite:minecraft:trims/items/chestplate_trim_redstone",
+        "sprite:minecraft:trims/items/chestplate_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/netherite_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/netherite_helmet.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/netherite_helmet.json",
+        "assets/minecraft/models/item/netherite_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_copper_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_gold_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_iron_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/netherite_helmet_resin_trim.json",
+        "assets/minecraft/textures/item/netherite_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite_darker",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/netherite_leggings.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/netherite_leggings.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/netherite_leggings.json",
+        "assets/minecraft/models/item/netherite_leggings_amethyst_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_copper_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_diamond_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_emerald_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_gold_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_iron_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_lapis_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_netherite_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_quartz_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_redstone_trim.json",
+        "assets/minecraft/models/item/netherite_leggings_resin_trim.json",
+        "assets/minecraft/textures/item/netherite_leggings.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/leggings_trim_amethyst",
+        "sprite:minecraft:trims/items/leggings_trim_copper",
+        "sprite:minecraft:trims/items/leggings_trim_diamond",
+        "sprite:minecraft:trims/items/leggings_trim_emerald",
+        "sprite:minecraft:trims/items/leggings_trim_gold",
+        "sprite:minecraft:trims/items/leggings_trim_iron",
+        "sprite:minecraft:trims/items/leggings_trim_lapis",
+        "sprite:minecraft:trims/items/leggings_trim_netherite_darker",
+        "sprite:minecraft:trims/items/leggings_trim_quartz",
+        "sprite:minecraft:trims/items/leggings_trim_redstone",
+        "sprite:minecraft:trims/items/leggings_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:netherite_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/netherite_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/netherite_spear.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/netherite_spear.json",
+        "assets/minecraft/models/item/netherite_spear_in_hand.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/textures/item/netherite_spear.png",
+        "assets/minecraft/textures/item/netherite_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:oak_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/oak_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/oak_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/models/block/oak_leaves.json",
+        "assets/minecraft/textures/block/oak_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:open_eyeblossom",
+      "currentReason": "invalid_asset",
+      "definition": "assets/minecraft/items/open_eyeblossom.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/open_eyeblossom.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/open_eyeblossom.json",
+        "assets/minecraft/textures/block/open_eyeblossom.png",
+        "assets/minecraft/textures/block/open_eyeblossom_emissive.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:orange_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/orange_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/orange_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:orange_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/orange_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/orange_bed.json",
+        "assets/minecraft/models/block/orange_bed_foot.json",
+        "assets/minecraft/models/block/orange_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/orange_bed_foot_east.png",
+        "assets/minecraft/textures/block/orange_bed_foot_south.png",
+        "assets/minecraft/textures/block/orange_bed_foot_up.png",
+        "assets/minecraft/textures/block/orange_bed_foot_west.png",
+        "assets/minecraft/textures/block/orange_bed_head_east.png",
+        "assets/minecraft/textures/block/orange_bed_head_up.png",
+        "assets/minecraft/textures/block/orange_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:orange_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/orange_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/orange_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/orange_bundle.json",
+        "assets/minecraft/models/item/orange_bundle_open_back.json",
+        "assets/minecraft/models/item/orange_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/orange_bundle.png",
+        "assets/minecraft/textures/item/orange_bundle_open_back.png",
+        "assets/minecraft/textures/item/orange_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:orange_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/orange_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/orange_shulker_box.json",
+        "assets/minecraft/models/item/orange_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_orange"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:oxidized_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/oxidized_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/oxidized_copper_chest.json",
+        "assets/minecraft/models/item/oxidized_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_oxidized"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:oxidized_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/oxidized_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/oxidized_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_oxidized.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:piglin_head",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/piglin_head.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/piglin_head.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:pink_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/pink_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/pink_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:pink_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/pink_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/pink_bed.json",
+        "assets/minecraft/models/block/pink_bed_foot.json",
+        "assets/minecraft/models/block/pink_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/pink_bed_foot_east.png",
+        "assets/minecraft/textures/block/pink_bed_foot_south.png",
+        "assets/minecraft/textures/block/pink_bed_foot_up.png",
+        "assets/minecraft/textures/block/pink_bed_foot_west.png",
+        "assets/minecraft/textures/block/pink_bed_head_east.png",
+        "assets/minecraft/textures/block/pink_bed_head_up.png",
+        "assets/minecraft/textures/block/pink_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:pink_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/pink_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/pink_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/pink_bundle.json",
+        "assets/minecraft/models/item/pink_bundle_open_back.json",
+        "assets/minecraft/models/item/pink_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/pink_bundle.png",
+        "assets/minecraft/textures/item/pink_bundle_open_back.png",
+        "assets/minecraft/textures/item/pink_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:pink_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/pink_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/pink_shulker_box.json",
+        "assets/minecraft/models/item/pink_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_pink"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:player_head",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/player_head.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/player_head.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:player_head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:potion",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/potion.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/potion.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/potion.json",
+        "assets/minecraft/textures/item/potion.png",
+        "assets/minecraft/textures/item/potion_overlay.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:purple_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/purple_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/purple_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:purple_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/purple_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/purple_bed.json",
+        "assets/minecraft/models/block/purple_bed_foot.json",
+        "assets/minecraft/models/block/purple_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/purple_bed_foot_east.png",
+        "assets/minecraft/textures/block/purple_bed_foot_south.png",
+        "assets/minecraft/textures/block/purple_bed_foot_up.png",
+        "assets/minecraft/textures/block/purple_bed_foot_west.png",
+        "assets/minecraft/textures/block/purple_bed_head_east.png",
+        "assets/minecraft/textures/block/purple_bed_head_up.png",
+        "assets/minecraft/textures/block/purple_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:purple_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/purple_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/purple_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/purple_bundle.json",
+        "assets/minecraft/models/item/purple_bundle_open_back.json",
+        "assets/minecraft/models/item/purple_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/purple_bundle.png",
+        "assets/minecraft/textures/item/purple_bundle_open_back.png",
+        "assets/minecraft/textures/item/purple_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:purple_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/purple_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/purple_shulker_box.json",
+        "assets/minecraft/models/item/purple_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_purple"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:recovery_compass",
+      "currentReason": "range_dispatch",
+      "definition": "assets/minecraft/items/recovery_compass.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:range_dispatch"
+      ],
+      "references": [
+        "assets/minecraft/items/recovery_compass.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/recovery_compass_00.json",
+        "assets/minecraft/models/item/recovery_compass_01.json",
+        "assets/minecraft/models/item/recovery_compass_02.json",
+        "assets/minecraft/models/item/recovery_compass_03.json",
+        "assets/minecraft/models/item/recovery_compass_04.json",
+        "assets/minecraft/models/item/recovery_compass_05.json",
+        "assets/minecraft/models/item/recovery_compass_06.json",
+        "assets/minecraft/models/item/recovery_compass_07.json",
+        "assets/minecraft/models/item/recovery_compass_08.json",
+        "assets/minecraft/models/item/recovery_compass_09.json",
+        "assets/minecraft/models/item/recovery_compass_10.json",
+        "assets/minecraft/models/item/recovery_compass_11.json",
+        "assets/minecraft/models/item/recovery_compass_12.json",
+        "assets/minecraft/models/item/recovery_compass_13.json",
+        "assets/minecraft/models/item/recovery_compass_14.json",
+        "assets/minecraft/models/item/recovery_compass_15.json",
+        "assets/minecraft/models/item/recovery_compass_16.json",
+        "assets/minecraft/models/item/recovery_compass_17.json",
+        "assets/minecraft/models/item/recovery_compass_18.json",
+        "assets/minecraft/models/item/recovery_compass_19.json",
+        "assets/minecraft/models/item/recovery_compass_20.json",
+        "assets/minecraft/models/item/recovery_compass_21.json",
+        "assets/minecraft/models/item/recovery_compass_22.json",
+        "assets/minecraft/models/item/recovery_compass_23.json",
+        "assets/minecraft/models/item/recovery_compass_24.json",
+        "assets/minecraft/models/item/recovery_compass_25.json",
+        "assets/minecraft/models/item/recovery_compass_26.json",
+        "assets/minecraft/models/item/recovery_compass_27.json",
+        "assets/minecraft/models/item/recovery_compass_28.json",
+        "assets/minecraft/models/item/recovery_compass_29.json",
+        "assets/minecraft/models/item/recovery_compass_30.json",
+        "assets/minecraft/models/item/recovery_compass_31.json",
+        "assets/minecraft/textures/item/recovery_compass_00.png",
+        "assets/minecraft/textures/item/recovery_compass_01.png",
+        "assets/minecraft/textures/item/recovery_compass_02.png",
+        "assets/minecraft/textures/item/recovery_compass_03.png",
+        "assets/minecraft/textures/item/recovery_compass_04.png",
+        "assets/minecraft/textures/item/recovery_compass_05.png",
+        "assets/minecraft/textures/item/recovery_compass_06.png",
+        "assets/minecraft/textures/item/recovery_compass_07.png",
+        "assets/minecraft/textures/item/recovery_compass_08.png",
+        "assets/minecraft/textures/item/recovery_compass_09.png",
+        "assets/minecraft/textures/item/recovery_compass_10.png",
+        "assets/minecraft/textures/item/recovery_compass_11.png",
+        "assets/minecraft/textures/item/recovery_compass_12.png",
+        "assets/minecraft/textures/item/recovery_compass_13.png",
+        "assets/minecraft/textures/item/recovery_compass_14.png",
+        "assets/minecraft/textures/item/recovery_compass_15.png",
+        "assets/minecraft/textures/item/recovery_compass_16.png",
+        "assets/minecraft/textures/item/recovery_compass_17.png",
+        "assets/minecraft/textures/item/recovery_compass_18.png",
+        "assets/minecraft/textures/item/recovery_compass_19.png",
+        "assets/minecraft/textures/item/recovery_compass_20.png",
+        "assets/minecraft/textures/item/recovery_compass_21.png",
+        "assets/minecraft/textures/item/recovery_compass_22.png",
+        "assets/minecraft/textures/item/recovery_compass_23.png",
+        "assets/minecraft/textures/item/recovery_compass_24.png",
+        "assets/minecraft/textures/item/recovery_compass_25.png",
+        "assets/minecraft/textures/item/recovery_compass_26.png",
+        "assets/minecraft/textures/item/recovery_compass_27.png",
+        "assets/minecraft/textures/item/recovery_compass_28.png",
+        "assets/minecraft/textures/item/recovery_compass_29.png",
+        "assets/minecraft/textures/item/recovery_compass_30.png",
+        "assets/minecraft/textures/item/recovery_compass_31.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:red_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/red_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/red_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:red_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/red_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/red_bed.json",
+        "assets/minecraft/models/block/red_bed_foot.json",
+        "assets/minecraft/models/block/red_bed_head.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/red_bed_foot_east.png",
+        "assets/minecraft/textures/block/red_bed_foot_south.png",
+        "assets/minecraft/textures/block/red_bed_foot_up.png",
+        "assets/minecraft/textures/block/red_bed_foot_west.png",
+        "assets/minecraft/textures/block/red_bed_head_east.png",
+        "assets/minecraft/textures/block/red_bed_head_up.png",
+        "assets/minecraft/textures/block/red_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:red_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/red_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/red_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/red_bundle.json",
+        "assets/minecraft/models/item/red_bundle_open_back.json",
+        "assets/minecraft/models/item/red_bundle_open_front.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/textures/item/red_bundle.png",
+        "assets/minecraft/textures/item/red_bundle_open_back.png",
+        "assets/minecraft/textures/item/red_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:red_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/red_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/red_shulker_box.json",
+        "assets/minecraft/models/item/red_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_red"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:sculk_vein",
+      "currentReason": "invalid_asset",
+      "definition": "assets/minecraft/items/sculk_vein.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/sculk_vein.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/sculk_vein.json",
+        "assets/minecraft/textures/block/sculk_vein.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_animation"
+      ]
+    },
+    {
+      "id": "minecraft:shield",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/shield.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/shield.json",
+        "assets/minecraft/models/item/shield.json",
+        "assets/minecraft/models/item/shield_blocking.json",
+        "special_renderer:minecraft:shield"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:short_grass",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/short_grass.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/short_grass.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/short_grass.json",
+        "assets/minecraft/textures/block/short_grass.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/shulker_box.json",
+        "assets/minecraft/models/item/shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:skeleton_skull",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/skeleton_skull.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/skeleton_skull.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:small_amethyst_bud",
+      "currentReason": "invalid_asset",
+      "definition": "assets/minecraft/items/small_amethyst_bud.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/small_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/small_amethyst_bud.json",
+        "assets/minecraft/textures/block/small_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/splash_potion.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/splash_potion.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/splash_potion.json",
+        "assets/minecraft/textures/item/potion_overlay.png",
+        "assets/minecraft/textures/item/splash_potion.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:spruce_leaves",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/spruce_leaves.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/spruce_leaves.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/leaves.json",
+        "assets/minecraft/models/block/spruce_leaves.json",
+        "assets/minecraft/textures/block/spruce_leaves.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:spyglass",
+      "currentReason": "geometry",
+      "definition": "assets/minecraft/items/spyglass.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/spyglass.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/spyglass.json",
+        "assets/minecraft/models/item/spyglass_in_hand.json",
+        "assets/minecraft/textures/item/spyglass.png",
+        "assets/minecraft/textures/item/spyglass_model.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:stone_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/stone_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/stone_spear.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/models/item/stone_spear.json",
+        "assets/minecraft/models/item/stone_spear_in_hand.json",
+        "assets/minecraft/textures/item/stone_spear.png",
+        "assets/minecraft/textures/item/stone_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:tall_grass",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/tall_grass.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/tall_grass.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/tall_grass.json",
+        "assets/minecraft/textures/block/tall_grass_top.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:test_block",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/test_block.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/test_block.json",
+        "assets/minecraft/models/block/block.json",
+        "assets/minecraft/models/block/cube.json",
+        "assets/minecraft/models/block/cube_all.json",
+        "assets/minecraft/models/block/test_block_accept.json",
+        "assets/minecraft/models/block/test_block_fail.json",
+        "assets/minecraft/models/block/test_block_log.json",
+        "assets/minecraft/models/block/test_block_start.json",
+        "assets/minecraft/textures/block/test_block_accept.png",
+        "assets/minecraft/textures/block/test_block_fail.png",
+        "assets/minecraft/textures/block/test_block_log.png",
+        "assets/minecraft/textures/block/test_block_start.png"
+      ],
+      "requiredFeatures": [
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/tipped_arrow.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/tipped_arrow.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/tipped_arrow.json",
+        "assets/minecraft/textures/item/tipped_arrow_base.png",
+        "assets/minecraft/textures/item/tipped_arrow_head.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:trapped_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/trapped_chest.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/trapped_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "assets/minecraft/models/item/trapped_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:christmas",
+        "special_texture:minecraft:trapped"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:trident",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/trident.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/trident.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/trident.json",
+        "assets/minecraft/models/item/trident_in_hand.json",
+        "assets/minecraft/models/item/trident_throwing.json",
+        "assets/minecraft/textures/item/trident.png",
+        "minecraft:builtin/generated",
+        "special_renderer:minecraft:trident"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:turtle_helmet",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/turtle_helmet.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/atlases/items.json",
+        "assets/minecraft/items/turtle_helmet.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/turtle_helmet.json",
+        "assets/minecraft/models/item/turtle_helmet_amethyst_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_copper_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_diamond_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_emerald_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_gold_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_iron_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_lapis_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_netherite_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_quartz_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_redstone_trim.json",
+        "assets/minecraft/models/item/turtle_helmet_resin_trim.json",
+        "assets/minecraft/textures/item/turtle_helmet.png",
+        "minecraft:builtin/generated",
+        "sprite:minecraft:trims/items/helmet_trim_amethyst",
+        "sprite:minecraft:trims/items/helmet_trim_copper",
+        "sprite:minecraft:trims/items/helmet_trim_diamond",
+        "sprite:minecraft:trims/items/helmet_trim_emerald",
+        "sprite:minecraft:trims/items/helmet_trim_gold",
+        "sprite:minecraft:trims/items/helmet_trim_iron",
+        "sprite:minecraft:trims/items/helmet_trim_lapis",
+        "sprite:minecraft:trims/items/helmet_trim_netherite",
+        "sprite:minecraft:trims/items/helmet_trim_quartz",
+        "sprite:minecraft:trims/items/helmet_trim_redstone",
+        "sprite:minecraft:trims/items/helmet_trim_resin"
+      ],
+      "requiredFeatures": [
+        "atlas_sprites",
+        "state_dispatch",
+        "texture_layers"
+      ]
+    },
+    {
+      "id": "minecraft:vine",
+      "currentReason": "tint",
+      "definition": "assets/minecraft/items/vine.json",
+      "nodeTypes": [
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/vine.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/vine.json",
+        "assets/minecraft/textures/block/vine.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_copper_chest.json",
+        "assets/minecraft/models/item/copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_exposed_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_exposed_copper_chest.json",
+        "assets/minecraft/models/item/exposed_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_exposed"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_exposed_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_exposed_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_exposed_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_exposed.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_oxidized_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_oxidized_copper_chest.json",
+        "assets/minecraft/models/item/oxidized_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_oxidized"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_oxidized_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_oxidized_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_oxidized_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_oxidized.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_weathered_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_weathered_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "assets/minecraft/models/item/weathered_copper_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_weathered"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:waxed_weathered_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/waxed_weathered_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/waxed_weathered_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_weathered.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:weathered_copper_chest",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/weathered_copper_chest.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/weathered_copper_chest.json",
+        "assets/minecraft/models/item/template_chest.json",
+        "assets/minecraft/models/item/weathered_copper_chest.json",
+        "special_renderer:minecraft:chest",
+        "special_texture:minecraft:copper_weathered"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:weathered_copper_golem_statue",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/weathered_copper_golem_statue.json",
+      "nodeTypes": [
+        "minecraft:select",
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/weathered_copper_golem_statue.json",
+        "assets/minecraft/models/item/template_copper_golem_statue.json",
+        "special_renderer:minecraft:copper_golem_statue",
+        "special_texture:minecraft:textures/entity/copper_golem/copper_golem_weathered.png"
+      ],
+      "requiredFeatures": [
+        "special_models",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:white_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/white_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/white_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:white_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/white_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/white_bed.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/models/block/white_bed_foot.json",
+        "assets/minecraft/models/block/white_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/white_bed_foot_east.png",
+        "assets/minecraft/textures/block/white_bed_foot_south.png",
+        "assets/minecraft/textures/block/white_bed_foot_up.png",
+        "assets/minecraft/textures/block/white_bed_foot_west.png",
+        "assets/minecraft/textures/block/white_bed_head_east.png",
+        "assets/minecraft/textures/block/white_bed_head_up.png",
+        "assets/minecraft/textures/block/white_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:white_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/white_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/white_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/models/item/white_bundle.json",
+        "assets/minecraft/models/item/white_bundle_open_back.json",
+        "assets/minecraft/models/item/white_bundle_open_front.json",
+        "assets/minecraft/textures/item/white_bundle.png",
+        "assets/minecraft/textures/item/white_bundle_open_back.png",
+        "assets/minecraft/textures/item/white_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:white_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/white_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/white_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "assets/minecraft/models/item/white_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_white"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:wither_skeleton_skull",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/wither_skeleton_skull.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/wither_skeleton_skull.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:wolf_armor",
+      "currentReason": "condition",
+      "definition": "assets/minecraft/items/wolf_armor.json",
+      "nodeTypes": [
+        "minecraft:condition",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/wolf_armor.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/wolf_armor.json",
+        "assets/minecraft/models/item/wolf_armor_dyed.json",
+        "assets/minecraft/textures/item/wolf_armor.png",
+        "assets/minecraft/textures/item/wolf_armor_overlay.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch",
+        "texture_layers",
+        "tints"
+      ]
+    },
+    {
+      "id": "minecraft:wooden_spear",
+      "currentReason": "select",
+      "definition": "assets/minecraft/items/wooden_spear.json",
+      "nodeTypes": [
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/wooden_spear.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/spear_in_hand.json",
+        "assets/minecraft/models/item/wooden_spear.json",
+        "assets/minecraft/models/item/wooden_spear_in_hand.json",
+        "assets/minecraft/textures/item/wooden_spear.png",
+        "assets/minecraft/textures/item/wooden_spear_in_hand.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:yellow_banner",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/yellow_banner.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/yellow_banner.json",
+        "assets/minecraft/models/item/template_banner.json",
+        "special_renderer:minecraft:banner"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:yellow_bed",
+      "currentReason": "block_model",
+      "definition": "assets/minecraft/items/yellow_bed.json",
+      "nodeTypes": [
+        "minecraft:composite",
+        "minecraft:model"
+      ],
+      "references": [
+        "assets/minecraft/items/yellow_bed.json",
+        "assets/minecraft/models/block/template_bed.json",
+        "assets/minecraft/models/block/template_bed_foot.json",
+        "assets/minecraft/models/block/template_bed_head.json",
+        "assets/minecraft/models/block/yellow_bed_foot.json",
+        "assets/minecraft/models/block/yellow_bed_head.json",
+        "assets/minecraft/textures/block/bed_down.png",
+        "assets/minecraft/textures/block/bed_head_north.png",
+        "assets/minecraft/textures/block/yellow_bed_foot_east.png",
+        "assets/minecraft/textures/block/yellow_bed_foot_south.png",
+        "assets/minecraft/textures/block/yellow_bed_foot_up.png",
+        "assets/minecraft/textures/block/yellow_bed_foot_west.png",
+        "assets/minecraft/textures/block/yellow_bed_head_east.png",
+        "assets/minecraft/textures/block/yellow_bed_head_up.png",
+        "assets/minecraft/textures/block/yellow_bed_head_west.png"
+      ],
+      "requiredFeatures": [
+        "composite_models",
+        "model_geometry"
+      ]
+    },
+    {
+      "id": "minecraft:yellow_bundle",
+      "currentReason": "bundle_selected_item",
+      "definition": "assets/minecraft/items/yellow_bundle.json",
+      "nodeTypes": [
+        "minecraft:bundle/selected_item",
+        "minecraft:composite",
+        "minecraft:condition",
+        "minecraft:model",
+        "minecraft:select"
+      ],
+      "references": [
+        "assets/minecraft/items/yellow_bundle.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/template_bundle_open_back.json",
+        "assets/minecraft/models/item/template_bundle_open_front.json",
+        "assets/minecraft/models/item/yellow_bundle.json",
+        "assets/minecraft/models/item/yellow_bundle_open_back.json",
+        "assets/minecraft/models/item/yellow_bundle_open_front.json",
+        "assets/minecraft/textures/item/yellow_bundle.png",
+        "assets/minecraft/textures/item/yellow_bundle_open_back.png",
+        "assets/minecraft/textures/item/yellow_bundle_open_front.png",
+        "minecraft:builtin/generated"
+      ],
+      "requiredFeatures": [
+        "bundle_contents",
+        "composite_models",
+        "model_geometry",
+        "state_dispatch"
+      ]
+    },
+    {
+      "id": "minecraft:yellow_shulker_box",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/yellow_shulker_box.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/yellow_shulker_box.json",
+        "assets/minecraft/models/item/template_shulker_box.json",
+        "assets/minecraft/models/item/yellow_shulker_box.json",
+        "special_renderer:minecraft:shulker_box",
+        "special_texture:minecraft:shulker_yellow"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    },
+    {
+      "id": "minecraft:zombie_head",
+      "currentReason": "special_model",
+      "definition": "assets/minecraft/items/zombie_head.json",
+      "nodeTypes": [
+        "minecraft:special"
+      ],
+      "references": [
+        "assets/minecraft/items/zombie_head.json",
+        "assets/minecraft/models/item/template_skull.json",
+        "special_renderer:minecraft:head"
+      ],
+      "requiredFeatures": [
+        "special_models"
+      ]
+    }
+  ]
+}
