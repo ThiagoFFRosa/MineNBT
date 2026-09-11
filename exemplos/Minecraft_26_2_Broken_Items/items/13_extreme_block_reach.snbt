@@ -1,0 +1,14 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 32.0d, id: "broken_items:block_reach", operation: "add_value", slot: "mainhand", type: "minecraft:block_interaction_range"}
+        ],
+        "minecraft:item_name": {text: "Builder's Horizon", color: "yellow", italic: 0b},
+        "minecraft:lore": [
+            {text: "+32 block interaction range in main hand", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1
+    },
+    count: 1,
+    id: "minecraft:blaze_rod"
+}

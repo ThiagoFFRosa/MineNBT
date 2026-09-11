@@ -1,0 +1,22 @@
+{
+    components: {
+        "minecraft:consumable": {
+            animation: "eat",
+            consume_seconds: 2.0f,
+            has_consume_particles: 1b,
+            sound: "minecraft:entity.generic.eat"
+        },
+        "minecraft:food": {
+            can_always_eat: 1b,
+            nutrition: 20,
+            saturation: 20.0f
+        },
+        "minecraft:item_name": {text: "Bedrock Biscuit", color: "dark_gray", italic: 0b},
+        "minecraft:lore": [
+            {text: "Absurdly edible, structurally valid", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 16
+    },
+    count: 16,
+    id: "minecraft:bedrock"
+}

@@ -1,0 +1,20 @@
+{
+    components: {
+        "minecraft:attack_range": {
+            hitbox_margin: 0.5f,
+            max_creative_reach: 32.0f,
+            max_reach: 32.0f,
+            min_creative_reach: 0.0f,
+            min_reach: 0.0f,
+            mob_factor: 1.0f
+        },
+        "minecraft:item_name": {text: "Long Arm of the Stick", color: "gold", italic: 0b},
+        "minecraft:lore": [
+            {text: "32 block entity attack reach", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1,
+        "minecraft:weapon": {item_damage_per_attack: 0}
+    },
+    count: 1,
+    id: "minecraft:stick"
+}

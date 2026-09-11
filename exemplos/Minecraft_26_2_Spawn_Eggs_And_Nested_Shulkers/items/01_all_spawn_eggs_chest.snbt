@@ -1,0 +1,733 @@
+{
+  "components": {
+    "minecraft:container": [
+      {
+        "item": {
+          "components": {
+            "minecraft:container": [
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:allay_spawn_egg"
+                },
+                "slot": 0
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:armadillo_spawn_egg"
+                },
+                "slot": 1
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:axolotl_spawn_egg"
+                },
+                "slot": 2
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:bat_spawn_egg"
+                },
+                "slot": 3
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:bee_spawn_egg"
+                },
+                "slot": 4
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:blaze_spawn_egg"
+                },
+                "slot": 5
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:bogged_spawn_egg"
+                },
+                "slot": 6
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:breeze_spawn_egg"
+                },
+                "slot": 7
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:camel_husk_spawn_egg"
+                },
+                "slot": 8
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:camel_spawn_egg"
+                },
+                "slot": 9
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:cat_spawn_egg"
+                },
+                "slot": 10
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:cave_spider_spawn_egg"
+                },
+                "slot": 11
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:chicken_spawn_egg"
+                },
+                "slot": 12
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:cod_spawn_egg"
+                },
+                "slot": 13
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:copper_golem_spawn_egg"
+                },
+                "slot": 14
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:cow_spawn_egg"
+                },
+                "slot": 15
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:creaking_spawn_egg"
+                },
+                "slot": 16
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:creeper_spawn_egg"
+                },
+                "slot": 17
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:dolphin_spawn_egg"
+                },
+                "slot": 18
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:donkey_spawn_egg"
+                },
+                "slot": 19
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:drowned_spawn_egg"
+                },
+                "slot": 20
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:elder_guardian_spawn_egg"
+                },
+                "slot": 21
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:ender_dragon_spawn_egg"
+                },
+                "slot": 22
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:enderman_spawn_egg"
+                },
+                "slot": 23
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:endermite_spawn_egg"
+                },
+                "slot": 24
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:evoker_spawn_egg"
+                },
+                "slot": 25
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:fox_spawn_egg"
+                },
+                "slot": 26
+              }
+            ],
+            "minecraft:item_name": {
+              "text": "Spawn Eggs 1/4",
+              "color": "red",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "27 egg stacks; each count 64",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:red_shulker_box"
+        },
+        "slot": 0
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:container": [
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:frog_spawn_egg"
+                },
+                "slot": 0
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:ghast_spawn_egg"
+                },
+                "slot": 1
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:glow_squid_spawn_egg"
+                },
+                "slot": 2
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:goat_spawn_egg"
+                },
+                "slot": 3
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:guardian_spawn_egg"
+                },
+                "slot": 4
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:happy_ghast_spawn_egg"
+                },
+                "slot": 5
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:hoglin_spawn_egg"
+                },
+                "slot": 6
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:horse_spawn_egg"
+                },
+                "slot": 7
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:husk_spawn_egg"
+                },
+                "slot": 8
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:iron_golem_spawn_egg"
+                },
+                "slot": 9
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:llama_spawn_egg"
+                },
+                "slot": 10
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:magma_cube_spawn_egg"
+                },
+                "slot": 11
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:mooshroom_spawn_egg"
+                },
+                "slot": 12
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:mule_spawn_egg"
+                },
+                "slot": 13
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:nautilus_spawn_egg"
+                },
+                "slot": 14
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:ocelot_spawn_egg"
+                },
+                "slot": 15
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:panda_spawn_egg"
+                },
+                "slot": 16
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:parched_spawn_egg"
+                },
+                "slot": 17
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:parrot_spawn_egg"
+                },
+                "slot": 18
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:phantom_spawn_egg"
+                },
+                "slot": 19
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:pig_spawn_egg"
+                },
+                "slot": 20
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:piglin_brute_spawn_egg"
+                },
+                "slot": 21
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:piglin_spawn_egg"
+                },
+                "slot": 22
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:pillager_spawn_egg"
+                },
+                "slot": 23
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:polar_bear_spawn_egg"
+                },
+                "slot": 24
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:pufferfish_spawn_egg"
+                },
+                "slot": 25
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:rabbit_spawn_egg"
+                },
+                "slot": 26
+              }
+            ],
+            "minecraft:item_name": {
+              "text": "Spawn Eggs 2/4",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "27 egg stacks; each count 64",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:orange_shulker_box"
+        },
+        "slot": 1
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:container": [
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:ravager_spawn_egg"
+                },
+                "slot": 0
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:salmon_spawn_egg"
+                },
+                "slot": 1
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:sheep_spawn_egg"
+                },
+                "slot": 2
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:shulker_spawn_egg"
+                },
+                "slot": 3
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:silverfish_spawn_egg"
+                },
+                "slot": 4
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:skeleton_horse_spawn_egg"
+                },
+                "slot": 5
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:skeleton_spawn_egg"
+                },
+                "slot": 6
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:slime_spawn_egg"
+                },
+                "slot": 7
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:sniffer_spawn_egg"
+                },
+                "slot": 8
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:snow_golem_spawn_egg"
+                },
+                "slot": 9
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:spider_spawn_egg"
+                },
+                "slot": 10
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:squid_spawn_egg"
+                },
+                "slot": 11
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:stray_spawn_egg"
+                },
+                "slot": 12
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:strider_spawn_egg"
+                },
+                "slot": 13
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:sulfur_cube_spawn_egg"
+                },
+                "slot": 14
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:tadpole_spawn_egg"
+                },
+                "slot": 15
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:trader_llama_spawn_egg"
+                },
+                "slot": 16
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:tropical_fish_spawn_egg"
+                },
+                "slot": 17
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:turtle_spawn_egg"
+                },
+                "slot": 18
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:vex_spawn_egg"
+                },
+                "slot": 19
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:villager_spawn_egg"
+                },
+                "slot": 20
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:vindicator_spawn_egg"
+                },
+                "slot": 21
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:wandering_trader_spawn_egg"
+                },
+                "slot": 22
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:warden_spawn_egg"
+                },
+                "slot": 23
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:witch_spawn_egg"
+                },
+                "slot": 24
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:wither_skeleton_spawn_egg"
+                },
+                "slot": 25
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:wither_spawn_egg"
+                },
+                "slot": 26
+              }
+            ],
+            "minecraft:item_name": {
+              "text": "Spawn Eggs 3/4",
+              "color": "yellow",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "27 egg stacks; each count 64",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:yellow_shulker_box"
+        },
+        "slot": 2
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:container": [
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:wolf_spawn_egg"
+                },
+                "slot": 0
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zoglin_spawn_egg"
+                },
+                "slot": 1
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zombie_horse_spawn_egg"
+                },
+                "slot": 2
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zombie_nautilus_spawn_egg"
+                },
+                "slot": 3
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zombie_spawn_egg"
+                },
+                "slot": 4
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zombie_villager_spawn_egg"
+                },
+                "slot": 5
+              },
+              {
+                "item": {
+                  "count": 64,
+                  "id": "minecraft:zombified_piglin_spawn_egg"
+                },
+                "slot": 6
+              }
+            ],
+            "minecraft:item_name": {
+              "text": "Spawn Eggs 4/4",
+              "color": "green",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "7 egg stacks; each count 64",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:lime_shulker_box"
+        },
+        "slot": 3
+      }
+    ],
+    "minecraft:item_name": {
+      "text": "All Spawn Eggs - Java 26.2",
+      "color": "aqua",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "88 registered Spawn Eggs",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "Every egg stack has count 64",
+        "color": "gold",
+        "italic": false
+      }
+    ]
+  },
+  "count": 1,
+  "id": "minecraft:chest"
+}

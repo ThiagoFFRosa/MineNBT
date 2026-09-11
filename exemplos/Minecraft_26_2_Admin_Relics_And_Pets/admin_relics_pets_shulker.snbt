@@ -1,0 +1,455 @@
+{
+    components: {
+        "minecraft:container": [
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Console Administrativa", color: "aqua", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Gamemode, horario, efeitos e adocao dos pets", color: "gray", italic: 0b},
+                            {text: "Os botoes exigem cheats/permissao de comandos", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:written_book_content": {
+                            author: "Celestine",
+                            generation: 0,
+                            pages: [
+                                {
+                                    raw: {
+                                        text: "",
+                                        extra: [
+                                            {text: "GAMEMODE\n\n", color: "dark_purple", bold: 1b},
+                                            {text: "[ Survival ]\n", color: "green", bold: 1b, click_event: {action: "run_command", command: "/gamemode survival @s"}},
+                                            {text: "[ Creative ]\n", color: "aqua", bold: 1b, click_event: {action: "run_command", command: "/gamemode creative @s"}},
+                                            {text: "[ Adventure ]\n", color: "gold", bold: 1b, click_event: {action: "run_command", command: "/gamemode adventure @s"}},
+                                            {text: "[ Spectator ]", color: "gray", bold: 1b, click_event: {action: "run_command", command: "/gamemode spectator @s"}}
+                                        ]
+                                    }
+                                },
+                                {
+                                    raw: {
+                                        text: "",
+                                        extra: [
+                                            {text: "HORARIO\n\n", color: "dark_blue", bold: 1b},
+                                            {text: "[ Dia ]\n", color: "yellow", bold: 1b, click_event: {action: "run_command", command: "/time set day"}},
+                                            {text: "[ Meio-dia ]\n", color: "gold", bold: 1b, click_event: {action: "run_command", command: "/time set noon"}},
+                                            {text: "[ Noite ]\n", color: "blue", bold: 1b, click_event: {action: "run_command", command: "/time set night"}},
+                                            {text: "[ Meia-noite ]", color: "dark_purple", bold: 1b, click_event: {action: "run_command", command: "/time set midnight"}}
+                                        ]
+                                    }
+                                },
+                                {
+                                    raw: {
+                                        text: "",
+                                        extra: [
+                                            {text: "EFEITOS - PODER\n\n", color: "red", bold: 1b},
+                                            {text: "[ Visao Noturna ]\n", color: "aqua", click_event: {action: "run_command", command: "/effect give @s minecraft:night_vision infinite 0 true"}},
+                                            {text: "[ Velocidade III ]\n", color: "blue", click_event: {action: "run_command", command: "/effect give @s minecraft:speed infinite 2 true"}},
+                                            {text: "[ Pressa IV ]\n", color: "yellow", click_event: {action: "run_command", command: "/effect give @s minecraft:haste infinite 3 true"}},
+                                            {text: "[ Forca III ]\n", color: "dark_red", click_event: {action: "run_command", command: "/effect give @s minecraft:strength infinite 2 true"}},
+                                            {text: "[ Limpar efeitos ]", color: "gray", click_event: {action: "run_command", command: "/effect clear @s"}}
+                                        ]
+                                    }
+                                },
+                                {
+                                    raw: {
+                                        text: "",
+                                        extra: [
+                                            {text: "EFEITOS - DEFESA\n\n", color: "dark_green", bold: 1b},
+                                            {text: "[ Resistencia II ]\n", color: "green", click_event: {action: "run_command", command: "/effect give @s minecraft:resistance infinite 1 true"}},
+                                            {text: "[ Resistencia ao Fogo ]\n", color: "gold", click_event: {action: "run_command", command: "/effect give @s minecraft:fire_resistance infinite 0 true"}},
+                                            {text: "[ Respiracao Aquatica ]\n", color: "aqua", click_event: {action: "run_command", command: "/effect give @s minecraft:water_breathing infinite 0 true"}},
+                                            {text: "[ Regeneracao II ]\n", color: "light_purple", click_event: {action: "run_command", command: "/effect give @s minecraft:regeneration infinite 1 true"}},
+                                            {text: "[ Queda Lenta ]", color: "white", click_event: {action: "run_command", command: "/effect give @s minecraft:slow_falling infinite 0 true"}}
+                                        ]
+                                    }
+                                },
+                                {
+                                    raw: {
+                                        text: "",
+                                        extra: [
+                                            {text: "ADOTAR PETS\n", color: "light_purple", bold: 1b},
+                                            {text: "Use perto do pet (ate 16 blocos).\n\n", color: "gray"},
+                                            {text: "[ Adotar Nicks ]\n", color: "gold", bold: 1b, click_event: {action: "run_command", command: "/data modify entity @e[type=minecraft:cat,name=Nicks,distance=..16,sort=nearest,limit=1] Owner set from entity @s UUID"}},
+                                            {text: "[ Adotar Kuronai ]\n", color: "dark_purple", bold: 1b, click_event: {action: "run_command", command: "/data modify entity @e[type=minecraft:wolf,name=Kuronai,distance=..16,sort=nearest,limit=1] Owner set from entity @s UUID"}},
+                                            {text: "[ Adotar Celestine ]", color: "aqua", bold: 1b, click_event: {action: "run_command", command: "/data modify entity @e[type=minecraft:wolf,name=Celestine,distance=..16,sort=nearest,limit=1] Owner set from entity @s UUID"}}
+                                        ]
+                                    }
+                                }
+                            ],
+                            resolved: 1b,
+                            title: "Console Administrativa"
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:written_book"
+                },
+                slot: 0
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:blast_protection": 6,
+                            "minecraft:fire_protection": 6,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 6,
+                            "minecraft:protection": 6,
+                            "minecraft:thorns": 4,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:glider": {},
+                        "minecraft:item_name": {text: "Aegis Flightplate", color: "aqua", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Peitoral de netherita que tambem plana como Elytra", color: "gray", italic: 0b},
+                            {text: "Todas as familias de protecao juntas", color: "light_purple", italic: 0b},
+                            {text: "Indestrutivel", color: "gold", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_chestplate"
+                },
+                slot: 1
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 80.0d, id: "celestine:titan/max_health", operation: "add_value", slot: "head", type: "minecraft:max_health"},
+                            {amount: 10.0d, id: "celestine:titan/armor", operation: "add_value", slot: "head", type: "minecraft:armor"},
+                            {amount: 6.0d, id: "celestine:titan/toughness", operation: "add_value", slot: "head", type: "minecraft:armor_toughness"},
+                            {amount: 0.5d, id: "celestine:titan/knockback", operation: "add_value", slot: "head", type: "minecraft:knockback_resistance"},
+                            {amount: 10.0d, id: "celestine:titan/damage", operation: "add_value", slot: "head", type: "minecraft:attack_damage"},
+                            {amount: 0.35d, id: "celestine:titan/scale", operation: "add_value", slot: "head", type: "minecraft:scale"},
+                            {amount: 0.5d, id: "celestine:titan/step", operation: "add_value", slot: "head", type: "minecraft:step_height"},
+                            {amount: 2.0d, id: "celestine:titan/block_reach", operation: "add_value", slot: "head", type: "minecraft:block_interaction_range"},
+                            {amount: 2.0d, id: "celestine:titan/entity_reach", operation: "add_value", slot: "head", type: "minecraft:entity_interaction_range"}
+                        ],
+                        "minecraft:enchantments": {
+                            "minecraft:aqua_affinity": 1,
+                            "minecraft:blast_protection": 6,
+                            "minecraft:fire_protection": 6,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 6,
+                            "minecraft:protection": 6,
+                            "minecraft:respiration": 5,
+                            "minecraft:thorns": 4,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:item_name": {text: "Coroa do Tita", color: "gold", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "+80 vida, armadura, dano, alcance e tamanho", color: "yellow", italic: 0b},
+                            {text: "Os bonus so funcionam equipada na cabeca", color: "gray", italic: 0b},
+                            {text: "Indestrutivel", color: "dark_purple", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:golden_helmet"
+                },
+                slot: 2
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:fortune": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:item_name": {text: "Omnitool da Fortuna", color: "green", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Minera blocos de picareta, machado, pa e enxada", color: "gray", italic: 0b},
+                            {text: "Durabilidade normal - Fortuna X", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:tool": {
+                            can_destroy_blocks_in_creative: 1b,
+                            damage_per_block: 1,
+                            default_mining_speed: 1.0f,
+                            rules: [
+                                {blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/axe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/shovel", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/hoe", correct_for_drops: 1b, speed: 50.0f}
+                            ]
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_pickaxe"
+                },
+                slot: 3
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:silk_touch": 1,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:item_name": {text: "Omnitool Toque Suave", color: "aqua", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Minera blocos de picareta, machado, pa e enxada", color: "gray", italic: 0b},
+                            {text: "Durabilidade normal - Silk Touch", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:tool": {
+                            can_destroy_blocks_in_creative: 1b,
+                            damage_per_block: 1,
+                            default_mining_speed: 1.0f,
+                            rules: [
+                                {blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/axe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/shovel", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/hoe", correct_for_drops: 1b, speed: 50.0f}
+                            ]
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_pickaxe"
+                },
+                slot: 4
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:fortune": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:item_name": {text: "Omnitool Eterna da Fortuna", color: "light_purple", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Minera blocos de picareta, machado, pa e enxada", color: "gray", italic: 0b},
+                            {text: "Indestrutivel - Fortuna X", color: "gold", italic: 0b}
+                        ],
+                        "minecraft:tool": {
+                            can_destroy_blocks_in_creative: 1b,
+                            damage_per_block: 1,
+                            default_mining_speed: 1.0f,
+                            rules: [
+                                {blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/axe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/shovel", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/hoe", correct_for_drops: 1b, speed: 50.0f}
+                            ]
+                        },
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_pickaxe"
+                },
+                slot: 5
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:silk_touch": 1,
+                            "minecraft:unbreaking": 5
+                        },
+                        "minecraft:item_name": {text: "Omnitool Eterna Toque Suave", color: "light_purple", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Minera blocos de picareta, machado, pa e enxada", color: "gray", italic: 0b},
+                            {text: "Indestrutivel - Silk Touch", color: "gold", italic: 0b}
+                        ],
+                        "minecraft:tool": {
+                            can_destroy_blocks_in_creative: 1b,
+                            damage_per_block: 1,
+                            default_mining_speed: 1.0f,
+                            rules: [
+                                {blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/axe", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/shovel", correct_for_drops: 1b, speed: 50.0f},
+                                {blocks: "#minecraft:mineable/hoe", correct_for_drops: 1b, speed: 50.0f}
+                            ]
+                        },
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_pickaxe"
+                },
+                slot: 6
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:cat/collar": "orange",
+                        "minecraft:cat/sound_variant": "minecraft:royal",
+                        "minecraft:cat/variant": "minecraft:red",
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:entity_data": {
+                            id: "minecraft:cat",
+                            active_effects: [
+                                {id: "minecraft:regeneration", amplifier: 2b, duration: -1, ambient: 1b, show_particles: 0b, show_icon: 1b}
+                            ],
+                            attributes: [
+                                {id: "minecraft:max_health", base: 300.0d},
+                                {id: "minecraft:attack_damage", base: 20.0d}
+                            ],
+                            Age: 0,
+                            CustomName: {text: "Nicks", color: "gold", bold: 1b, italic: 0b},
+                            CustomNameVisible: 1b,
+                            Health: 300.0f,
+                            PersistenceRequired: 1b,
+                            Sitting: 0b,
+                            sound_variant: "minecraft:royal",
+                            variant: "minecraft:red"
+                        },
+                        "minecraft:item_name": {text: "Ovo de Nicks", color: "gold", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Gato laranja - 300 HP - Regeneracao III", color: "yellow", italic: 0b},
+                            {text: "Ataque base 20; use o livro para adotar", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic"
+                    },
+                    count: 1,
+                    id: "minecraft:cat_spawn_egg"
+                },
+                slot: 7
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:entity_data": {
+                            id: "minecraft:wolf",
+                            active_effects: [
+                                {id: "minecraft:regeneration", amplifier: 2b, duration: -1, ambient: 1b, show_particles: 0b, show_icon: 1b}
+                            ],
+                            attributes: [
+                                {id: "minecraft:max_health", base: 300.0d},
+                                {id: "minecraft:attack_damage", base: 20.0d}
+                            ],
+                            Age: 0,
+                            CustomName: {text: "Kuronai", color: "dark_purple", bold: 1b, italic: 0b},
+                            CustomNameVisible: 1b,
+                            Health: 300.0f,
+                            PersistenceRequired: 1b,
+                            Sitting: 0b,
+                            sound_variant: "minecraft:grumpy",
+                            variant: "minecraft:black"
+                        },
+                        "minecraft:item_name": {text: "Ovo de Kuronai", color: "dark_purple", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Black Wolf - 300 HP - Regeneracao III", color: "light_purple", italic: 0b},
+                            {text: "Ataque base 20; use o livro para adotar", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:wolf/collar": "black",
+                        "minecraft:wolf/sound_variant": "minecraft:grumpy",
+                        "minecraft:wolf/variant": "minecraft:black"
+                    },
+                    count: 1,
+                    id: "minecraft:wolf_spawn_egg"
+                },
+                slot: 8
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:entity_data": {
+                            id: "minecraft:wolf",
+                            active_effects: [
+                                {id: "minecraft:regeneration", amplifier: 2b, duration: -1, ambient: 1b, show_particles: 0b, show_icon: 1b}
+                            ],
+                            attributes: [
+                                {id: "minecraft:max_health", base: 300.0d},
+                                {id: "minecraft:attack_damage", base: 20.0d}
+                            ],
+                            Age: 0,
+                            CustomName: {text: "Celestine", color: "aqua", bold: 1b, italic: 0b},
+                            CustomNameVisible: 1b,
+                            Health: 300.0f,
+                            PersistenceRequired: 1b,
+                            Sitting: 0b,
+                            sound_variant: "minecraft:cute",
+                            variant: "minecraft:snowy"
+                        },
+                        "minecraft:item_name": {text: "Ovo de Celestine", color: "aqua", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Snowy Wolf - 300 HP - Regeneracao III", color: "white", italic: 0b},
+                            {text: "Ataque base 20; use o livro para adotar", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:wolf/collar": "light_blue",
+                        "minecraft:wolf/sound_variant": "minecraft:cute",
+                        "minecraft:wolf/variant": "minecraft:snowy"
+                    },
+                    count: 1,
+                    id: "minecraft:wolf_spawn_egg"
+                },
+                slot: 9
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 499.0d, id: "celestine:pet_terminator/damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+                            {amount: 6.0d, id: "celestine:pet_terminator/speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+                        ],
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Stick para Matar Pets Gods", color: "red", bold: 1b, italic: 0b},
+                        "minecraft:lore": [
+                            {text: "500 de dano total na mao principal", color: "dark_red", italic: 0b},
+                            {text: "Criado para eliminar os pets de 300 HP", color: "gray", italic: 0b},
+                            {text: "CUIDADO: mata quase qualquer criatura em um golpe", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic",
+                        "minecraft:weapon": {
+                            disable_blocking_for_seconds: 0.0f,
+                            item_damage_per_attack: 0
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:stick"
+                },
+                slot: 10
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Ossos para Domesticacao", color: "white", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Alternativa vanilla aos botoes do livro", color: "gray", italic: 0b}
+                        ]
+                    },
+                    count: 64,
+                    id: "minecraft:bone"
+                },
+                slot: 11
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Bacalhau para Nicks", color: "aqua", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Alternativa vanilla para domesticar o gato", color: "gray", italic: 0b}
+                        ]
+                    },
+                    count: 64,
+                    id: "minecraft:cod"
+                },
+                slot: 12
+            }
+        ],
+        "minecraft:item_name": {text: "Relíquias Administrativas e Pets", color: "light_purple", bold: 1b, italic: 0b},
+        "minecraft:lore": [
+            {text: "Minecraft Java 26.2 - somente componentes vanilla", color: "aqua", italic: 0b},
+            {text: "11 itens customizados + 2 pilhas para domesticacao", color: "yellow", italic: 0b},
+            {text: "Livro com comandos exige cheats/permissao", color: "gray", italic: 0b}
+        ],
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:light_blue_shulker_box"
+}

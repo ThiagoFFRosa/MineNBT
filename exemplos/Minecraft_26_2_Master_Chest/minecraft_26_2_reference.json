@@ -1,0 +1,178 @@
+{
+  "minecraftVersion": "26.2",
+  "worldVersion": 4903,
+  "dataPackVersion": "107.1",
+  "serverJarSha1": "823e2250d24b3ddac457a60c92a6a941943fcd6a",
+  "clientJarSha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+  "reportSha256": {
+    "registries": "fcce28462563e28477eb72074807e1ff7f106e2244fefbfd74afe84334d34ed9",
+    "blocks": "0b1470910281d2f7ac36544672fc04befcd600c9dab1574d0636727ae6531726",
+    "itemComponents": "b0e9cf2633892ea39f59ba2039fcdcb9e9253a961b439dcd3f98e7687d5019d7"
+  },
+  "itemIds": [
+    "minecraft:activator_rail",
+    "minecraft:bow",
+    "minecraft:brush",
+    "minecraft:carrot_on_a_stick",
+    "minecraft:chest",
+    "minecraft:copper_grate",
+    "minecraft:crossbow",
+    "minecraft:elytra",
+    "minecraft:fishing_rod",
+    "minecraft:flint_and_steel",
+    "minecraft:gray_shulker_box",
+    "minecraft:mace",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_hoe",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_spear",
+    "minecraft:netherite_sword",
+    "minecraft:orange_shulker_box",
+    "minecraft:piston",
+    "minecraft:potion",
+    "minecraft:powered_rail",
+    "minecraft:purple_shulker_box",
+    "minecraft:red_shulker_box",
+    "minecraft:redstone_lamp",
+    "minecraft:shears",
+    "minecraft:shield",
+    "minecraft:sticky_piston",
+    "minecraft:trident",
+    "minecraft:warped_fungus_on_a_stick",
+    "minecraft:white_shulker_box"
+  ],
+  "componentIds": [
+    "minecraft:attribute_modifiers",
+    "minecraft:block_state",
+    "minecraft:blocks_attacks",
+    "minecraft:container",
+    "minecraft:custom_name",
+    "minecraft:damage_resistant",
+    "minecraft:enchantments",
+    "minecraft:glider",
+    "minecraft:potion_contents",
+    "minecraft:repair_cost",
+    "minecraft:tooltip_display",
+    "minecraft:trim",
+    "minecraft:unbreakable"
+  ],
+  "enchantmentIds": [
+    "minecraft:aqua_affinity",
+    "minecraft:bane_of_arthropods",
+    "minecraft:blast_protection",
+    "minecraft:breach",
+    "minecraft:channeling",
+    "minecraft:density",
+    "minecraft:depth_strider",
+    "minecraft:efficiency",
+    "minecraft:feather_falling",
+    "minecraft:fire_aspect",
+    "minecraft:fire_protection",
+    "minecraft:flame",
+    "minecraft:fortune",
+    "minecraft:impaling",
+    "minecraft:infinity",
+    "minecraft:knockback",
+    "minecraft:looting",
+    "minecraft:loyalty",
+    "minecraft:luck_of_the_sea",
+    "minecraft:lunge",
+    "minecraft:lure",
+    "minecraft:mending",
+    "minecraft:multishot",
+    "minecraft:piercing",
+    "minecraft:power",
+    "minecraft:projectile_protection",
+    "minecraft:protection",
+    "minecraft:punch",
+    "minecraft:quick_charge",
+    "minecraft:respiration",
+    "minecraft:riptide",
+    "minecraft:sharpness",
+    "minecraft:silk_touch",
+    "minecraft:smite",
+    "minecraft:soul_speed",
+    "minecraft:sweeping_edge",
+    "minecraft:swift_sneak",
+    "minecraft:thorns",
+    "minecraft:unbreaking",
+    "minecraft:wind_burst"
+  ],
+  "attributeIdsUsed": [
+    "minecraft:armor",
+    "minecraft:armor_toughness",
+    "minecraft:knockback_resistance",
+    "minecraft:oxygen_bonus"
+  ],
+  "damageTypesUsed": [
+    "minecraft:in_fire",
+    "minecraft:on_fire",
+    "minecraft:lava",
+    "minecraft:explosion",
+    "minecraft:player_explosion"
+  ],
+  "blockStatesUsed": {
+    "minecraft_copper_grate": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "minecraft_piston": {
+      "extended": [
+        "true",
+        "false"
+      ],
+      "facing": [
+        "up",
+        "down",
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
+    },
+    "minecraft_sticky_piston": {
+      "extended": [
+        "true",
+        "false"
+      ],
+      "facing": [
+        "up",
+        "down",
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
+    },
+    "minecraft_redstone_lamp": {
+      "lit": [
+        "true",
+        "false"
+      ]
+    },
+    "minecraft_powered_rail": {
+      "powered": [
+        "true",
+        "false"
+      ]
+    },
+    "minecraft_activator_rail": {
+      "powered": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "netheriteChestplateDefense": {
+    "armor": 8,
+    "armorToughness": 3,
+    "knockbackResistance": 0.10000000149011612
+  }
+}

@@ -1,0 +1,22 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 100.0d, id: "broken_items:god_armor", operation: "add_value", slot: "chest", type: "minecraft:armor"},
+            {amount: 50.0d, id: "broken_items:god_toughness", operation: "add_value", slot: "chest", type: "minecraft:armor_toughness"},
+            {amount: 1.0d, id: "broken_items:god_knockback_resistance", operation: "add_value", slot: "chest", type: "minecraft:knockback_resistance"}
+        ],
+        "minecraft:enchantments": {
+            "minecraft:blast_protection": 10,
+            "minecraft:fire_protection": 10,
+            "minecraft:projectile_protection": 10,
+            "minecraft:protection": 10
+        },
+        "minecraft:item_name": {text: "Fourfold Aegis", color: "gold", italic: 0b},
+        "minecraft:lore": [
+            {text: "All four Protection families", color: "yellow", italic: 0b}
+        ],
+        "minecraft:unbreakable": {}
+    },
+    count: 1,
+    id: "minecraft:netherite_chestplate"
+}

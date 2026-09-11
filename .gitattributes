@@ -1,0 +1,12 @@
+# Preserve official extracted assets byte-for-byte across Windows/Linux clones.
+minecraft-assets/*/assets/** -text
+
+# Preserve supplied NBT/SNBT reference kits exactly as authored.
+exemplos/** -text
+
+# Project-authored source and documentation use stable LF line endings.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf

@@ -1,0 +1,727 @@
+{
+  "components": {
+    "minecraft:container": [
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Bedrock",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Creative/technical block; not collectible in Survival",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:bedrock"
+        },
+        "slot": 0
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "End Portal Frame",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Stronghold structure block; not collectible",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:end_portal_frame"
+        },
+        "slot": 1
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Reinforced Deepslate",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Ancient City block; not collectible",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:reinforced_deepslate"
+        },
+        "slot": 2
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Barrier",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only invisible block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:barrier"
+        },
+        "slot": 3
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Light Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only invisible light source",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:light"
+        },
+        "slot": 4
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Structure Void",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only structure helper",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:structure_void"
+        },
+        "slot": 5
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Structure Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only structure tool",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:structure_block"
+        },
+        "slot": 6
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Jigsaw Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only worldgen tool",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:jigsaw"
+        },
+        "slot": 7
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Command Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only command block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:command_block"
+        },
+        "slot": 8
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Repeating Command Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only command block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:repeating_command_block"
+        },
+        "slot": 9
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Chain Command Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only command block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:chain_command_block"
+        },
+        "slot": 10
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Command Block Minecart",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only vehicle item",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:command_block_minecart"
+        },
+        "slot": 11
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Debug Stick",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Operator-only block state tool",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:debug_stick"
+        },
+        "slot": 12
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Knowledge Book",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Technical command item",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:knowledge_book"
+        },
+        "slot": 13
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Monster Spawner",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Does not drop as an item in Survival",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:spawner"
+        },
+        "slot": 14
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Trial Spawner",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Does not drop as an item in Survival",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:trial_spawner"
+        },
+        "slot": 15
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Vault",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Does not drop as an item in Survival",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:vault"
+        },
+        "slot": 16
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Test Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Game-test/operator block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:test_block"
+        },
+        "slot": 17
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Test Instance Block",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Game-test/operator block",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:test_instance_block"
+        },
+        "slot": 18
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Petrified Oak Slab",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Legacy stone-behavior slab; no Survival source",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:petrified_oak_slab"
+        },
+        "slot": 19
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Farmland Item",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Registered ItemStack but not normally collectible",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:farmland"
+        },
+        "slot": 20
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Dirt Path Item",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Registered ItemStack but not normally collectible",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:dirt_path"
+        },
+        "slot": 21
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Budding Amethyst",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Never drops, including with Silk Touch",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:budding_amethyst"
+        },
+        "slot": 22
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Suspicious Sand Item",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "World block that does not drop as itself",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:suspicious_sand"
+        },
+        "slot": 23
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Suspicious Gravel Item",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "World block that does not drop as itself",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:suspicious_gravel"
+        },
+        "slot": 24
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Ender Dragon Spawn Egg",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Creative/command-only spawn egg",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:ender_dragon_spawn_egg"
+        },
+        "slot": 25
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:item_name": {
+              "text": "Wither Spawn Egg",
+              "color": "light_purple",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Creative/command-only spawn egg",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "Registered item in Java 26.2",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:wither_spawn_egg"
+        },
+        "slot": 26
+      }
+    ],
+    "minecraft:item_name": {
+      "text": "Unobtainable Items - Java 26.2",
+      "color": "light_purple",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "27 registered items unavailable in Survival",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Portal-only blocks are documented separately",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ]
+  },
+  "count": 1,
+  "id": "minecraft:black_shulker_box"
+}

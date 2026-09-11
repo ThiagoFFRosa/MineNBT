@@ -1,0 +1,13 @@
+[
+  {
+    "id": "minecraft:air",
+    "reason": "ItemStack.isEmpty: AIR sentinel",
+    "registered": true,
+    "source": "catalog/registry-provenance.json#/registryEntries/minecraft:air",
+    "definition": "assets/minecraft/items/air.json",
+    "references": [
+      "assets/minecraft/items/air.json",
+      "assets/minecraft/models/item/air.json"
+    ]
+  }
+]

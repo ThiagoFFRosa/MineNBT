@@ -1,0 +1,19 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 1.0d, id: "broken_items:ultra_speed", operation: "add_value", slot: "feet", type: "minecraft:movement_speed"}
+        ],
+        "minecraft:equippable": {
+            damage_on_hurt: 0b,
+            equip_sound: "minecraft:item.armor.equip_generic",
+            slot: "feet"
+        },
+        "minecraft:item_name": {text: "Velocity Foot", color: "aqua", italic: 0b},
+        "minecraft:lore": [
+            {text: "+1.0 movement speed while equipped", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1
+    },
+    count: 1,
+    id: "minecraft:rabbit_foot"
+}

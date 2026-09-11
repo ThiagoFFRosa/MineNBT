@@ -1,0 +1,26 @@
+{
+    components: {
+        "minecraft:item_name": {text: "Eightfold Elixir", color: "light_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Eight normally separate effects", color: "gray", italic: 0b},
+            {text: "Duration: 60 minutes", color: "dark_gray", italic: 0b}
+        ],
+        "minecraft:potion_contents": {
+            custom_color: 1122867,
+            custom_effects: [
+                {amplifier: 4, duration: 72000, id: "minecraft:strength", show_icon: 1b, show_particles: 1b},
+                {amplifier: 4, duration: 72000, id: "minecraft:speed", show_icon: 1b, show_particles: 1b},
+                {amplifier: 4, duration: 72000, id: "minecraft:jump_boost", show_icon: 1b, show_particles: 1b},
+                {amplifier: 3, duration: 72000, id: "minecraft:resistance", show_icon: 1b, show_particles: 1b},
+                {amplifier: 2, duration: 72000, id: "minecraft:regeneration", show_icon: 1b, show_particles: 1b},
+                {amplifier: 0, duration: 72000, id: "minecraft:night_vision", show_icon: 1b, show_particles: 0b},
+                {amplifier: 0, duration: 72000, id: "minecraft:water_breathing", show_icon: 1b, show_particles: 0b},
+                {amplifier: 0, duration: 72000, id: "minecraft:fire_resistance", show_icon: 1b, show_particles: 0b}
+            ],
+            custom_name: "eightfold"
+        },
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:potion"
+}

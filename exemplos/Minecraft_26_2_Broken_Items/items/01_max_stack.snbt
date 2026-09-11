@@ -1,0 +1,15 @@
+{
+    components: {
+        "!minecraft:damage": {},
+        "!minecraft:max_damage": {},
+        "minecraft:enchantment_glint_override": 1b,
+        "minecraft:item_name": {text: "Overstacked Diamond Sword", color: "aqua", italic: 0b},
+        "minecraft:lore": [
+            {text: "Durability components removed intentionally", color: "gray", italic: 0b},
+            {text: "Maximum legal component stack: 99", color: "dark_gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 99
+    },
+    count: 99,
+    id: "minecraft:diamond_sword"
+}

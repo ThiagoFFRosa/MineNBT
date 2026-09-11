@@ -1,0 +1,16 @@
+{
+    components: {
+        "minecraft:item_name": {text: "Stabbing Blaze Rod", color: "gold", italic: 0b},
+        "minecraft:lore": [
+            {text: "26.2 swing_animation type: stab", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1,
+        "minecraft:swing_animation": {
+            duration: 2,
+            type: "stab"
+        },
+        "minecraft:weapon": {item_damage_per_attack: 0}
+    },
+    count: 1,
+    id: "minecraft:blaze_rod"
+}

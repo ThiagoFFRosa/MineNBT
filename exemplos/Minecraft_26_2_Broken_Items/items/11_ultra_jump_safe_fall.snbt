@@ -1,0 +1,18 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 1.5d, id: "broken_items:ultra_jump", operation: "add_value", slot: "feet", type: "minecraft:jump_strength"},
+            {amount: 50.0d, id: "broken_items:safe_fall", operation: "add_value", slot: "feet", type: "minecraft:safe_fall_distance"},
+            {amount: -1.0d, id: "broken_items:no_fall_damage", operation: "add_multiplied_total", slot: "feet", type: "minecraft:fall_damage_multiplier"}
+        ],
+        "minecraft:equippable": {
+            damage_on_hurt: 0b,
+            equip_sound: "minecraft:item.armor.equip_generic",
+            slot: "feet"
+        },
+        "minecraft:item_name": {text: "Moonstep Slime", color: "green", italic: 0b},
+        "minecraft:max_stack_size": 1
+    },
+    count: 1,
+    id: "minecraft:slime_ball"
+}

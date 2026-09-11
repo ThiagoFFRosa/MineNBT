@@ -1,0 +1,13 @@
+{
+    components: {
+        "minecraft:enchantment_glint_override": 1b,
+        "minecraft:item_name": {text: "Ominous Amethyst", color: "dark_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Ominous Bottle amplifier 5 (stored value 4)", color: "gray", italic: 0b}
+        ],
+        "minecraft:ominous_bottle_amplifier": 4,
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:amethyst_shard"
+}

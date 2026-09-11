@@ -1,0 +1,1699 @@
+{
+  "source": "C:\\Users\\Fuzz.s\\Documents\\Coding\\NBT GEN\\exemplos",
+  "filesRead": 36,
+  "parseFailures": [],
+  "itemStacks": 1059,
+  "uniqueItemIds": 179,
+  "maxStackNestingDepth": 4,
+  "items": [
+    {
+      "id": "minecraft:acacia_slab",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/acacia_slab.json"
+    },
+    {
+      "id": "minecraft:activator_rail",
+      "occurrences": 1,
+      "iconStatus": "model_resolved",
+      "definition": "assets/minecraft/items/activator_rail.json"
+    },
+    {
+      "id": "minecraft:allay_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/allay_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:amethyst_shard",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/amethyst_shard.json"
+    },
+    {
+      "id": "minecraft:armadillo_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/armadillo_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:axolotl_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/axolotl_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:bamboo",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/bamboo.json"
+    },
+    {
+      "id": "minecraft:barrier",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/barrier.json"
+    },
+    {
+      "id": "minecraft:bat_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/bat_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:bedrock",
+      "occurrences": 3,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/bedrock.json"
+    },
+    {
+      "id": "minecraft:bee_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/bee_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:black_shulker_box",
+      "occurrences": 47,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/black_shulker_box.json"
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "occurrences": 4,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/blaze_rod.json"
+    },
+    {
+      "id": "minecraft:blaze_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/blaze_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:blue_shulker_box",
+      "occurrences": 46,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/blue_shulker_box.json"
+    },
+    {
+      "id": "minecraft:bogged_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/bogged_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:bone",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/bone.json"
+    },
+    {
+      "id": "minecraft:bow",
+      "occurrences": 9,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/bow.json"
+    },
+    {
+      "id": "minecraft:breeze_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/breeze_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:brown_shulker_box",
+      "occurrences": 46,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/brown_shulker_box.json"
+    },
+    {
+      "id": "minecraft:brush",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/brush.json"
+    },
+    {
+      "id": "minecraft:budding_amethyst",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/budding_amethyst.json"
+    },
+    {
+      "id": "minecraft:camel_husk_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/camel_husk_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:camel_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/camel_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:carrot",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/carrot.json"
+    },
+    {
+      "id": "minecraft:carrot_on_a_stick",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/carrot_on_a_stick.json"
+    },
+    {
+      "id": "minecraft:cat_spawn_egg",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/cat_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:cave_spider_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/cave_spider_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:chain_command_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/chain_command_block.json"
+    },
+    {
+      "id": "minecraft:chest",
+      "occurrences": 4,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/chest.json"
+    },
+    {
+      "id": "minecraft:chicken_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/chicken_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:cod",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/cod.json"
+    },
+    {
+      "id": "minecraft:cod_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/cod_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:command_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/command_block.json"
+    },
+    {
+      "id": "minecraft:command_block_minecart",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/command_block_minecart.json"
+    },
+    {
+      "id": "minecraft:copper_golem_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/copper_golem_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:copper_grate",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/copper_grate.json"
+    },
+    {
+      "id": "minecraft:cow_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/cow_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:creaking_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/creaking_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:creeper_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/creeper_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:crossbow",
+      "occurrences": 10,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/crossbow.json"
+    },
+    {
+      "id": "minecraft:cyan_shulker_box",
+      "occurrences": 48,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/cyan_shulker_box.json"
+    },
+    {
+      "id": "minecraft:debug_stick",
+      "occurrences": 1,
+      "iconStatus": "model_resolved",
+      "definition": "assets/minecraft/items/debug_stick.json"
+    },
+    {
+      "id": "minecraft:diamond",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/diamond.json"
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "occurrences": 4,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/diamond_sword.json"
+    },
+    {
+      "id": "minecraft:dirt_path",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/dirt_path.json"
+    },
+    {
+      "id": "minecraft:dolphin_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/dolphin_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:donkey_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/donkey_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:drowned_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/drowned_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:elder_guardian_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/elder_guardian_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:elytra",
+      "occurrences": 5,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/elytra.json"
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/enchanted_book.json"
+    },
+    {
+      "id": "minecraft:end_portal_frame",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/end_portal_frame.json"
+    },
+    {
+      "id": "minecraft:ender_dragon_spawn_egg",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/ender_dragon_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:enderman_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/enderman_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:endermite_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/endermite_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:evoker_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/evoker_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:farmland",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/farmland.json"
+    },
+    {
+      "id": "minecraft:feather",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/feather.json"
+    },
+    {
+      "id": "minecraft:firework_rocket",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/firework_rocket.json"
+    },
+    {
+      "id": "minecraft:fishing_rod",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/fishing_rod.json"
+    },
+    {
+      "id": "minecraft:flint_and_steel",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/flint_and_steel.json"
+    },
+    {
+      "id": "minecraft:fox_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/fox_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:frog_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/frog_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:ghast_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/ghast_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:glow_squid_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/glow_squid_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:goat_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/goat_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:golden_helmet",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/golden_helmet.json"
+    },
+    {
+      "id": "minecraft:gray_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/gray_shulker_box.json"
+    },
+    {
+      "id": "minecraft:green_shulker_box",
+      "occurrences": 46,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/green_shulker_box.json"
+    },
+    {
+      "id": "minecraft:guardian_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/guardian_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:happy_ghast_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/happy_ghast_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:hoglin_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/hoglin_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:horse_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/horse_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:husk_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/husk_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:iron_golem_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/iron_golem_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:jigsaw",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/jigsaw.json"
+    },
+    {
+      "id": "minecraft:knowledge_book",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/knowledge_book.json"
+    },
+    {
+      "id": "minecraft:light",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/light.json"
+    },
+    {
+      "id": "minecraft:light_blue_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/light_blue_shulker_box.json"
+    },
+    {
+      "id": "minecraft:light_gray_shulker_box",
+      "occurrences": 48,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/light_gray_shulker_box.json"
+    },
+    {
+      "id": "minecraft:lime_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/lime_shulker_box.json"
+    },
+    {
+      "id": "minecraft:llama_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/llama_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:mace",
+      "occurrences": 5,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/mace.json"
+    },
+    {
+      "id": "minecraft:magenta_shulker_box",
+      "occurrences": 48,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/magenta_shulker_box.json"
+    },
+    {
+      "id": "minecraft:magma_cube_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/magma_cube_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:mooshroom_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/mooshroom_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:mule_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/mule_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:nautilus_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/nautilus_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:netherite_axe",
+      "occurrences": 5,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/netherite_axe.json"
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "occurrences": 5,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/netherite_boots.json"
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "occurrences": 9,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/netherite_chestplate.json"
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "occurrences": 5,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/netherite_helmet.json"
+    },
+    {
+      "id": "minecraft:netherite_hoe",
+      "occurrences": 3,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/netherite_hoe.json"
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "occurrences": 5,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/netherite_leggings.json"
+    },
+    {
+      "id": "minecraft:netherite_pickaxe",
+      "occurrences": 9,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/netherite_pickaxe.json"
+    },
+    {
+      "id": "minecraft:netherite_shovel",
+      "occurrences": 3,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/netherite_shovel.json"
+    },
+    {
+      "id": "minecraft:netherite_spear",
+      "occurrences": 5,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/netherite_spear.json"
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "occurrences": 6,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/netherite_sword.json"
+    },
+    {
+      "id": "minecraft:ocelot_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/ocelot_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:orange_shulker_box",
+      "occurrences": 50,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/orange_shulker_box.json"
+    },
+    {
+      "id": "minecraft:panda_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/panda_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:paper",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/paper.json"
+    },
+    {
+      "id": "minecraft:parched_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/parched_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:parrot_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/parrot_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:petrified_oak_slab",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/petrified_oak_slab.json"
+    },
+    {
+      "id": "minecraft:phantom_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/phantom_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:pig_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/pig_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:piglin_brute_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/piglin_brute_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:piglin_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/piglin_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:pillager_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/pillager_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:pink_shulker_box",
+      "occurrences": 48,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/pink_shulker_box.json"
+    },
+    {
+      "id": "minecraft:piston",
+      "occurrences": 6,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/piston.json"
+    },
+    {
+      "id": "minecraft:player_head",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/player_head.json"
+    },
+    {
+      "id": "minecraft:polar_bear_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/polar_bear_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:potion",
+      "occurrences": 3,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/potion.json"
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "occurrences": 1,
+      "iconStatus": "model_resolved",
+      "definition": "assets/minecraft/items/powered_rail.json"
+    },
+    {
+      "id": "minecraft:pufferfish_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/pufferfish_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:purple_shulker_box",
+      "occurrences": 50,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/purple_shulker_box.json"
+    },
+    {
+      "id": "minecraft:rabbit_foot",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/rabbit_foot.json"
+    },
+    {
+      "id": "minecraft:rabbit_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/rabbit_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:ravager_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/ravager_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:red_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/red_shulker_box.json"
+    },
+    {
+      "id": "minecraft:redstone_lamp",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/redstone_lamp.json"
+    },
+    {
+      "id": "minecraft:reinforced_deepslate",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/reinforced_deepslate.json"
+    },
+    {
+      "id": "minecraft:repeating_command_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/repeating_command_block.json"
+    },
+    {
+      "id": "minecraft:salmon_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/salmon_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:shears",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/shears.json"
+    },
+    {
+      "id": "minecraft:sheep_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/sheep_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:shield",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/shield.json"
+    },
+    {
+      "id": "minecraft:shulker_box",
+      "occurrences": 3,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/shulker_box.json"
+    },
+    {
+      "id": "minecraft:shulker_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/shulker_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:silverfish_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/silverfish_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:skeleton_horse_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/skeleton_horse_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:skeleton_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/skeleton_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:slime_ball",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/slime_ball.json"
+    },
+    {
+      "id": "minecraft:slime_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/slime_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:sniffer_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/sniffer_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:snow_golem_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/snow_golem_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:spawner",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/spawner.json"
+    },
+    {
+      "id": "minecraft:spider_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/spider_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:squid_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/squid_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:stick",
+      "occurrences": 7,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/stick.json"
+    },
+    {
+      "id": "minecraft:sticky_piston",
+      "occurrences": 6,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/sticky_piston.json"
+    },
+    {
+      "id": "minecraft:stray_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/stray_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:strider_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/strider_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:structure_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/structure_block.json"
+    },
+    {
+      "id": "minecraft:structure_void",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/structure_void.json"
+    },
+    {
+      "id": "minecraft:sulfur_cube_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/sulfur_cube_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:suspicious_gravel",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/suspicious_gravel.json"
+    },
+    {
+      "id": "minecraft:suspicious_sand",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/suspicious_sand.json"
+    },
+    {
+      "id": "minecraft:tadpole_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/tadpole_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:test_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/test_block.json"
+    },
+    {
+      "id": "minecraft:test_instance_block",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/test_instance_block.json"
+    },
+    {
+      "id": "minecraft:trader_llama_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/trader_llama_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:trial_spawner",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/trial_spawner.json"
+    },
+    {
+      "id": "minecraft:trident",
+      "occurrences": 3,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/trident.json"
+    },
+    {
+      "id": "minecraft:tropical_fish_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/tropical_fish_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:turtle_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/turtle_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:vault",
+      "occurrences": 1,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/vault.json"
+    },
+    {
+      "id": "minecraft:vex_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/vex_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:villager_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/villager_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:vindicator_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/vindicator_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:wandering_trader_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/wandering_trader_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:warden_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/warden_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/warped_fungus_on_a_stick.json"
+    },
+    {
+      "id": "minecraft:white_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/white_shulker_box.json"
+    },
+    {
+      "id": "minecraft:witch_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/witch_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:wither_skeleton_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/wither_skeleton_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:wither_spawn_egg",
+      "occurrences": 2,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/wither_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:wolf_spawn_egg",
+      "occurrences": 3,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/wolf_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:written_book",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/written_book.json"
+    },
+    {
+      "id": "minecraft:yellow_shulker_box",
+      "occurrences": 49,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/yellow_shulker_box.json"
+    },
+    {
+      "id": "minecraft:zoglin_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zoglin_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:zombie_horse_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zombie_horse_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:zombie_nautilus_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zombie_nautilus_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:zombie_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zombie_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:zombie_villager_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zombie_villager_spawn_egg.json"
+    },
+    {
+      "id": "minecraft:zombified_piglin_spawn_egg",
+      "occurrences": 1,
+      "iconStatus": "direct",
+      "definition": "assets/minecraft/items/zombified_piglin_spawn_egg.json"
+    }
+  ],
+  "itemModelOverrides": [
+    {
+      "id": "minecraft:end_portal_frame",
+      "occurrences": 2,
+      "iconStatus": "complex_model",
+      "definition": "assets/minecraft/items/end_portal_frame.json"
+    }
+  ],
+  "componentsObserved": {
+    "!minecraft:damage": 2,
+    "!minecraft:max_damage": 2,
+    "minecraft:attack_range": 2,
+    "minecraft:attribute_modifiers": 24,
+    "minecraft:block_state": 16,
+    "minecraft:blocks_attacks": 2,
+    "minecraft:cat/collar": 1,
+    "minecraft:cat/sound_variant": 1,
+    "minecraft:cat/variant": 1,
+    "minecraft:consumable": 2,
+    "minecraft:container": 49,
+    "minecraft:custom_name": 72,
+    "minecraft:damage_resistant": 49,
+    "minecraft:death_protection": 2,
+    "minecraft:enchantment_glint_override": 17,
+    "minecraft:enchantments": 100,
+    "minecraft:entity_data": 3,
+    "minecraft:equippable": 8,
+    "minecraft:fireworks": 2,
+    "minecraft:food": 2,
+    "minecraft:glider": 5,
+    "minecraft:item_model": 2,
+    "minecraft:item_name": 168,
+    "minecraft:lore": 158,
+    "minecraft:max_stack_size": 783,
+    "minecraft:ominous_bottle_amplifier": 2,
+    "minecraft:piercing_weapon": 2,
+    "minecraft:potion_contents": 3,
+    "minecraft:profile": 2,
+    "minecraft:rarity": 19,
+    "minecraft:repair_cost": 49,
+    "minecraft:stored_enchantments": 2,
+    "minecraft:swing_animation": 2,
+    "minecraft:tool": 6,
+    "minecraft:tooltip_display": 51,
+    "minecraft:trim": 5,
+    "minecraft:unbreakable": 87,
+    "minecraft:weapon": 9,
+    "minecraft:wolf/collar": 2,
+    "minecraft:wolf/sound_variant": 2,
+    "minecraft:wolf/variant": 2,
+    "minecraft:written_book_content": 1
+  },
+  "notCatalogued": [],
+  "files": [
+    {
+      "file": "Minecraft_26_2_Admin_Relics_And_Pets/admin_relics_pets_shulker.snbt",
+      "itemStacks": 14,
+      "ids": [
+        "minecraft:bone",
+        "minecraft:cat_spawn_egg",
+        "minecraft:cod",
+        "minecraft:golden_helmet",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_pickaxe",
+        "minecraft:stick",
+        "minecraft:wolf_spawn_egg",
+        "minecraft:written_book"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 2
+    },
+    {
+      "file": "Minecraft_26_2_Armor_Sets/shulkers/01_armor_sets_standard_durability.snbt",
+      "itemStacks": 10,
+      "ids": [
+        "minecraft:cyan_shulker_box",
+        "minecraft:elytra",
+        "minecraft:netherite_boots",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_leggings"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 2
+    },
+    {
+      "file": "Minecraft_26_2_Armor_Sets/shulkers/02_armor_sets_unbreakable.snbt",
+      "itemStacks": 10,
+      "ids": [
+        "minecraft:elytra",
+        "minecraft:netherite_boots",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_leggings",
+        "minecraft:purple_shulker_box"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 2
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/01_max_stack.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:diamond_sword"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/02_cursed_sword.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:netherite_sword"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/03_cursed_bow.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:bow"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/04_god_armor.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:netherite_chestplate"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/05_super_elytra.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:elytra"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/06_edible_bedrock.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:bedrock"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/07_glider_feather.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:feather"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/08_sword_hat.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:diamond_sword"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/09_9999_armor.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:acacia_slab"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/10_ultra_speed.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:rabbit_foot"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/11_ultra_jump_safe_fall.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:slime_ball"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/12_extreme_attack_range.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:stick"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/13_extreme_block_reach.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:blaze_rod"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/14_indestructible_tool.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:netherite_pickaxe"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/15_impossible_potion.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:potion"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/16_death_protection.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:paper"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/17_ominous_item.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:amethyst_shard"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/18_notch_head.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:player_head"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/19_cursed_book.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:enchanted_book"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/20_impossible_tool.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:stick"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/21_weapon_carrot.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:carrot"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/22_piercing_weapon.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:bamboo"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/23_custom_swing.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:blaze_rod"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/24_model_swap.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:stick"
+      ],
+      "itemModelOverrides": [
+        "minecraft:end_portal_frame"
+      ],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/25_hidden_tooltip.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:netherite_axe"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/26_ridiculous_firework.snbt",
+      "itemStacks": 1,
+      "ids": [
+        "minecraft:firework_rocket"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 1
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/items/27_nested_container.snbt",
+      "itemStacks": 3,
+      "ids": [
+        "minecraft:chest",
+        "minecraft:diamond",
+        "minecraft:shulker_box"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 3
+    },
+    {
+      "file": "Minecraft_26_2_Broken_Items/shulker/broken_items_shulker.snbt",
+      "itemStacks": 30,
+      "ids": [
+        "minecraft:acacia_slab",
+        "minecraft:amethyst_shard",
+        "minecraft:bamboo",
+        "minecraft:bedrock",
+        "minecraft:blaze_rod",
+        "minecraft:bow",
+        "minecraft:carrot",
+        "minecraft:chest",
+        "minecraft:diamond",
+        "minecraft:diamond_sword",
+        "minecraft:elytra",
+        "minecraft:enchanted_book",
+        "minecraft:feather",
+        "minecraft:firework_rocket",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_sword",
+        "minecraft:paper",
+        "minecraft:player_head",
+        "minecraft:potion",
+        "minecraft:rabbit_foot",
+        "minecraft:shulker_box",
+        "minecraft:slime_ball",
+        "minecraft:stick"
+      ],
+      "itemModelOverrides": [
+        "minecraft:end_portal_frame"
+      ],
+      "stackNestingDepth": 4
+    },
+    {
+      "file": "Minecraft_26_2_Master_Chest/minecraft_26_2_master_chest.snbt",
+      "itemStacks": 72,
+      "ids": [
+        "minecraft:activator_rail",
+        "minecraft:bow",
+        "minecraft:brush",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:chest",
+        "minecraft:copper_grate",
+        "minecraft:crossbow",
+        "minecraft:elytra",
+        "minecraft:fishing_rod",
+        "minecraft:flint_and_steel",
+        "minecraft:gray_shulker_box",
+        "minecraft:mace",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_boots",
+        "minecraft:netherite_chestplate",
+        "minecraft:netherite_helmet",
+        "minecraft:netherite_hoe",
+        "minecraft:netherite_leggings",
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_shovel",
+        "minecraft:netherite_spear",
+        "minecraft:netherite_sword",
+        "minecraft:orange_shulker_box",
+        "minecraft:piston",
+        "minecraft:potion",
+        "minecraft:powered_rail",
+        "minecraft:purple_shulker_box",
+        "minecraft:red_shulker_box",
+        "minecraft:redstone_lamp",
+        "minecraft:shears",
+        "minecraft:shield",
+        "minecraft:sticky_piston",
+        "minecraft:trident",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:white_shulker_box"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 3
+    },
+    {
+      "file": "Minecraft_26_2_Spawn_Eggs_And_Nested_Shulkers/items/01_all_spawn_eggs_chest.snbt",
+      "itemStacks": 93,
+      "ids": [
+        "minecraft:allay_spawn_egg",
+        "minecraft:armadillo_spawn_egg",
+        "minecraft:axolotl_spawn_egg",
+        "minecraft:bat_spawn_egg",
+        "minecraft:bee_spawn_egg",
+        "minecraft:blaze_spawn_egg",
+        "minecraft:bogged_spawn_egg",
+        "minecraft:breeze_spawn_egg",
+        "minecraft:camel_husk_spawn_egg",
+        "minecraft:camel_spawn_egg",
+        "minecraft:cat_spawn_egg",
+        "minecraft:cave_spider_spawn_egg",
+        "minecraft:chest",
+        "minecraft:chicken_spawn_egg",
+        "minecraft:cod_spawn_egg",
+        "minecraft:copper_golem_spawn_egg",
+        "minecraft:cow_spawn_egg",
+        "minecraft:creaking_spawn_egg",
+        "minecraft:creeper_spawn_egg",
+        "minecraft:dolphin_spawn_egg",
+        "minecraft:donkey_spawn_egg",
+        "minecraft:drowned_spawn_egg",
+        "minecraft:elder_guardian_spawn_egg",
+        "minecraft:ender_dragon_spawn_egg",
+        "minecraft:enderman_spawn_egg",
+        "minecraft:endermite_spawn_egg",
+        "minecraft:evoker_spawn_egg",
+        "minecraft:fox_spawn_egg",
+        "minecraft:frog_spawn_egg",
+        "minecraft:ghast_spawn_egg",
+        "minecraft:glow_squid_spawn_egg",
+        "minecraft:goat_spawn_egg",
+        "minecraft:guardian_spawn_egg",
+        "minecraft:happy_ghast_spawn_egg",
+        "minecraft:hoglin_spawn_egg",
+        "minecraft:horse_spawn_egg",
+        "minecraft:husk_spawn_egg",
+        "minecraft:iron_golem_spawn_egg",
+        "minecraft:lime_shulker_box",
+        "minecraft:llama_spawn_egg",
+        "minecraft:magma_cube_spawn_egg",
+        "minecraft:mooshroom_spawn_egg",
+        "minecraft:mule_spawn_egg",
+        "minecraft:nautilus_spawn_egg",
+        "minecraft:ocelot_spawn_egg",
+        "minecraft:orange_shulker_box",
+        "minecraft:panda_spawn_egg",
+        "minecraft:parched_spawn_egg",
+        "minecraft:parrot_spawn_egg",
+        "minecraft:phantom_spawn_egg",
+        "minecraft:pig_spawn_egg",
+        "minecraft:piglin_brute_spawn_egg",
+        "minecraft:piglin_spawn_egg",
+        "minecraft:pillager_spawn_egg",
+        "minecraft:polar_bear_spawn_egg",
+        "minecraft:pufferfish_spawn_egg",
+        "minecraft:rabbit_spawn_egg",
+        "minecraft:ravager_spawn_egg",
+        "minecraft:red_shulker_box",
+        "minecraft:salmon_spawn_egg",
+        "minecraft:sheep_spawn_egg",
+        "minecraft:shulker_spawn_egg",
+        "minecraft:silverfish_spawn_egg",
+        "minecraft:skeleton_horse_spawn_egg",
+        "minecraft:skeleton_spawn_egg",
+        "minecraft:slime_spawn_egg",
+        "minecraft:sniffer_spawn_egg",
+        "minecraft:snow_golem_spawn_egg",
+        "minecraft:spider_spawn_egg",
+        "minecraft:squid_spawn_egg",
+        "minecraft:stray_spawn_egg",
+        "minecraft:strider_spawn_egg",
+        "minecraft:sulfur_cube_spawn_egg",
+        "minecraft:tadpole_spawn_egg",
+        "minecraft:trader_llama_spawn_egg",
+        "minecraft:tropical_fish_spawn_egg",
+        "minecraft:turtle_spawn_egg",
+        "minecraft:vex_spawn_egg",
+        "minecraft:villager_spawn_egg",
+        "minecraft:vindicator_spawn_egg",
+        "minecraft:wandering_trader_spawn_egg",
+        "minecraft:warden_spawn_egg",
+        "minecraft:witch_spawn_egg",
+        "minecraft:wither_skeleton_spawn_egg",
+        "minecraft:wither_spawn_egg",
+        "minecraft:wolf_spawn_egg",
+        "minecraft:yellow_shulker_box",
+        "minecraft:zoglin_spawn_egg",
+        "minecraft:zombie_horse_spawn_egg",
+        "minecraft:zombie_nautilus_spawn_egg",
+        "minecraft:zombie_spawn_egg",
+        "minecraft:zombie_villager_spawn_egg",
+        "minecraft:zombified_piglin_spawn_egg"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 3
+    },
+    {
+      "file": "Minecraft_26_2_Spawn_Eggs_And_Nested_Shulkers/items/02_nested_rainbow_shulkers_64x.snbt",
+      "itemStacks": 757,
+      "ids": [
+        "minecraft:black_shulker_box",
+        "minecraft:blue_shulker_box",
+        "minecraft:brown_shulker_box",
+        "minecraft:cyan_shulker_box",
+        "minecraft:gray_shulker_box",
+        "minecraft:green_shulker_box",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:light_gray_shulker_box",
+        "minecraft:lime_shulker_box",
+        "minecraft:magenta_shulker_box",
+        "minecraft:orange_shulker_box",
+        "minecraft:pink_shulker_box",
+        "minecraft:purple_shulker_box",
+        "minecraft:red_shulker_box",
+        "minecraft:white_shulker_box",
+        "minecraft:yellow_shulker_box"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 3
+    },
+    {
+      "file": "Minecraft_26_2_Tools_And_Unobtainables/shulkers/01_power_tools.snbt",
+      "itemStacks": 16,
+      "ids": [
+        "minecraft:bow",
+        "minecraft:brush",
+        "minecraft:crossbow",
+        "minecraft:fishing_rod",
+        "minecraft:flint_and_steel",
+        "minecraft:mace",
+        "minecraft:netherite_axe",
+        "minecraft:netherite_hoe",
+        "minecraft:netherite_pickaxe",
+        "minecraft:netherite_shovel",
+        "minecraft:netherite_spear",
+        "minecraft:netherite_sword",
+        "minecraft:red_shulker_box",
+        "minecraft:shears",
+        "minecraft:shield",
+        "minecraft:trident"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 2
+    },
+    {
+      "file": "Minecraft_26_2_Tools_And_Unobtainables/shulkers/02_unobtainable_items.snbt",
+      "itemStacks": 28,
+      "ids": [
+        "minecraft:barrier",
+        "minecraft:bedrock",
+        "minecraft:black_shulker_box",
+        "minecraft:budding_amethyst",
+        "minecraft:chain_command_block",
+        "minecraft:command_block",
+        "minecraft:command_block_minecart",
+        "minecraft:debug_stick",
+        "minecraft:dirt_path",
+        "minecraft:end_portal_frame",
+        "minecraft:ender_dragon_spawn_egg",
+        "minecraft:farmland",
+        "minecraft:jigsaw",
+        "minecraft:knowledge_book",
+        "minecraft:light",
+        "minecraft:petrified_oak_slab",
+        "minecraft:reinforced_deepslate",
+        "minecraft:repeating_command_block",
+        "minecraft:spawner",
+        "minecraft:structure_block",
+        "minecraft:structure_void",
+        "minecraft:suspicious_gravel",
+        "minecraft:suspicious_sand",
+        "minecraft:test_block",
+        "minecraft:test_instance_block",
+        "minecraft:trial_spawner",
+        "minecraft:vault",
+        "minecraft:wither_spawn_egg"
+      ],
+      "itemModelOverrides": [],
+      "stackNestingDepth": 2
+    }
+  ],
+  "limitations": [
+    "Read-only SNBT structural coverage; binary .nbt uses its supplied .snbt counterpart.",
+    "Does not validate gameplay, component legality, commands or actual rendering."
+  ]
+}

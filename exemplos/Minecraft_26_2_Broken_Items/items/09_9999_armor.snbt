@@ -1,0 +1,23 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {
+                amount: 9999.0d,
+                id: "broken_items:armor_9999",
+                operation: "add_value",
+                slot: "any",
+                type: "minecraft:armor"
+            }
+        ],
+        "minecraft:enchantment_glint_override": 1b,
+        "minecraft:item_name": {text: "9999 Armor Slab", color: "dark_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Directly based on the working editor example", color: "gray", italic: 0b},
+            {text: "Keep only in an offline test world", color: "red", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:acacia_slab"
+}

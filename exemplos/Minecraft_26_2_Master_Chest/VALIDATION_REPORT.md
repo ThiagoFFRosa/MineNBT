@@ -1,0 +1,745 @@
+# Validation Report
+
+- Status: **PASS**
+- Gerado em: 2026-09-09T02:35:49.472Z
+- Alvo: Minecraft Java 26.2
+- Escopo: NBT binário + equivalência SNBT + validação semântica offline
+
+## Checks
+
+- .nbt possui cabeçalho GZip
+- NBT binário descompactado e parseado até EOF sem bytes residuais
+- Raiz TAG_Compound anônima
+- NBT detectado como comprimido
+- .nbt relido e reserializado é byte a byte equivalente ao .snbt
+- Conteúdo relido corresponde integralmente à especificação declarada
+- ItemStack raiz usa minecraft:chest
+- Master Chest possui count=1
+- Nome da raiz é Master Chest
+- Master Chest não sobrescreve max_stack_size
+- Master Chest contém exatamente cinco shulkers
+- Master slot 0 está contíguo
+- Master slot 0 contém ARMOR
+- ARMOR: shulker count=1
+- ARMOR: sem override de max_stack_size
+- ARMOR: nome correto
+- ARMOR: container presente
+- ARMOR: 5 ItemStacks conforme esperado
+- ARMOR: não excede 27 slots
+- ARMOR slot 0: índice contíguo
+- ARMOR slot 1: índice contíguo
+- ARMOR slot 2: índice contíguo
+- ARMOR slot 3: índice contíguo
+- ARMOR slot 4: índice contíguo
+- Master slot 1 está contíguo
+- Master slot 1 contém TOOLS
+- TOOLS: shulker count=1
+- TOOLS: sem override de max_stack_size
+- TOOLS: nome correto
+- TOOLS: container presente
+- TOOLS: 14 ItemStacks conforme esperado
+- TOOLS: não excede 27 slots
+- TOOLS slot 0: índice contíguo
+- TOOLS slot 1: índice contíguo
+- TOOLS slot 2: índice contíguo
+- TOOLS slot 3: índice contíguo
+- TOOLS slot 4: índice contíguo
+- TOOLS slot 5: índice contíguo
+- TOOLS slot 6: índice contíguo
+- TOOLS slot 7: índice contíguo
+- TOOLS slot 8: índice contíguo
+- TOOLS slot 9: índice contíguo
+- TOOLS slot 10: índice contíguo
+- TOOLS slot 11: índice contíguo
+- TOOLS slot 12: índice contíguo
+- TOOLS slot 13: índice contíguo
+- Master slot 2 está contíguo
+- Master slot 2 contém WEAPONS
+- WEAPONS: shulker count=1
+- WEAPONS: sem override de max_stack_size
+- WEAPONS: nome correto
+- WEAPONS: container presente
+- WEAPONS: 18 ItemStacks conforme esperado
+- WEAPONS: não excede 27 slots
+- WEAPONS slot 0: índice contíguo
+- WEAPONS slot 1: índice contíguo
+- WEAPONS slot 2: índice contíguo
+- WEAPONS slot 3: índice contíguo
+- WEAPONS slot 4: índice contíguo
+- WEAPONS slot 5: índice contíguo
+- WEAPONS slot 6: índice contíguo
+- WEAPONS slot 7: índice contíguo
+- WEAPONS slot 8: índice contíguo
+- WEAPONS slot 9: índice contíguo
+- WEAPONS slot 10: índice contíguo
+- WEAPONS slot 11: índice contíguo
+- WEAPONS slot 12: índice contíguo
+- WEAPONS slot 13: índice contíguo
+- WEAPONS slot 14: índice contíguo
+- WEAPONS slot 15: índice contíguo
+- WEAPONS slot 16: índice contíguo
+- WEAPONS slot 17: índice contíguo
+- Master slot 3 está contíguo
+- Master slot 3 contém TESTS
+- TESTS: shulker count=1
+- TESTS: sem override de max_stack_size
+- TESTS: nome correto
+- TESTS: container presente
+- TESTS: 13 ItemStacks conforme esperado
+- TESTS: não excede 27 slots
+- TESTS slot 0: índice contíguo
+- TESTS slot 1: índice contíguo
+- TESTS slot 2: índice contíguo
+- TESTS slot 3: índice contíguo
+- TESTS slot 4: índice contíguo
+- TESTS slot 5: índice contíguo
+- TESTS slot 6: índice contíguo
+- TESTS slot 7: índice contíguo
+- TESTS slot 8: índice contíguo
+- TESTS slot 9: índice contíguo
+- TESTS slot 10: índice contíguo
+- TESTS slot 11: índice contíguo
+- TESTS slot 12: índice contíguo
+- Master slot 4 está contíguo
+- Master slot 4 contém GLITCH BLOCKS
+- GLITCH BLOCKS: shulker count=1
+- GLITCH BLOCKS: sem override de max_stack_size
+- GLITCH BLOCKS: nome correto
+- GLITCH BLOCKS: container presente
+- GLITCH BLOCKS: 16 ItemStacks conforme esperado
+- GLITCH BLOCKS: não excede 27 slots
+- GLITCH BLOCKS slot 0: índice contíguo
+- GLITCH BLOCKS slot 1: índice contíguo
+- GLITCH BLOCKS slot 2: índice contíguo
+- GLITCH BLOCKS slot 3: índice contíguo
+- GLITCH BLOCKS slot 4: índice contíguo
+- GLITCH BLOCKS slot 5: índice contíguo
+- GLITCH BLOCKS slot 6: índice contíguo
+- GLITCH BLOCKS slot 7: índice contíguo
+- GLITCH BLOCKS slot 8: índice contíguo
+- GLITCH BLOCKS slot 9: índice contíguo
+- GLITCH BLOCKS slot 10: índice contíguo
+- GLITCH BLOCKS slot 11: índice contíguo
+- GLITCH BLOCKS slot 12: índice contíguo
+- GLITCH BLOCKS slot 13: índice contíguo
+- GLITCH BLOCKS slot 14: índice contíguo
+- GLITCH BLOCKS slot 15: índice contíguo
+- Foram reparseados 66 ItemStacks de payload
+- Numeração lógica 01–66 completa
+- Nenhum payload está solto diretamente no Master Chest
+- ARMOR slot 0 (Legacy Netherite Helmet): ID correto
+- ARMOR slot 0 (Legacy Netherite Helmet): ID consta na referência 26.2
+- ARMOR slot 0 (Legacy Netherite Helmet): count=1
+- ARMOR slot 0 (Legacy Netherite Helmet): custom_name correto
+- ARMOR slot 0 (Legacy Netherite Helmet): componentes e valores exatos
+- ARMOR slot 0 (Legacy Netherite Helmet): sem Lore
+- ARMOR slot 0 (Legacy Netherite Helmet): sem custom_data fictício
+- ARMOR slot 0 (Legacy Netherite Helmet): sem override de max_stack_size
+- ARMOR slot 1 (Legacy Netherite Chestplate): ID correto
+- ARMOR slot 1 (Legacy Netherite Chestplate): ID consta na referência 26.2
+- ARMOR slot 1 (Legacy Netherite Chestplate): count=1
+- ARMOR slot 1 (Legacy Netherite Chestplate): custom_name correto
+- ARMOR slot 1 (Legacy Netherite Chestplate): componentes e valores exatos
+- ARMOR slot 1 (Legacy Netherite Chestplate): sem Lore
+- ARMOR slot 1 (Legacy Netherite Chestplate): sem custom_data fictício
+- ARMOR slot 1 (Legacy Netherite Chestplate): sem override de max_stack_size
+- ARMOR slot 2 (Legacy Netherite Leggings): ID correto
+- ARMOR slot 2 (Legacy Netherite Leggings): ID consta na referência 26.2
+- ARMOR slot 2 (Legacy Netherite Leggings): count=1
+- ARMOR slot 2 (Legacy Netherite Leggings): custom_name correto
+- ARMOR slot 2 (Legacy Netherite Leggings): componentes e valores exatos
+- ARMOR slot 2 (Legacy Netherite Leggings): sem Lore
+- ARMOR slot 2 (Legacy Netherite Leggings): sem custom_data fictício
+- ARMOR slot 2 (Legacy Netherite Leggings): sem override de max_stack_size
+- ARMOR slot 3 (Legacy Netherite Boots): ID correto
+- ARMOR slot 3 (Legacy Netherite Boots): ID consta na referência 26.2
+- ARMOR slot 3 (Legacy Netherite Boots): count=1
+- ARMOR slot 3 (Legacy Netherite Boots): custom_name correto
+- ARMOR slot 3 (Legacy Netherite Boots): componentes e valores exatos
+- ARMOR slot 3 (Legacy Netherite Boots): sem Lore
+- ARMOR slot 3 (Legacy Netherite Boots): sem custom_data fictício
+- ARMOR slot 3 (Legacy Netherite Boots): sem override de max_stack_size
+- ARMOR slot 4 (Armored Elytra): ID correto
+- ARMOR slot 4 (Armored Elytra): ID consta na referência 26.2
+- ARMOR slot 4 (Armored Elytra): count=1
+- ARMOR slot 4 (Armored Elytra): custom_name correto
+- ARMOR slot 4 (Armored Elytra): componentes e valores exatos
+- ARMOR slot 4 (Armored Elytra): sem Lore
+- ARMOR slot 4 (Armored Elytra): sem custom_data fictício
+- ARMOR slot 4 (Armored Elytra): sem override de max_stack_size
+- TOOLS slot 0 (Fortune Pickaxe): ID correto
+- TOOLS slot 0 (Fortune Pickaxe): ID consta na referência 26.2
+- TOOLS slot 0 (Fortune Pickaxe): count=1
+- TOOLS slot 0 (Fortune Pickaxe): custom_name correto
+- TOOLS slot 0 (Fortune Pickaxe): componentes e valores exatos
+- TOOLS slot 0 (Fortune Pickaxe): sem Lore
+- TOOLS slot 0 (Fortune Pickaxe): sem custom_data fictício
+- TOOLS slot 0 (Fortune Pickaxe): sem override de max_stack_size
+- TOOLS slot 1 (Silk Pickaxe): ID correto
+- TOOLS slot 1 (Silk Pickaxe): ID consta na referência 26.2
+- TOOLS slot 1 (Silk Pickaxe): count=1
+- TOOLS slot 1 (Silk Pickaxe): custom_name correto
+- TOOLS slot 1 (Silk Pickaxe): componentes e valores exatos
+- TOOLS slot 1 (Silk Pickaxe): sem Lore
+- TOOLS slot 1 (Silk Pickaxe): sem custom_data fictício
+- TOOLS slot 1 (Silk Pickaxe): sem override de max_stack_size
+- TOOLS slot 2 (Fortune Axe): ID correto
+- TOOLS slot 2 (Fortune Axe): ID consta na referência 26.2
+- TOOLS slot 2 (Fortune Axe): count=1
+- TOOLS slot 2 (Fortune Axe): custom_name correto
+- TOOLS slot 2 (Fortune Axe): componentes e valores exatos
+- TOOLS slot 2 (Fortune Axe): sem Lore
+- TOOLS slot 2 (Fortune Axe): sem custom_data fictício
+- TOOLS slot 2 (Fortune Axe): sem override de max_stack_size
+- TOOLS slot 3 (Silk Axe): ID correto
+- TOOLS slot 3 (Silk Axe): ID consta na referência 26.2
+- TOOLS slot 3 (Silk Axe): count=1
+- TOOLS slot 3 (Silk Axe): custom_name correto
+- TOOLS slot 3 (Silk Axe): componentes e valores exatos
+- TOOLS slot 3 (Silk Axe): sem Lore
+- TOOLS slot 3 (Silk Axe): sem custom_data fictício
+- TOOLS slot 3 (Silk Axe): sem override de max_stack_size
+- TOOLS slot 4 (Fortune Shovel): ID correto
+- TOOLS slot 4 (Fortune Shovel): ID consta na referência 26.2
+- TOOLS slot 4 (Fortune Shovel): count=1
+- TOOLS slot 4 (Fortune Shovel): custom_name correto
+- TOOLS slot 4 (Fortune Shovel): componentes e valores exatos
+- TOOLS slot 4 (Fortune Shovel): sem Lore
+- TOOLS slot 4 (Fortune Shovel): sem custom_data fictício
+- TOOLS slot 4 (Fortune Shovel): sem override de max_stack_size
+- TOOLS slot 5 (Silk Shovel): ID correto
+- TOOLS slot 5 (Silk Shovel): ID consta na referência 26.2
+- TOOLS slot 5 (Silk Shovel): count=1
+- TOOLS slot 5 (Silk Shovel): custom_name correto
+- TOOLS slot 5 (Silk Shovel): componentes e valores exatos
+- TOOLS slot 5 (Silk Shovel): sem Lore
+- TOOLS slot 5 (Silk Shovel): sem custom_data fictício
+- TOOLS slot 5 (Silk Shovel): sem override de max_stack_size
+- TOOLS slot 6 (Fortune Hoe): ID correto
+- TOOLS slot 6 (Fortune Hoe): ID consta na referência 26.2
+- TOOLS slot 6 (Fortune Hoe): count=1
+- TOOLS slot 6 (Fortune Hoe): custom_name correto
+- TOOLS slot 6 (Fortune Hoe): componentes e valores exatos
+- TOOLS slot 6 (Fortune Hoe): sem Lore
+- TOOLS slot 6 (Fortune Hoe): sem custom_data fictício
+- TOOLS slot 6 (Fortune Hoe): sem override de max_stack_size
+- TOOLS slot 7 (Silk Hoe): ID correto
+- TOOLS slot 7 (Silk Hoe): ID consta na referência 26.2
+- TOOLS slot 7 (Silk Hoe): count=1
+- TOOLS slot 7 (Silk Hoe): custom_name correto
+- TOOLS slot 7 (Silk Hoe): componentes e valores exatos
+- TOOLS slot 7 (Silk Hoe): sem Lore
+- TOOLS slot 7 (Silk Hoe): sem custom_data fictício
+- TOOLS slot 7 (Silk Hoe): sem override de max_stack_size
+- TOOLS slot 8 (Eternal Shears): ID correto
+- TOOLS slot 8 (Eternal Shears): ID consta na referência 26.2
+- TOOLS slot 8 (Eternal Shears): count=1
+- TOOLS slot 8 (Eternal Shears): custom_name correto
+- TOOLS slot 8 (Eternal Shears): componentes e valores exatos
+- TOOLS slot 8 (Eternal Shears): sem Lore
+- TOOLS slot 8 (Eternal Shears): sem custom_data fictício
+- TOOLS slot 8 (Eternal Shears): sem override de max_stack_size
+- TOOLS slot 9 (Eternal Flint and Steel): ID correto
+- TOOLS slot 9 (Eternal Flint and Steel): ID consta na referência 26.2
+- TOOLS slot 9 (Eternal Flint and Steel): count=1
+- TOOLS slot 9 (Eternal Flint and Steel): custom_name correto
+- TOOLS slot 9 (Eternal Flint and Steel): componentes e valores exatos
+- TOOLS slot 9 (Eternal Flint and Steel): sem Lore
+- TOOLS slot 9 (Eternal Flint and Steel): sem custom_data fictício
+- TOOLS slot 9 (Eternal Flint and Steel): sem override de max_stack_size
+- TOOLS slot 10 (Fishing Rod): ID correto
+- TOOLS slot 10 (Fishing Rod): ID consta na referência 26.2
+- TOOLS slot 10 (Fishing Rod): count=1
+- TOOLS slot 10 (Fishing Rod): custom_name correto
+- TOOLS slot 10 (Fishing Rod): componentes e valores exatos
+- TOOLS slot 10 (Fishing Rod): sem Lore
+- TOOLS slot 10 (Fishing Rod): sem custom_data fictício
+- TOOLS slot 10 (Fishing Rod): sem override de max_stack_size
+- TOOLS slot 11 (Eternal Brush): ID correto
+- TOOLS slot 11 (Eternal Brush): ID consta na referência 26.2
+- TOOLS slot 11 (Eternal Brush): count=1
+- TOOLS slot 11 (Eternal Brush): custom_name correto
+- TOOLS slot 11 (Eternal Brush): componentes e valores exatos
+- TOOLS slot 11 (Eternal Brush): sem Lore
+- TOOLS slot 11 (Eternal Brush): sem custom_data fictício
+- TOOLS slot 11 (Eternal Brush): sem override de max_stack_size
+- TOOLS slot 12 (Carrot on a Stick): ID correto
+- TOOLS slot 12 (Carrot on a Stick): ID consta na referência 26.2
+- TOOLS slot 12 (Carrot on a Stick): count=1
+- TOOLS slot 12 (Carrot on a Stick): custom_name correto
+- TOOLS slot 12 (Carrot on a Stick): componentes e valores exatos
+- TOOLS slot 12 (Carrot on a Stick): sem Lore
+- TOOLS slot 12 (Carrot on a Stick): sem custom_data fictício
+- TOOLS slot 12 (Carrot on a Stick): sem override de max_stack_size
+- TOOLS slot 13 (Warped Fungus on a Stick): ID correto
+- TOOLS slot 13 (Warped Fungus on a Stick): ID consta na referência 26.2
+- TOOLS slot 13 (Warped Fungus on a Stick): count=1
+- TOOLS slot 13 (Warped Fungus on a Stick): custom_name correto
+- TOOLS slot 13 (Warped Fungus on a Stick): componentes e valores exatos
+- TOOLS slot 13 (Warped Fungus on a Stick): sem Lore
+- TOOLS slot 13 (Warped Fungus on a Stick): sem custom_data fictício
+- TOOLS slot 13 (Warped Fungus on a Stick): sem override de max_stack_size
+- WEAPONS slot 0 (God Sword): ID correto
+- WEAPONS slot 0 (God Sword): ID consta na referência 26.2
+- WEAPONS slot 0 (God Sword): count=1
+- WEAPONS slot 0 (God Sword): custom_name correto
+- WEAPONS slot 0 (God Sword): componentes e valores exatos
+- WEAPONS slot 0 (God Sword): sem Lore
+- WEAPONS slot 0 (God Sword): sem custom_data fictício
+- WEAPONS slot 0 (God Sword): sem override de max_stack_size
+- WEAPONS slot 1 (God Sword [Knockback]): ID correto
+- WEAPONS slot 1 (God Sword [Knockback]): ID consta na referência 26.2
+- WEAPONS slot 1 (God Sword [Knockback]): count=1
+- WEAPONS slot 1 (God Sword [Knockback]): custom_name correto
+- WEAPONS slot 1 (God Sword [Knockback]): componentes e valores exatos
+- WEAPONS slot 1 (God Sword [Knockback]): sem Lore
+- WEAPONS slot 1 (God Sword [Knockback]): sem custom_data fictício
+- WEAPONS slot 1 (God Sword [Knockback]): sem override de max_stack_size
+- WEAPONS slot 2 (God Mace): ID correto
+- WEAPONS slot 2 (God Mace): ID consta na referência 26.2
+- WEAPONS slot 2 (God Mace): count=1
+- WEAPONS slot 2 (God Mace): custom_name correto
+- WEAPONS slot 2 (God Mace): componentes e valores exatos
+- WEAPONS slot 2 (God Mace): sem Lore
+- WEAPONS slot 2 (God Mace): sem custom_data fictício
+- WEAPONS slot 2 (God Mace): sem override de max_stack_size
+- WEAPONS slot 3 (God Spear): ID correto
+- WEAPONS slot 3 (God Spear): ID consta na referência 26.2
+- WEAPONS slot 3 (God Spear): count=1
+- WEAPONS slot 3 (God Spear): custom_name correto
+- WEAPONS slot 3 (God Spear): componentes e valores exatos
+- WEAPONS slot 3 (God Spear): sem Lore
+- WEAPONS slot 3 (God Spear): sem custom_data fictício
+- WEAPONS slot 3 (God Spear): sem override de max_stack_size
+- WEAPONS slot 4 (God Spear [Knockback]): ID correto
+- WEAPONS slot 4 (God Spear [Knockback]): ID consta na referência 26.2
+- WEAPONS slot 4 (God Spear [Knockback]): count=1
+- WEAPONS slot 4 (God Spear [Knockback]): custom_name correto
+- WEAPONS slot 4 (God Spear [Knockback]): componentes e valores exatos
+- WEAPONS slot 4 (God Spear [Knockback]): sem Lore
+- WEAPONS slot 4 (God Spear [Knockback]): sem custom_data fictício
+- WEAPONS slot 4 (God Spear [Knockback]): sem override de max_stack_size
+- WEAPONS slot 5 (Bow [Clean]): ID correto
+- WEAPONS slot 5 (Bow [Clean]): ID consta na referência 26.2
+- WEAPONS slot 5 (Bow [Clean]): count=1
+- WEAPONS slot 5 (Bow [Clean]): custom_name correto
+- WEAPONS slot 5 (Bow [Clean]): componentes e valores exatos
+- WEAPONS slot 5 (Bow [Clean]): sem Lore
+- WEAPONS slot 5 (Bow [Clean]): sem custom_data fictício
+- WEAPONS slot 5 (Bow [Clean]): sem override de max_stack_size
+- WEAPONS slot 6 (Bow [Multishot]): ID correto
+- WEAPONS slot 6 (Bow [Multishot]): ID consta na referência 26.2
+- WEAPONS slot 6 (Bow [Multishot]): count=1
+- WEAPONS slot 6 (Bow [Multishot]): custom_name correto
+- WEAPONS slot 6 (Bow [Multishot]): componentes e valores exatos
+- WEAPONS slot 6 (Bow [Multishot]): sem Lore
+- WEAPONS slot 6 (Bow [Multishot]): sem custom_data fictício
+- WEAPONS slot 6 (Bow [Multishot]): sem override de max_stack_size
+- WEAPONS slot 7 (Bow [Punch]): ID correto
+- WEAPONS slot 7 (Bow [Punch]): ID consta na referência 26.2
+- WEAPONS slot 7 (Bow [Punch]): count=1
+- WEAPONS slot 7 (Bow [Punch]): custom_name correto
+- WEAPONS slot 7 (Bow [Punch]): componentes e valores exatos
+- WEAPONS slot 7 (Bow [Punch]): sem Lore
+- WEAPONS slot 7 (Bow [Punch]): sem custom_data fictício
+- WEAPONS slot 7 (Bow [Punch]): sem override de max_stack_size
+- WEAPONS slot 8 (Bow [Multishot + Punch]): ID correto
+- WEAPONS slot 8 (Bow [Multishot + Punch]): ID consta na referência 26.2
+- WEAPONS slot 8 (Bow [Multishot + Punch]): count=1
+- WEAPONS slot 8 (Bow [Multishot + Punch]): custom_name correto
+- WEAPONS slot 8 (Bow [Multishot + Punch]): componentes e valores exatos
+- WEAPONS slot 8 (Bow [Multishot + Punch]): sem Lore
+- WEAPONS slot 8 (Bow [Multishot + Punch]): sem custom_data fictício
+- WEAPONS slot 8 (Bow [Multishot + Punch]): sem override de max_stack_size
+- WEAPONS slot 9 (Crossbow [Multishot]): ID correto
+- WEAPONS slot 9 (Crossbow [Multishot]): ID consta na referência 26.2
+- WEAPONS slot 9 (Crossbow [Multishot]): count=1
+- WEAPONS slot 9 (Crossbow [Multishot]): custom_name correto
+- WEAPONS slot 9 (Crossbow [Multishot]): componentes e valores exatos
+- WEAPONS slot 9 (Crossbow [Multishot]): sem Lore
+- WEAPONS slot 9 (Crossbow [Multishot]): sem custom_data fictício
+- WEAPONS slot 9 (Crossbow [Multishot]): sem override de max_stack_size
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): ID correto
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): ID consta na referência 26.2
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): count=1
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): custom_name correto
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): componentes e valores exatos
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): sem Lore
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): sem custom_data fictício
+- WEAPONS slot 10 (Crossbow [Multishot + Punch]): sem override de max_stack_size
+- WEAPONS slot 11 (Crossbow [Single]): ID correto
+- WEAPONS slot 11 (Crossbow [Single]): ID consta na referência 26.2
+- WEAPONS slot 11 (Crossbow [Single]): count=1
+- WEAPONS slot 11 (Crossbow [Single]): custom_name correto
+- WEAPONS slot 11 (Crossbow [Single]): componentes e valores exatos
+- WEAPONS slot 11 (Crossbow [Single]): sem Lore
+- WEAPONS slot 11 (Crossbow [Single]): sem custom_data fictício
+- WEAPONS slot 11 (Crossbow [Single]): sem override de max_stack_size
+- WEAPONS slot 12 (Crossbow [Single + Punch]): ID correto
+- WEAPONS slot 12 (Crossbow [Single + Punch]): ID consta na referência 26.2
+- WEAPONS slot 12 (Crossbow [Single + Punch]): count=1
+- WEAPONS slot 12 (Crossbow [Single + Punch]): custom_name correto
+- WEAPONS slot 12 (Crossbow [Single + Punch]): componentes e valores exatos
+- WEAPONS slot 12 (Crossbow [Single + Punch]): sem Lore
+- WEAPONS slot 12 (Crossbow [Single + Punch]): sem custom_data fictício
+- WEAPONS slot 12 (Crossbow [Single + Punch]): sem override de max_stack_size
+- WEAPONS slot 13 (Crossbow [Machine Gun]): ID correto
+- WEAPONS slot 13 (Crossbow [Machine Gun]): ID consta na referência 26.2
+- WEAPONS slot 13 (Crossbow [Machine Gun]): count=1
+- WEAPONS slot 13 (Crossbow [Machine Gun]): custom_name correto
+- WEAPONS slot 13 (Crossbow [Machine Gun]): componentes e valores exatos
+- WEAPONS slot 13 (Crossbow [Machine Gun]): sem Lore
+- WEAPONS slot 13 (Crossbow [Machine Gun]): sem custom_data fictício
+- WEAPONS slot 13 (Crossbow [Machine Gun]): sem override de max_stack_size
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): ID correto
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): ID consta na referência 26.2
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): count=1
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): custom_name correto
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): componentes e valores exatos
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): sem Lore
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): sem custom_data fictício
+- WEAPONS slot 14 (Crossbow [Machine Gun Single]): sem override de max_stack_size
+- WEAPONS slot 15 (Trident [Loyalty]): ID correto
+- WEAPONS slot 15 (Trident [Loyalty]): ID consta na referência 26.2
+- WEAPONS slot 15 (Trident [Loyalty]): count=1
+- WEAPONS slot 15 (Trident [Loyalty]): custom_name correto
+- WEAPONS slot 15 (Trident [Loyalty]): componentes e valores exatos
+- WEAPONS slot 15 (Trident [Loyalty]): sem Lore
+- WEAPONS slot 15 (Trident [Loyalty]): sem custom_data fictício
+- WEAPONS slot 15 (Trident [Loyalty]): sem override de max_stack_size
+- WEAPONS slot 16 (Trident [Riptide]): ID correto
+- WEAPONS slot 16 (Trident [Riptide]): ID consta na referência 26.2
+- WEAPONS slot 16 (Trident [Riptide]): count=1
+- WEAPONS slot 16 (Trident [Riptide]): custom_name correto
+- WEAPONS slot 16 (Trident [Riptide]): componentes e valores exatos
+- WEAPONS slot 16 (Trident [Riptide]): sem Lore
+- WEAPONS slot 16 (Trident [Riptide]): sem custom_data fictício
+- WEAPONS slot 16 (Trident [Riptide]): sem override de max_stack_size
+- WEAPONS slot 17 (Eternal Shield): ID correto
+- WEAPONS slot 17 (Eternal Shield): ID consta na referência 26.2
+- WEAPONS slot 17 (Eternal Shield): count=1
+- WEAPONS slot 17 (Eternal Shield): custom_name correto
+- WEAPONS slot 17 (Eternal Shield): componentes e valores exatos
+- WEAPONS slot 17 (Eternal Shield): sem Lore
+- WEAPONS slot 17 (Eternal Shield): sem custom_data fictício
+- WEAPONS slot 17 (Eternal Shield): sem override de max_stack_size
+- TESTS slot 0 (TEST - Mace Sharpness): ID correto
+- TESTS slot 0 (TEST - Mace Sharpness): ID consta na referência 26.2
+- TESTS slot 0 (TEST - Mace Sharpness): count=1
+- TESTS slot 0 (TEST - Mace Sharpness): custom_name correto
+- TESTS slot 0 (TEST - Mace Sharpness): componentes e valores exatos
+- TESTS slot 0 (TEST - Mace Sharpness): sem Lore
+- TESTS slot 0 (TEST - Mace Sharpness): sem custom_data fictício
+- TESTS slot 0 (TEST - Mace Sharpness): sem override de max_stack_size
+- TESTS slot 1 (TEST - Spear No Lunge): ID correto
+- TESTS slot 1 (TEST - Spear No Lunge): ID consta na referência 26.2
+- TESTS slot 1 (TEST - Spear No Lunge): count=1
+- TESTS slot 1 (TEST - Spear No Lunge): custom_name correto
+- TESTS slot 1 (TEST - Spear No Lunge): componentes e valores exatos
+- TESTS slot 1 (TEST - Spear No Lunge): sem Lore
+- TESTS slot 1 (TEST - Spear No Lunge): sem custom_data fictício
+- TESTS slot 1 (TEST - Spear No Lunge): sem override de max_stack_size
+- TESTS slot 2 (TEST - Bow Multishot II): ID correto
+- TESTS slot 2 (TEST - Bow Multishot II): ID consta na referência 26.2
+- TESTS slot 2 (TEST - Bow Multishot II): count=1
+- TESTS slot 2 (TEST - Bow Multishot II): custom_name correto
+- TESTS slot 2 (TEST - Bow Multishot II): componentes e valores exatos
+- TESTS slot 2 (TEST - Bow Multishot II): sem Lore
+- TESTS slot 2 (TEST - Bow Multishot II): sem custom_data fictício
+- TESTS slot 2 (TEST - Bow Multishot II): sem override de max_stack_size
+- TESTS slot 3 (TEST - Bow Multishot III): ID correto
+- TESTS slot 3 (TEST - Bow Multishot III): ID consta na referência 26.2
+- TESTS slot 3 (TEST - Bow Multishot III): count=1
+- TESTS slot 3 (TEST - Bow Multishot III): custom_name correto
+- TESTS slot 3 (TEST - Bow Multishot III): componentes e valores exatos
+- TESTS slot 3 (TEST - Bow Multishot III): sem Lore
+- TESTS slot 3 (TEST - Bow Multishot III): sem custom_data fictício
+- TESTS slot 3 (TEST - Bow Multishot III): sem override de max_stack_size
+- TESTS slot 4 (TEST - Crossbow Multishot II): ID correto
+- TESTS slot 4 (TEST - Crossbow Multishot II): ID consta na referência 26.2
+- TESTS slot 4 (TEST - Crossbow Multishot II): count=1
+- TESTS slot 4 (TEST - Crossbow Multishot II): custom_name correto
+- TESTS slot 4 (TEST - Crossbow Multishot II): componentes e valores exatos
+- TESTS slot 4 (TEST - Crossbow Multishot II): sem Lore
+- TESTS slot 4 (TEST - Crossbow Multishot II): sem custom_data fictício
+- TESTS slot 4 (TEST - Crossbow Multishot II): sem override de max_stack_size
+- TESTS slot 5 (TEST - Crossbow Multishot III): ID correto
+- TESTS slot 5 (TEST - Crossbow Multishot III): ID consta na referência 26.2
+- TESTS slot 5 (TEST - Crossbow Multishot III): count=1
+- TESTS slot 5 (TEST - Crossbow Multishot III): custom_name correto
+- TESTS slot 5 (TEST - Crossbow Multishot III): componentes e valores exatos
+- TESTS slot 5 (TEST - Crossbow Multishot III): sem Lore
+- TESTS slot 5 (TEST - Crossbow Multishot III): sem custom_data fictício
+- TESTS slot 5 (TEST - Crossbow Multishot III): sem override de max_stack_size
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): ID correto
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): ID consta na referência 26.2
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): count=1
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): custom_name correto
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): componentes e valores exatos
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): sem Lore
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): sem custom_data fictício
+- TESTS slot 6 (TEST - Crossbow Quick Charge IV): sem override de max_stack_size
+- TESTS slot 7 (TEST - Mace Wind Burst IV): ID correto
+- TESTS slot 7 (TEST - Mace Wind Burst IV): ID consta na referência 26.2
+- TESTS slot 7 (TEST - Mace Wind Burst IV): count=1
+- TESTS slot 7 (TEST - Mace Wind Burst IV): custom_name correto
+- TESTS slot 7 (TEST - Mace Wind Burst IV): componentes e valores exatos
+- TESTS slot 7 (TEST - Mace Wind Burst IV): sem Lore
+- TESTS slot 7 (TEST - Mace Wind Burst IV): sem custom_data fictício
+- TESTS slot 7 (TEST - Mace Wind Burst IV): sem override de max_stack_size
+- TESTS slot 8 (TEST - Mace Wind Burst V): ID correto
+- TESTS slot 8 (TEST - Mace Wind Burst V): ID consta na referência 26.2
+- TESTS slot 8 (TEST - Mace Wind Burst V): count=1
+- TESTS slot 8 (TEST - Mace Wind Burst V): custom_name correto
+- TESTS slot 8 (TEST - Mace Wind Burst V): componentes e valores exatos
+- TESTS slot 8 (TEST - Mace Wind Burst V): sem Lore
+- TESTS slot 8 (TEST - Mace Wind Burst V): sem custom_data fictício
+- TESTS slot 8 (TEST - Mace Wind Burst V): sem override de max_stack_size
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): ID correto
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): ID consta na referência 26.2
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): count=1
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): custom_name correto
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): componentes e valores exatos
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): sem Lore
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): sem custom_data fictício
+- TESTS slot 9 (TEST - Glider Netherite Chestplate): sem override de max_stack_size
+- TESTS slot 10 (TEST - Blocking God Sword): ID correto
+- TESTS slot 10 (TEST - Blocking God Sword): ID consta na referência 26.2
+- TESTS slot 10 (TEST - Blocking God Sword): count=1
+- TESTS slot 10 (TEST - Blocking God Sword): custom_name correto
+- TESTS slot 10 (TEST - Blocking God Sword): componentes e valores exatos
+- TESTS slot 10 (TEST - Blocking God Sword): sem Lore
+- TESTS slot 10 (TEST - Blocking God Sword): sem custom_data fictício
+- TESTS slot 10 (TEST - Blocking God Sword): sem override de max_stack_size
+- TESTS slot 11 (TEST - Blocking Spear): ID correto
+- TESTS slot 11 (TEST - Blocking Spear): ID consta na referência 26.2
+- TESTS slot 11 (TEST - Blocking Spear): count=1
+- TESTS slot 11 (TEST - Blocking Spear): custom_name correto
+- TESTS slot 11 (TEST - Blocking Spear): componentes e valores exatos
+- TESTS slot 11 (TEST - Blocking Spear): sem Lore
+- TESTS slot 11 (TEST - Blocking Spear): sem custom_data fictício
+- TESTS slot 11 (TEST - Blocking Spear): sem override de max_stack_size
+- TESTS slot 12 (AFK Potion): ID correto
+- TESTS slot 12 (AFK Potion): ID consta na referência 26.2
+- TESTS slot 12 (AFK Potion): count=1
+- TESTS slot 12 (AFK Potion): custom_name correto
+- TESTS slot 12 (AFK Potion): componentes e valores exatos
+- TESTS slot 12 (AFK Potion): sem Lore
+- TESTS slot 12 (AFK Potion): sem custom_data fictício
+- TESTS slot 12 (AFK Potion): sem override de max_stack_size
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): ID correto
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): ID consta na referência 26.2
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): count=64
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): custom_name correto
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): componentes e valores exatos
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): sem Lore
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): sem custom_data fictício
+- GLITCH BLOCKS slot 0 (Nether Water Copper Grate): sem override de max_stack_size
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): ID correto
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): ID consta na referência 26.2
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): count=16
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): custom_name correto
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): componentes e valores exatos
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): sem Lore
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): sem custom_data fictício
+- GLITCH BLOCKS slot 1 (TEST - Headless Piston UP): sem override de max_stack_size
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): ID correto
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): ID consta na referência 26.2
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): count=16
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): custom_name correto
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): componentes e valores exatos
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): sem Lore
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): sem custom_data fictício
+- GLITCH BLOCKS slot 2 (TEST - Headless Piston DOWN): sem override de max_stack_size
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): ID correto
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): ID consta na referência 26.2
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): count=16
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): custom_name correto
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): componentes e valores exatos
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): sem Lore
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): sem custom_data fictício
+- GLITCH BLOCKS slot 3 (TEST - Headless Piston NORTH): sem override de max_stack_size
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): ID correto
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): ID consta na referência 26.2
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): count=16
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): custom_name correto
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): componentes e valores exatos
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): sem Lore
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): sem custom_data fictício
+- GLITCH BLOCKS slot 4 (TEST - Headless Piston SOUTH): sem override de max_stack_size
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): ID correto
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): ID consta na referência 26.2
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): count=16
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): custom_name correto
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): componentes e valores exatos
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): sem Lore
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): sem custom_data fictício
+- GLITCH BLOCKS slot 5 (TEST - Headless Piston EAST): sem override de max_stack_size
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): ID correto
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): ID consta na referência 26.2
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): count=16
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): custom_name correto
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): componentes e valores exatos
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): sem Lore
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): sem custom_data fictício
+- GLITCH BLOCKS slot 6 (TEST - Headless Piston WEST): sem override de max_stack_size
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): ID correto
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): ID consta na referência 26.2
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): count=16
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): custom_name correto
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): componentes e valores exatos
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): sem Lore
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): sem custom_data fictício
+- GLITCH BLOCKS slot 7 (TEST - Headless Sticky Piston UP): sem override de max_stack_size
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): ID correto
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): ID consta na referência 26.2
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): count=16
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): custom_name correto
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): componentes e valores exatos
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): sem Lore
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): sem custom_data fictício
+- GLITCH BLOCKS slot 8 (TEST - Headless Sticky Piston DOWN): sem override de max_stack_size
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): ID correto
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): ID consta na referência 26.2
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): count=16
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): custom_name correto
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): componentes e valores exatos
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): sem Lore
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): sem custom_data fictício
+- GLITCH BLOCKS slot 9 (TEST - Headless Sticky Piston NORTH): sem override de max_stack_size
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): ID correto
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): ID consta na referência 26.2
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): count=16
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): custom_name correto
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): componentes e valores exatos
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): sem Lore
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): sem custom_data fictício
+- GLITCH BLOCKS slot 10 (TEST - Headless Sticky Piston SOUTH): sem override de max_stack_size
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): ID correto
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): ID consta na referência 26.2
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): count=16
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): custom_name correto
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): componentes e valores exatos
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): sem Lore
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): sem custom_data fictício
+- GLITCH BLOCKS slot 11 (TEST - Headless Sticky Piston EAST): sem override de max_stack_size
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): ID correto
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): ID consta na referência 26.2
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): count=16
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): custom_name correto
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): componentes e valores exatos
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): sem Lore
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): sem custom_data fictício
+- GLITCH BLOCKS slot 12 (TEST - Headless Sticky Piston WEST): sem override de max_stack_size
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): ID correto
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): ID consta na referência 26.2
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): count=16
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): custom_name correto
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): componentes e valores exatos
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): sem Lore
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): sem custom_data fictício
+- GLITCH BLOCKS slot 13 (TEST - Lit Redstone Lamp): sem override de max_stack_size
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): ID correto
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): ID consta na referência 26.2
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): count=16
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): custom_name correto
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): componentes e valores exatos
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): sem Lore
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): sem custom_data fictício
+- GLITCH BLOCKS slot 14 (TEST - Powered Rail): sem override de max_stack_size
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): ID correto
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): ID consta na referência 26.2
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): count=16
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): custom_name correto
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): componentes e valores exatos
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): sem Lore
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): sem custom_data fictício
+- GLITCH BLOCKS slot 15 (TEST - Powered Activator Rail): sem override de max_stack_size
+- Zero IDs minecraft:air e zero stacks com count=0
+- 49 itens duráveis identificados
+- 49 itens duráveis possuem unbreakable={}
+- 49 itens duráveis possuem repair_cost=0
+- Item 1: Silence + Quartz trim
+- Item 2: Silence + Quartz trim
+- Item 3: Silence + Quartz trim
+- Item 4: Silence + Quartz trim
+- Boots não possuem Frost Walker
+- Helmet preserva três modifiers vanilla e adiciona somente oxygen_bonus
+- Helmet: oxygen_bonus=9 somente no slot head
+- Helmet: somente oxygen_bonus usa display hidden
+- Helmet: modifiers vanilla não foram ocultados
+- Armored Elytra contém glider
+- Armored Elytra possui somente três modifiers defensivos
+- Armored Elytra copia exatamente defesa 8/3/0.10000000149011612 no slot chest e oculta os modifiers
+- TEST Glider Netherite Chestplate contém glider
+- TEST Glider Chestplate não sobrescreve atributos vanilla
+- Item 48: blocks_attacks igual ao Shield vanilla 26.2
+- Item 49: blocks_attacks igual ao Shield vanilla 26.2
+- AFK Potion possui exatamente um custom effect
+- AFK Potion usa Regeneration
+- AFK Potion usa amplifier=1 (Regeneration II)
+- AFK Potion usa duration=-1 (infinita)
+- AFK Potion não mostra partículas nem ícone
+- Item 51: block_state usa valores string
+- Item 52: block_state usa valores string
+- Item 53: block_state usa valores string
+- Item 54: block_state usa valores string
+- Item 55: block_state usa valores string
+- Item 56: block_state usa valores string
+- Item 57: block_state usa valores string
+- Item 58: block_state usa valores string
+- Item 59: block_state usa valores string
+- Item 60: block_state usa valores string
+- Item 61: block_state usa valores string
+- Item 62: block_state usa valores string
+- Item 63: block_state usa valores string
+- Item 64: block_state usa valores string
+- Item 65: block_state usa valores string
+- Item 66: block_state usa valores string
+- Copper Grate: somente waterlogged=true
+- Item 52: piston extended=true e facing válido
+- Item 53: piston extended=true e facing válido
+- Item 54: piston extended=true e facing válido
+- Item 55: piston extended=true e facing válido
+- Item 56: piston extended=true e facing válido
+- Item 57: piston extended=true e facing válido
+- Item 58: piston extended=true e facing válido
+- Item 59: piston extended=true e facing válido
+- Item 60: piston extended=true e facing válido
+- Item 61: piston extended=true e facing válido
+- Item 62: piston extended=true e facing válido
+- Item 63: piston extended=true e facing válido
+- Redstone Lamp: lit=true
+- Powered Rail: somente powered=true
+- Activator Rail: somente powered=true
+- Item 38: nome começa com TEST -
+- Item 39: nome começa com TEST -
+- Item 40: nome começa com TEST -
+- Item 41: nome começa com TEST -
+- Item 42: nome começa com TEST -
+- Item 43: nome começa com TEST -
+- Item 44: nome começa com TEST -
+- Item 45: nome começa com TEST -
+- Item 46: nome começa com TEST -
+- Item 47: nome começa com TEST -
+- Item 48: nome começa com TEST -
+- Item 49: nome começa com TEST -
+- Item 50 preserva o nome explicitamente pedido AFK Potion
+- Manifest contém os 66 nomes e números
+- Referência congelada aponta para Minecraft 26.2 / world_version 4903
+- SHA-1 do server.jar oficial registrado corretamente
+
+## Errors
+
+- Nenhum erro encontrado.
+
+## Hashes
+
+- NBT SHA-256: `b4e2b2963826e17f2d86e6570c8c33f72dc2c4130f039a5aef65f82fd2efbf8d`
+- SNBT SHA-256: `f8bc11ca807f8337e79e65c5179673e12d2d9485d691a2d679a793dd4d290aa1`
+
+## Limite da validação
+
+- O validador relê o arquivo binário, confere tipos NBT, estrutura, IDs congelados da 26.2 e todos os requisitos do prompt.
+- O comportamento dos itens deliberadamente incompatíveis continua dependendo de teste manual dentro do jogo.
+- Nenhum save ou arquivo em `.minecraft` foi modificado.

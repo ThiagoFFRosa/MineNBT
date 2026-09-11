@@ -1,0 +1,15 @@
+{
+    components: {
+        "minecraft:equippable": {
+            damage_on_hurt: 0b,
+            equip_sound: "minecraft:item.armor.equip_generic",
+            slot: "head"
+        },
+        "minecraft:item_name": {text: "Sword Hat", color: "red", italic: 0b},
+        "minecraft:lore": [
+            {text: "A diamond sword equipped in the head slot", color: "gray", italic: 0b}
+        ]
+    },
+    count: 1,
+    id: "minecraft:diamond_sword"
+}

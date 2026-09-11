@@ -1,0 +1,26 @@
+{
+    components: {
+        "minecraft:container": [
+            {
+                item: {
+                    components: {
+                        "minecraft:container": [
+                            {item: {count: 16, id: "minecraft:diamond"}, slot: 0}
+                        ],
+                        "minecraft:item_name": {text: "Inner Diamond Shulker", color: "aqua", italic: 0b}
+                    },
+                    count: 1,
+                    id: "minecraft:shulker_box"
+                },
+                slot: 0
+            }
+        ],
+        "minecraft:item_name": {text: "Finite Container Paradox", color: "dark_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Chest > Shulker > 16 Diamonds", color: "gray", italic: 0b},
+            {text: "One finite nesting level; no recursion", color: "dark_gray", italic: 0b}
+        ]
+    },
+    count: 1,
+    id: "minecraft:chest"
+}

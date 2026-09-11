@@ -1,0 +1,15 @@
+# Estes IDs sao blocos, nao itens. Eles nao podem entrar numa shulker como ItemStack valido.
+# Use somente em mundo descartavel, com comandos habilitados e backup.
+
+# Bloco de portal do End
+/setblock ~ ~ ~ minecraft:end_portal
+
+# Gateway do End
+/setblock ~2 ~ ~ minecraft:end_gateway
+
+# Superficie do portal do Nether; o frame visual normal continua sendo obsidian.
+/setblock ~4 ~ ~ minecraft:nether_portal[axis=x]
+
+# Frame do portal do End — este SIM possui item e ja esta no slot 1 da shulker inobtivel.
+/give @s minecraft:end_portal_frame 1
+

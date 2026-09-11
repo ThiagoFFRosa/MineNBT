@@ -1,0 +1,18 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 15.0d, id: "broken_items:bamboo_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"}
+        ],
+        "minecraft:item_name": {text: "Bamboo Impaler", color: "green", italic: 0b},
+        "minecraft:max_stack_size": 1,
+        "minecraft:piercing_weapon": {
+            deals_knockback: 1b,
+            dismounts: 1b,
+            hit_sound: "minecraft:item.trident.hit",
+            sound: "minecraft:item.trident.throw"
+        },
+        "minecraft:weapon": {item_damage_per_attack: 0}
+    },
+    count: 1,
+    id: "minecraft:bamboo"
+}

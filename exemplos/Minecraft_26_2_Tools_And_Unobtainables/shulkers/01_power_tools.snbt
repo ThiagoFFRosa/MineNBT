@@ -1,0 +1,551 @@
+{
+  "components": {
+    "minecraft:container": [
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:sharpness": 10,
+              "minecraft:smite": 10,
+              "minecraft:bane_of_arthropods": 10,
+              "minecraft:fire_aspect": 5,
+              "minecraft:knockback": 5,
+              "minecraft:looting": 10,
+              "minecraft:sweeping_edge": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Sword",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "All melee damage families together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_sword"
+        },
+        "slot": 0
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:silk_touch": 1,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Pickaxe",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Fortune and Silk Touch together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_pickaxe"
+        },
+        "slot": 1
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:silk_touch": 1,
+              "minecraft:sharpness": 10,
+              "minecraft:smite": 10,
+              "minecraft:bane_of_arthropods": 10,
+              "minecraft:fire_aspect": 5,
+              "minecraft:looting": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Axe",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Tool and melee enchantments combined",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_axe"
+        },
+        "slot": 2
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:silk_touch": 1,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Shovel",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Fortune and Silk Touch together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_shovel"
+        },
+        "slot": 3
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:silk_touch": 1,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Hoe",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Fortune and Silk Touch together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_hoe"
+        },
+        "slot": 4
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:lunge": 10,
+              "minecraft:sharpness": 10,
+              "minecraft:smite": 10,
+              "minecraft:bane_of_arthropods": 10,
+              "minecraft:fire_aspect": 5,
+              "minecraft:knockback": 5,
+              "minecraft:looting": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Netherite Spear",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Lunge and all melee damage families",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:netherite_spear"
+        },
+        "slot": 5
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:density": 10,
+              "minecraft:breach": 10,
+              "minecraft:wind_burst": 10,
+              "minecraft:sharpness": 10,
+              "minecraft:smite": 10,
+              "minecraft:bane_of_arthropods": 10,
+              "minecraft:fire_aspect": 5,
+              "minecraft:knockback": 5,
+              "minecraft:looting": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Mace",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Density and Breach together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:mace"
+        },
+        "slot": 6
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:power": 10,
+              "minecraft:punch": 5,
+              "minecraft:flame": 1,
+              "minecraft:infinity": 1,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Bow",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Infinity and Mending together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:bow"
+        },
+        "slot": 7
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:quick_charge": 5,
+              "minecraft:multishot": 3,
+              "minecraft:piercing": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Crossbow",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Multishot and Piercing together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:crossbow"
+        },
+        "slot": 8
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:impaling": 10,
+              "minecraft:loyalty": 10,
+              "minecraft:riptide": 10,
+              "minecraft:channeling": 1,
+              "minecraft:sharpness": 10,
+              "minecraft:fire_aspect": 5,
+              "minecraft:knockback": 5,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Trident",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Loyalty and Riptide together",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:trident"
+        },
+        "slot": 9
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:luck_of_the_sea": 10,
+              "minecraft:lure": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Fishing Rod",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Maximum strong fishing enchantments",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:fishing_rod"
+        },
+        "slot": 10
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:silk_touch": 1,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Shears",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Fortune and Silk Touch utility",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:shears"
+        },
+        "slot": 11
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:efficiency": 10,
+              "minecraft:fortune": 10,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Omega Brush",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Strong utility enchantments",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:brush"
+        },
+        "slot": 12
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Eternal Flint and Steel",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Indestructible utility item",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:flint_and_steel"
+        },
+        "slot": 13
+      },
+      {
+        "item": {
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 10
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:item_name": {
+              "text": "Eternal Shield",
+              "color": "gold",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Indestructible defensive item",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "text": "Finite levels; unbreakable ItemStack",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          },
+          "count": 1,
+          "id": "minecraft:shield"
+        },
+        "slot": 14
+      }
+    ],
+    "minecraft:item_name": {
+      "text": "Omega Tools - Java 26.2",
+      "color": "red",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "15 strong and unbreakable tools",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Includes normally incompatible enchantments",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  },
+  "count": 1,
+  "id": "minecraft:red_shulker_box"
+}

@@ -1,0 +1,11 @@
+# Cole somente uma linha por vez no chat de um mundo descartavel.
+/setblock ~ ~ ~ minecraft:water
+/setblock ~ ~ ~ minecraft:lava
+/setblock ~ ~ ~ minecraft:fire
+/setblock ~ ~ ~ minecraft:soul_fire
+/setblock ~ ~ ~ minecraft:nether_portal
+/setblock ~ ~ ~ minecraft:end_portal
+/setblock ~ ~ ~ minecraft:end_gateway
+/setblock ~ ~ ~ minecraft:moving_piston
+/setblock ~ ~ ~ minecraft:piston_head
+/setblock ~ ~ ~ minecraft:bubble_column

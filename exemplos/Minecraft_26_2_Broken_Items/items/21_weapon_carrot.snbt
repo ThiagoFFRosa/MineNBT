@@ -1,0 +1,19 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 20.0d, id: "broken_items:carrot_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+            {amount: -1.0d, id: "broken_items:carrot_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+        ],
+        "minecraft:item_name": {text: "Shieldbreaker Carrot", color: "gold", italic: 0b},
+        "minecraft:lore": [
+            {text: "Modern weapon component on food", color: "gray", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1,
+        "minecraft:weapon": {
+            disable_blocking_for_seconds: 10.0f,
+            item_damage_per_attack: 0
+        }
+    },
+    count: 1,
+    id: "minecraft:carrot"
+}

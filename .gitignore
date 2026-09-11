@@ -1,0 +1,5 @@
+# Official client archive; catalogues and extracted assets remain trackable.
+minecraft-assets/*/raw/client.jar
+minecraft-assets/.sync-*/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,20 @@
+{
+    components: {
+        "minecraft:fireworks": {
+            explosions: [
+                {colors: [16711680, 16776960, 65280], fade_colors: [255], has_trail: 1b, has_twinkle: 1b, shape: "large_ball"},
+                {colors: [16711935, 65535], fade_colors: [16777215], has_trail: 1b, has_twinkle: 1b, shape: "star"},
+                {colors: [32768, 8388736], fade_colors: [16753920], has_trail: 1b, has_twinkle: 0b, shape: "creeper"},
+                {colors: [255, 65535, 16777215], fade_colors: [16711680], has_trail: 0b, has_twinkle: 1b, shape: "burst"},
+                {colors: [16753920, 16776960], fade_colors: [8388736], has_trail: 1b, has_twinkle: 1b, shape: "small_ball"}
+            ],
+            flight_duration: 10b
+        },
+        "minecraft:item_name": {text: "Prismatic Fivefold Rocket", color: "light_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Five bounded explosions; flight duration 10", color: "gray", italic: 0b}
+        ]
+    },
+    count: 16,
+    id: "minecraft:firework_rocket"
+}

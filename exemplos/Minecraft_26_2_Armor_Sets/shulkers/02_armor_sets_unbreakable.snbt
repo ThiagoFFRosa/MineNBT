@@ -1,0 +1,205 @@
+{
+    components: {
+        "minecraft:container": [
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:aqua_affinity": 1,
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 4,
+                            "minecraft:respiration": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "Vanilla Max Helmet", color: "aqua", italic: 0b},
+                        "minecraft:lore": [{text: "Set 1: compatible vanilla enchantments", color: "gray", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_helmet"
+                },
+                slot: 0
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 4,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "Vanilla Max Chestplate", color: "aqua", italic: 0b},
+                        "minecraft:lore": [{text: "Set 1: compatible vanilla enchantments", color: "gray", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_chestplate"
+                },
+                slot: 1
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 4,
+                            "minecraft:swift_sneak": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "Vanilla Max Leggings", color: "aqua", italic: 0b},
+                        "minecraft:lore": [{text: "Set 1: compatible vanilla enchantments", color: "gray", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_leggings"
+                },
+                slot: 2
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:depth_strider": 3,
+                            "minecraft:feather_falling": 4,
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 4,
+                            "minecraft:soul_speed": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "Vanilla Max Boots", color: "aqua", italic: 0b},
+                        "minecraft:lore": [{text: "Set 1: Depth Strider path", color: "gray", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_boots"
+                },
+                slot: 3
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:aqua_affinity": 1,
+                            "minecraft:blast_protection": 4,
+                            "minecraft:fire_protection": 4,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 4,
+                            "minecraft:protection": 4,
+                            "minecraft:respiration": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "God Helmet", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [{text: "Set 2: all protection families together", color: "gold", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_helmet"
+                },
+                slot: 4
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:blast_protection": 4,
+                            "minecraft:fire_protection": 4,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 4,
+                            "minecraft:protection": 4,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "God Chestplate", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [{text: "Set 2: all protection families together", color: "gold", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_chestplate"
+                },
+                slot: 5
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:blast_protection": 4,
+                            "minecraft:fire_protection": 4,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 4,
+                            "minecraft:protection": 4,
+                            "minecraft:swift_sneak": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "God Leggings", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [{text: "Set 2: all protection families together", color: "gold", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_leggings"
+                },
+                slot: 6
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:blast_protection": 4,
+                            "minecraft:depth_strider": 3,
+                            "minecraft:feather_falling": 4,
+                            "minecraft:fire_protection": 4,
+                            "minecraft:frost_walker": 2,
+                            "minecraft:mending": 1,
+                            "minecraft:projectile_protection": 4,
+                            "minecraft:protection": 4,
+                            "minecraft:soul_speed": 3,
+                            "minecraft:thorns": 3,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "God Boots", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Set 2: all protection families together", color: "gold", italic: 0b},
+                            {text: "Depth Strider III + Frost Walker II", color: "yellow", italic: 0b}
+                        ]
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_boots"
+                },
+                slot: 7
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 4,
+                            "minecraft:unbreaking": 3
+                        },
+                        "minecraft:unbreakable": {},
+                        "minecraft:item_name": {text: "Protected Elytra", color: "yellow", italic: 0b},
+                        "minecraft:lore": [{text: "Protection IV + Unbreaking III + Mending", color: "gray", italic: 0b}]
+                    },
+                    count: 1,
+                    id: "minecraft:elytra"
+                },
+                slot: 8
+            }
+        ],
+        "minecraft:item_name": {text: "Armor Sets - Indestructible", color: "aqua", italic: 0b},
+        "minecraft:lore": [
+            {text: "Set 1: Vanilla Max Compatible", color: "aqua", italic: 0b},
+            {text: "Set 2: God Mixed Protections", color: "light_purple", italic: 0b},
+            {text: "Slot 8: Protected Elytra", color: "yellow", italic: 0b},
+            {text: "All 9 items use minecraft:unbreakable", color: "dark_purple", italic: 0b}
+        ]
+    },
+    count: 1,
+    id: "minecraft:purple_shulker_box"
+}
+

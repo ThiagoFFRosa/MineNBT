@@ -1,0 +1,585 @@
+MINECRAFT JAVA 26.2 - MASTER CHEST MANIFEST
+=============================================
+
+Root ItemStack: minecraft:chest, count=1, name=Master Chest
+Nested shulkers: 5
+Payload ItemStacks: 66
+Durable ItemStacks with unbreakable/repair_cost=0: 49
+No payload item is stored directly in the Master Chest.
+No item has minecraft:lore or minecraft:custom_data.
+
+[ARMOR] minecraft:white_shulker_box - Master Chest slot 0
+------------------------------------------------------------------------
+01 | slot 0 | Legacy Netherite Helmet
+   ID: minecraft:netherite_helmet
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:trim, minecraft:attribute_modifiers, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:respiration=3, minecraft:aqua_affinity=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: minecraft:armor 3 (add_value, head, id=minecraft:armor.helmet); minecraft:armor_toughness 3 (add_value, head, id=minecraft:armor.helmet); minecraft:knockback_resistance 0.10000000149011612 (add_value, head, id=minecraft:armor.helmet); minecraft:oxygen_bonus 9 (add_value, head, id=master_chest:oxygen_bonus, display=hidden)
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; trim=minecraft:silence+minecraft:quartz
+   Notes: oxygen_bonus +9 in head slot; only the oxygen modifier is hidden
+
+02 | slot 1 | Legacy Netherite Chestplate
+   ID: minecraft:netherite_chestplate
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:trim, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; trim=minecraft:silence+minecraft:quartz
+
+03 | slot 2 | Legacy Netherite Leggings
+   ID: minecraft:netherite_leggings
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:trim, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:swift_sneak=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; trim=minecraft:silence+minecraft:quartz
+
+04 | slot 3 | Legacy Netherite Boots
+   ID: minecraft:netherite_boots
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:trim, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:feather_falling=4, minecraft:depth_strider=3, minecraft:soul_speed=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; trim=minecraft:silence+minecraft:quartz
+   Notes: No Frost Walker
+
+05 | slot 4 | Armored Elytra
+   ID: minecraft:elytra
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:glider, minecraft:attribute_modifiers, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: minecraft:armor 8 (add_value, chest, id=minecraft:armor.chestplate, display=hidden); minecraft:armor_toughness 3 (add_value, chest, id=minecraft:armor.chestplate, display=hidden); minecraft:knockback_resistance 0.10000000149011612 (add_value, chest, id=minecraft:armor.chestplate, display=hidden)
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; glider=present
+   Notes: Exact Netherite Chestplate defense: armor 8, toughness 3, knockback resistance 0.10000000149011612
+
+[TOOLS] minecraft:gray_shulker_box - Master Chest slot 1
+------------------------------------------------------------------------
+06 | slot 0 | Fortune Pickaxe
+   ID: minecraft:netherite_pickaxe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:fortune=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+07 | slot 1 | Silk Pickaxe
+   ID: minecraft:netherite_pickaxe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:silk_touch=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+08 | slot 2 | Fortune Axe
+   ID: minecraft:netherite_axe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:fortune=3, minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+09 | slot 3 | Silk Axe
+   ID: minecraft:netherite_axe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:silk_touch=1, minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+10 | slot 4 | Fortune Shovel
+   ID: minecraft:netherite_shovel
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:fortune=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+11 | slot 5 | Silk Shovel
+   ID: minecraft:netherite_shovel
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:silk_touch=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+12 | slot 6 | Fortune Hoe
+   ID: minecraft:netherite_hoe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:fortune=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+13 | slot 7 | Silk Hoe
+   ID: minecraft:netherite_hoe
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:silk_touch=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+14 | slot 8 | Eternal Shears
+   ID: minecraft:shears
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:efficiency=5, minecraft:silk_touch=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+15 | slot 9 | Eternal Flint and Steel
+   ID: minecraft:flint_and_steel
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+16 | slot 10 | Fishing Rod
+   ID: minecraft:fishing_rod
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:luck_of_the_sea=3, minecraft:lure=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+17 | slot 11 | Eternal Brush
+   ID: minecraft:brush
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+18 | slot 12 | Carrot on a Stick
+   ID: minecraft:carrot_on_a_stick
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+19 | slot 13 | Warped Fungus on a Stick
+   ID: minecraft:warped_fungus_on_a_stick
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+[WEAPONS] minecraft:red_shulker_box - Master Chest slot 2
+------------------------------------------------------------------------
+20 | slot 0 | God Sword
+   ID: minecraft:netherite_sword
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:sweeping_edge=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Knockback
+
+21 | slot 1 | God Sword [Knockback]
+   ID: minecraft:netherite_sword
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:sweeping_edge=3, minecraft:knockback=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+22 | slot 2 | God Mace
+   ID: minecraft:mace
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:density=5, minecraft:breach=4, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:wind_burst=3, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: Deliberately has no Sharpness
+
+23 | slot 3 | God Spear
+   ID: minecraft:netherite_spear
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:lunge=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Knockback
+
+24 | slot 4 | God Spear [Knockback]
+   ID: minecraft:netherite_spear
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:lunge=3, minecraft:knockback=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+25 | slot 5 | Bow [Clean]
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Multishot; no Punch
+
+26 | slot 6 | Bow [Multishot]
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:multishot=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Punch
+
+27 | slot 7 | Bow [Punch]
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Multishot
+
+28 | slot 8 | Bow [Multishot + Punch]
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:multishot=1, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+29 | slot 9 | Crossbow [Multishot]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=3, minecraft:multishot=1, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Punch
+
+30 | slot 10 | Crossbow [Multishot + Punch]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=3, minecraft:multishot=1, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+31 | slot 11 | Crossbow [Single]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=3, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Multishot; no Punch
+
+32 | slot 12 | Crossbow [Single + Punch]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=3, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Multishot
+
+33 | slot 13 | Crossbow [Machine Gun]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=5, minecraft:multishot=1, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+34 | slot 14 | Crossbow [Machine Gun Single]
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=5, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Multishot
+
+35 | slot 15 | Trident [Loyalty]
+   ID: minecraft:trident
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:impaling=5, minecraft:loyalty=3, minecraft:channeling=1, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+36 | slot 16 | Trident [Riptide]
+   ID: minecraft:trident
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:impaling=5, minecraft:riptide=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Loyalty; no Channeling
+
+37 | slot 17 | Eternal Shield
+   ID: minecraft:shield
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+[TESTS] minecraft:purple_shulker_box - Master Chest slot 3
+------------------------------------------------------------------------
+38 | slot 0 | TEST - Mace Sharpness
+   ID: minecraft:mace
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:density=5, minecraft:breach=4, minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:wind_burst=3, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+39 | slot 1 | TEST - Spear No Lunge
+   ID: minecraft:netherite_spear
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:knockback=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+   Notes: No Lunge
+
+40 | slot 2 | TEST - Bow Multishot II
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:multishot=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+41 | slot 3 | TEST - Bow Multishot III
+   ID: minecraft:bow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:multishot=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+42 | slot 4 | TEST - Crossbow Multishot II
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=5, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:multishot=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+43 | slot 5 | TEST - Crossbow Multishot III
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=5, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:multishot=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+44 | slot 6 | TEST - Crossbow Quick Charge IV
+   ID: minecraft:crossbow
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:quick_charge=4, minecraft:multishot=1, minecraft:power=5, minecraft:flame=1, minecraft:infinity=1, minecraft:piercing=4, minecraft:punch=2, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+45 | slot 7 | TEST - Mace Wind Burst IV
+   ID: minecraft:mace
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:density=5, minecraft:breach=4, minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:wind_burst=4, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+46 | slot 8 | TEST - Mace Wind Burst V
+   ID: minecraft:mace
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:density=5, minecraft:breach=4, minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:wind_burst=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion
+
+47 | slot 9 | TEST - Glider Netherite Chestplate
+   ID: minecraft:netherite_chestplate
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:trim, minecraft:glider, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:protection=5, minecraft:fire_protection=5, minecraft:blast_protection=5, minecraft:projectile_protection=5, minecraft:thorns=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; trim=minecraft:silence+minecraft:quartz; glider=present
+   Notes: Uses the chestplate base attributes; no manual attribute override
+
+48 | slot 10 | TEST - Blocking God Sword
+   ID: minecraft:netherite_sword
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:blocks_attacks, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:sweeping_edge=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; blocks_attacks=vanilla shield configuration
+   Notes: Vanilla Shield blocks_attacks configuration
+
+49 | slot 11 | TEST - Blocking Spear
+   ID: minecraft:netherite_spear
+   Count: 1
+   Components: minecraft:custom_name, minecraft:enchantments, minecraft:blocks_attacks, minecraft:unbreakable, minecraft:repair_cost, minecraft:damage_resistant, minecraft:tooltip_display
+   Enchantments: minecraft:sharpness=5, minecraft:smite=5, minecraft:bane_of_arthropods=5, minecraft:fire_aspect=2, minecraft:looting=3, minecraft:lunge=3, minecraft:unbreaking=3, minecraft:mending=1
+   Attribute modifiers: none
+   Special values: damage_resistant=minecraft:in_fire,minecraft:on_fire,minecraft:lava,minecraft:explosion,minecraft:player_explosion; blocks_attacks=vanilla shield configuration
+   Notes: Vanilla Shield blocks_attacks configuration
+
+50 | slot 12 | AFK Potion
+   ID: minecraft:potion
+   Count: 1
+   Components: minecraft:custom_name, minecraft:potion_contents
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: potion=minecraft:regeneration, amplifier=1, duration=-1, particles=0, icon=0
+   Notes: Regeneration II only; infinite duration; removable with milk
+
+[GLITCH BLOCKS] minecraft:orange_shulker_box - Master Chest slot 4
+------------------------------------------------------------------------
+51 | slot 0 | Nether Water Copper Grate
+   ID: minecraft:copper_grate
+   Count: 64
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"waterlogged":"true"}
+   Notes: Waterlogged placement experiment in the Nether
+
+52 | slot 1 | TEST - Headless Piston UP
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"up"}
+   Notes: Headless piston / bedrock-removal experiment
+
+53 | slot 2 | TEST - Headless Piston DOWN
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"down"}
+   Notes: Headless piston / bedrock-removal experiment
+
+54 | slot 3 | TEST - Headless Piston NORTH
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"north"}
+   Notes: Headless piston / bedrock-removal experiment
+
+55 | slot 4 | TEST - Headless Piston SOUTH
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"south"}
+   Notes: Headless piston / bedrock-removal experiment
+
+56 | slot 5 | TEST - Headless Piston EAST
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"east"}
+   Notes: Headless piston / bedrock-removal experiment
+
+57 | slot 6 | TEST - Headless Piston WEST
+   ID: minecraft:piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"west"}
+   Notes: Headless piston / bedrock-removal experiment
+
+58 | slot 7 | TEST - Headless Sticky Piston UP
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"up"}
+   Notes: Headless piston / bedrock-removal experiment
+
+59 | slot 8 | TEST - Headless Sticky Piston DOWN
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"down"}
+   Notes: Headless piston / bedrock-removal experiment
+
+60 | slot 9 | TEST - Headless Sticky Piston NORTH
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"north"}
+   Notes: Headless piston / bedrock-removal experiment
+
+61 | slot 10 | TEST - Headless Sticky Piston SOUTH
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"south"}
+   Notes: Headless piston / bedrock-removal experiment
+
+62 | slot 11 | TEST - Headless Sticky Piston EAST
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"east"}
+   Notes: Headless piston / bedrock-removal experiment
+
+63 | slot 12 | TEST - Headless Sticky Piston WEST
+   ID: minecraft:sticky_piston
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"extended":"true","facing":"west"}
+   Notes: Headless piston / bedrock-removal experiment
+
+64 | slot 13 | TEST - Lit Redstone Lamp
+   ID: minecraft:redstone_lamp
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"lit":"true"}
+   Notes: Persistent lit state experiment
+
+65 | slot 14 | TEST - Powered Rail
+   ID: minecraft:powered_rail
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"powered":"true"}
+   Notes: Unspecified shape and waterlogged properties use vanilla placement defaults
+
+66 | slot 15 | TEST - Powered Activator Rail
+   ID: minecraft:activator_rail
+   Count: 16
+   Components: minecraft:custom_name, minecraft:block_state
+   Enchantments: none
+   Attribute modifiers: none
+   Special values: block_state={"powered":"true"}
+   Notes: Unspecified shape and waterlogged properties use vanilla placement defaults
+
+Gameplay experiments are intentionally not marked as successful or failed.
+Their behavior must be confirmed inside Minecraft Java 26.2 on a backed-up test world.

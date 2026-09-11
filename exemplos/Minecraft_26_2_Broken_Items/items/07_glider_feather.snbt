@@ -1,0 +1,17 @@
+{
+    components: {
+        "minecraft:equippable": {
+            damage_on_hurt: 0b,
+            equip_sound: "minecraft:item.armor.equip_generic",
+            slot: "chest"
+        },
+        "minecraft:glider": {},
+        "minecraft:item_name": {text: "Impossible Glider Feather", color: "white", italic: 0b},
+        "minecraft:lore": [
+            {text: "Equip on chest, then test from a safe height", color: "yellow", italic: 0b}
+        ],
+        "minecraft:max_stack_size": 1
+    },
+    count: 1,
+    id: "minecraft:feather"
+}

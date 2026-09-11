@@ -1,0 +1,20 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 20.0d, id: "broken_items:elytra_armor", operation: "add_value", slot: "chest", type: "minecraft:armor"},
+            {amount: 10.0d, id: "broken_items:elytra_toughness", operation: "add_value", slot: "chest", type: "minecraft:armor_toughness"},
+            {amount: 20.0d, id: "broken_items:elytra_safe_fall", operation: "add_value", slot: "chest", type: "minecraft:safe_fall_distance"},
+            {amount: -1.0d, id: "broken_items:elytra_no_fall_damage", operation: "add_multiplied_total", slot: "chest", type: "minecraft:fall_damage_multiplier"}
+        ],
+        "minecraft:enchantments": {
+            "minecraft:feather_falling": 10,
+            "minecraft:mending": 1,
+            "minecraft:protection": 10,
+            "minecraft:thorns": 10
+        },
+        "minecraft:item_name": {text: "Aegis Wings", color: "aqua", italic: 0b},
+        "minecraft:unbreakable": {}
+    },
+    count: 1,
+    id: "minecraft:elytra"
+}

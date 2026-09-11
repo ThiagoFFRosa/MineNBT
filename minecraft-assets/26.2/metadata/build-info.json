@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "tool": "tools/sync_minecraft_assets.py",
+  "generatedAt": "2026-09-11T02:32:14.941429+00:00",
+  "version": "26.2",
+  "type": "release",
+  "manifestUrl": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json",
+  "metadataUrl": "https://piston-meta.mojang.com/v1/packages/bd23a7ec14eb492bc20d8d06508b6ebb0a63c31a/26.2.json",
+  "metadataSha1": "bd23a7ec14eb492bc20d8d06508b6ebb0a63c31a",
+  "client": {
+    "cached": true,
+    "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+    "size": 39193383,
+    "expected": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+    "status": "OK",
+    "url": "https://piston-data.mojang.com/v1/objects/2dc72797acbc1b63fc16a11c4ac393605f453754/client.jar"
+  },
+  "languages": [
+    {
+      "language": "en_us",
+      "path": "assets/minecraft/lang/en_us.json",
+      "source": "client.jar"
+    },
+    {
+      "language": "pt_br",
+      "path": "assets/minecraft/lang/pt_br.json",
+      "source": "https://resources.download.minecraft.net/6e/6ebc2361114ce07d71af2cbf00b82d96220ac5f7",
+      "sha1": "6ebc2361114ce07d71af2cbf00b82d96220ac5f7"
+    }
+  ]
+}

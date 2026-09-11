@@ -1,0 +1,12 @@
+{
+    components: {
+        "minecraft:enchantment_glint_override": 1b,
+        "minecraft:item_model": "minecraft:end_portal_frame",
+        "minecraft:item_name": {text: "Portal Frame Stick", color: "dark_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Uses the vanilla end portal frame item definition", color: "gray", italic: 0b}
+        ]
+    },
+    count: 1,
+    id: "minecraft:stick"
+}

@@ -1,0 +1,23 @@
+{
+    components: {
+        "minecraft:item_name": {text: "Book of Mutually Assured Enchantment", color: "red", italic: 0b},
+        "minecraft:stored_enchantments": {
+            "minecraft:bane_of_arthropods": 10,
+            "minecraft:blast_protection": 10,
+            "minecraft:breach": 10,
+            "minecraft:density": 10,
+            "minecraft:fire_protection": 10,
+            "minecraft:infinity": 1,
+            "minecraft:mending": 1,
+            "minecraft:multishot": 5,
+            "minecraft:projectile_protection": 10,
+            "minecraft:protection": 10,
+            "minecraft:sharpness": 10,
+            "minecraft:silk_touch": 1,
+            "minecraft:smite": 10,
+            "minecraft:wind_burst": 10
+        }
+    },
+    count: 1,
+    id: "minecraft:enchanted_book"
+}

@@ -1,0 +1,27 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 40.0d, id: "broken_items:hidden_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+            {amount: -2.0d, id: "broken_items:hidden_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+        ],
+        "minecraft:enchantments": {
+            "minecraft:efficiency": 10,
+            "minecraft:fortune": 10,
+            "minecraft:sharpness": 10
+        },
+        "minecraft:item_name": {text: "Quietly Impossible Axe", color: "dark_aqua", italic: 0b},
+        "minecraft:lore": [
+            {text: "Its power components are hidden from the tooltip", color: "gray", italic: 0b}
+        ],
+        "minecraft:tooltip_display": {
+            hidden_components: [
+                "minecraft:attribute_modifiers",
+                "minecraft:enchantments",
+                "minecraft:unbreakable"
+            ]
+        },
+        "minecraft:unbreakable": {}
+    },
+    count: 1,
+    id: "minecraft:netherite_axe"
+}

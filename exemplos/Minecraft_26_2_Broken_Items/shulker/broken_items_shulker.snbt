@@ -1,0 +1,623 @@
+{
+    components: {
+        "minecraft:container": [
+            {
+                item: {
+                    components: {
+                        "!minecraft:damage": {},
+                        "!minecraft:max_damage": {},
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Overstacked Diamond Sword", color: "aqua", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Durability components removed intentionally", color: "gray", italic: 0b},
+                            {text: "Maximum legal component stack: 99", color: "dark_gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 99
+                    },
+                    count: 99,
+                    id: "minecraft:diamond_sword"
+                },
+                slot: 0
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 50.0d, id: "broken_items:cursed_sword_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+                            {amount: -1.0d, id: "broken_items:cursed_sword_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+                        ],
+                        "minecraft:enchantments": {
+                            "minecraft:bane_of_arthropods": 10,
+                            "minecraft:breach": 10,
+                            "minecraft:density": 10,
+                            "minecraft:fire_aspect": 10,
+                            "minecraft:knockback": 10,
+                            "minecraft:looting": 10,
+                            "minecraft:sharpness": 10,
+                            "minecraft:smite": 10,
+                            "minecraft:wind_burst": 10
+                        },
+                        "minecraft:item_name": {text: "Paradox Blade", color: "dark_red", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Mutually exclusive enchantments coexist", color: "red", italic: 0b},
+                            {text: "High but bounded attributes", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:rarity": "epic"
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_sword"
+                },
+                slot: 1
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:flame": 5,
+                            "minecraft:infinity": 1,
+                            "minecraft:mending": 1,
+                            "minecraft:multishot": 5,
+                            "minecraft:piercing": 10,
+                            "minecraft:power": 10,
+                            "minecraft:punch": 10,
+                            "minecraft:quick_charge": 5
+                        },
+                        "minecraft:item_name": {text: "Contradiction Bow", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Bow and crossbow enchantments combined", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:bow"
+                },
+                slot: 2
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 100.0d, id: "broken_items:god_armor", operation: "add_value", slot: "chest", type: "minecraft:armor"},
+                            {amount: 50.0d, id: "broken_items:god_toughness", operation: "add_value", slot: "chest", type: "minecraft:armor_toughness"},
+                            {amount: 1.0d, id: "broken_items:god_knockback_resistance", operation: "add_value", slot: "chest", type: "minecraft:knockback_resistance"}
+                        ],
+                        "minecraft:enchantments": {
+                            "minecraft:blast_protection": 10,
+                            "minecraft:fire_protection": 10,
+                            "minecraft:projectile_protection": 10,
+                            "minecraft:protection": 10
+                        },
+                        "minecraft:item_name": {text: "Fourfold Aegis", color: "gold", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "All four Protection families", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_chestplate"
+                },
+                slot: 3
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 20.0d, id: "broken_items:elytra_armor", operation: "add_value", slot: "chest", type: "minecraft:armor"},
+                            {amount: 10.0d, id: "broken_items:elytra_toughness", operation: "add_value", slot: "chest", type: "minecraft:armor_toughness"},
+                            {amount: 20.0d, id: "broken_items:elytra_safe_fall", operation: "add_value", slot: "chest", type: "minecraft:safe_fall_distance"},
+                            {amount: -1.0d, id: "broken_items:elytra_no_fall_damage", operation: "add_multiplied_total", slot: "chest", type: "minecraft:fall_damage_multiplier"}
+                        ],
+                        "minecraft:enchantments": {
+                            "minecraft:feather_falling": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:protection": 10,
+                            "minecraft:thorns": 10
+                        },
+                        "minecraft:item_name": {text: "Aegis Wings", color: "aqua", italic: 0b},
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:elytra"
+                },
+                slot: 4
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:consumable": {
+                            animation: "eat",
+                            consume_seconds: 2.0f,
+                            has_consume_particles: 1b,
+                            sound: "minecraft:entity.generic.eat"
+                        },
+                        "minecraft:food": {
+                            can_always_eat: 1b,
+                            nutrition: 20,
+                            saturation: 20.0f
+                        },
+                        "minecraft:item_name": {text: "Bedrock Biscuit", color: "dark_gray", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Absurdly edible, structurally valid", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 16
+                    },
+                    count: 16,
+                    id: "minecraft:bedrock"
+                },
+                slot: 5
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:equippable": {
+                            damage_on_hurt: 0b,
+                            equip_sound: "minecraft:item.armor.equip_generic",
+                            slot: "chest"
+                        },
+                        "minecraft:glider": {},
+                        "minecraft:item_name": {text: "Impossible Glider Feather", color: "white", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Equip on chest, then test from a safe height", color: "yellow", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1
+                    },
+                    count: 1,
+                    id: "minecraft:feather"
+                },
+                slot: 6
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:equippable": {
+                            damage_on_hurt: 0b,
+                            equip_sound: "minecraft:item.armor.equip_generic",
+                            slot: "head"
+                        },
+                        "minecraft:item_name": {text: "Sword Hat", color: "red", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "A diamond sword equipped in the head slot", color: "gray", italic: 0b}
+                        ]
+                    },
+                    count: 1,
+                    id: "minecraft:diamond_sword"
+                },
+                slot: 7
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {
+                                amount: 9999.0d,
+                                id: "broken_items:armor_9999",
+                                operation: "add_value",
+                                slot: "any",
+                                type: "minecraft:armor"
+                            }
+                        ],
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "9999 Armor Slab", color: "dark_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Directly based on the working editor example", color: "gray", italic: 0b},
+                            {text: "Keep only in an offline test world", color: "red", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:rarity": "epic"
+                    },
+                    count: 1,
+                    id: "minecraft:acacia_slab"
+                },
+                slot: 8
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 1.0d, id: "broken_items:ultra_speed", operation: "add_value", slot: "feet", type: "minecraft:movement_speed"}
+                        ],
+                        "minecraft:equippable": {
+                            damage_on_hurt: 0b,
+                            equip_sound: "minecraft:item.armor.equip_generic",
+                            slot: "feet"
+                        },
+                        "minecraft:item_name": {text: "Velocity Foot", color: "aqua", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "+1.0 movement speed while equipped", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1
+                    },
+                    count: 1,
+                    id: "minecraft:rabbit_foot"
+                },
+                slot: 9
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 1.5d, id: "broken_items:ultra_jump", operation: "add_value", slot: "feet", type: "minecraft:jump_strength"},
+                            {amount: 50.0d, id: "broken_items:safe_fall", operation: "add_value", slot: "feet", type: "minecraft:safe_fall_distance"},
+                            {amount: -1.0d, id: "broken_items:no_fall_damage", operation: "add_multiplied_total", slot: "feet", type: "minecraft:fall_damage_multiplier"}
+                        ],
+                        "minecraft:equippable": {
+                            damage_on_hurt: 0b,
+                            equip_sound: "minecraft:item.armor.equip_generic",
+                            slot: "feet"
+                        },
+                        "minecraft:item_name": {text: "Moonstep Slime", color: "green", italic: 0b},
+                        "minecraft:max_stack_size": 1
+                    },
+                    count: 1,
+                    id: "minecraft:slime_ball"
+                },
+                slot: 10
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attack_range": {
+                            hitbox_margin: 0.5f,
+                            max_creative_reach: 32.0f,
+                            max_reach: 32.0f,
+                            min_creative_reach: 0.0f,
+                            min_reach: 0.0f,
+                            mob_factor: 1.0f
+                        },
+                        "minecraft:item_name": {text: "Long Arm of the Stick", color: "gold", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "32 block entity attack reach", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:weapon": {item_damage_per_attack: 0}
+                    },
+                    count: 1,
+                    id: "minecraft:stick"
+                },
+                slot: 11
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 32.0d, id: "broken_items:block_reach", operation: "add_value", slot: "mainhand", type: "minecraft:block_interaction_range"}
+                        ],
+                        "minecraft:item_name": {text: "Builder's Horizon", color: "yellow", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "+32 block interaction range in main hand", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1
+                    },
+                    count: 1,
+                    id: "minecraft:blaze_rod"
+                },
+                slot: 12
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:fortune": 10,
+                            "minecraft:mending": 1,
+                            "minecraft:silk_touch": 1
+                        },
+                        "minecraft:item_name": {text: "Eternal Contradiction Pick", color: "aqua", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Fortune and Silk Touch coexist", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_pickaxe"
+                },
+                slot: 13
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Eightfold Elixir", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Eight normally separate effects", color: "gray", italic: 0b},
+                            {text: "Duration: 60 minutes", color: "dark_gray", italic: 0b}
+                        ],
+                        "minecraft:potion_contents": {
+                            custom_color: 1122867,
+                            custom_effects: [
+                                {amplifier: 4, duration: 72000, id: "minecraft:strength", show_icon: 1b, show_particles: 1b},
+                                {amplifier: 4, duration: 72000, id: "minecraft:speed", show_icon: 1b, show_particles: 1b},
+                                {amplifier: 4, duration: 72000, id: "minecraft:jump_boost", show_icon: 1b, show_particles: 1b},
+                                {amplifier: 3, duration: 72000, id: "minecraft:resistance", show_icon: 1b, show_particles: 1b},
+                                {amplifier: 2, duration: 72000, id: "minecraft:regeneration", show_icon: 1b, show_particles: 1b},
+                                {amplifier: 0, duration: 72000, id: "minecraft:night_vision", show_icon: 1b, show_particles: 0b},
+                                {amplifier: 0, duration: 72000, id: "minecraft:water_breathing", show_icon: 1b, show_particles: 0b},
+                                {amplifier: 0, duration: 72000, id: "minecraft:fire_resistance", show_icon: 1b, show_particles: 0b}
+                            ],
+                            custom_name: "eightfold"
+                        },
+                        "minecraft:rarity": "epic"
+                    },
+                    count: 1,
+                    id: "minecraft:potion"
+                },
+                slot: 14
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:death_protection": {
+                            death_effects: [
+                                {type: "minecraft:clear_all_effects"},
+                                {
+                                    effects: [
+                                        {amplifier: 2, duration: 900, id: "minecraft:regeneration", show_icon: 1b},
+                                        {amplifier: 1, duration: 600, id: "minecraft:absorption", show_icon: 1b},
+                                        {amplifier: 0, duration: 800, id: "minecraft:fire_resistance", show_icon: 1b}
+                                    ],
+                                    type: "minecraft:apply_effects"
+                                }
+                            ]
+                        },
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Paper of Second Chances", color: "yellow", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Death protection on an ordinary sheet of paper", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:rarity": "uncommon"
+                    },
+                    count: 1,
+                    id: "minecraft:paper"
+                },
+                slot: 15
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Ominous Amethyst", color: "dark_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Ominous Bottle amplifier 5 (stored value 4)", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:ominous_bottle_amplifier": 4,
+                        "minecraft:rarity": "epic"
+                    },
+                    count: 1,
+                    id: "minecraft:amethyst_shard"
+                },
+                slot: 16
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Notch Profile Head", color: "gold", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Profile name only; texture resolution may require network", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:profile": "Notch"
+                    },
+                    count: 1,
+                    id: "minecraft:player_head"
+                },
+                slot: 17
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Book of Mutually Assured Enchantment", color: "red", italic: 0b},
+                        "minecraft:stored_enchantments": {
+                            "minecraft:bane_of_arthropods": 10,
+                            "minecraft:blast_protection": 10,
+                            "minecraft:breach": 10,
+                            "minecraft:density": 10,
+                            "minecraft:fire_protection": 10,
+                            "minecraft:infinity": 1,
+                            "minecraft:mending": 1,
+                            "minecraft:multishot": 5,
+                            "minecraft:projectile_protection": 10,
+                            "minecraft:protection": 10,
+                            "minecraft:sharpness": 10,
+                            "minecraft:silk_touch": 1,
+                            "minecraft:smite": 10,
+                            "minecraft:wind_burst": 10
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:enchanted_book"
+                },
+                slot: 18
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_name": {text: "Pickaxe Stick", color: "yellow", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Mines pickaxe-tagged blocks at speed 20", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:tool": {
+                            can_destroy_blocks_in_creative: 1b,
+                            damage_per_block: 0,
+                            default_mining_speed: 1.0f,
+                            rules: [
+                                {blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 20.0f}
+                            ]
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:stick"
+                },
+                slot: 19
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 20.0d, id: "broken_items:carrot_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+                            {amount: -1.0d, id: "broken_items:carrot_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+                        ],
+                        "minecraft:item_name": {text: "Shieldbreaker Carrot", color: "gold", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Modern weapon component on food", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:weapon": {
+                            disable_blocking_for_seconds: 10.0f,
+                            item_damage_per_attack: 0
+                        }
+                    },
+                    count: 1,
+                    id: "minecraft:carrot"
+                },
+                slot: 20
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 15.0d, id: "broken_items:bamboo_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"}
+                        ],
+                        "minecraft:item_name": {text: "Bamboo Impaler", color: "green", italic: 0b},
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:piercing_weapon": {
+                            deals_knockback: 1b,
+                            dismounts: 1b,
+                            hit_sound: "minecraft:item.trident.hit",
+                            sound: "minecraft:item.trident.throw"
+                        },
+                        "minecraft:weapon": {item_damage_per_attack: 0}
+                    },
+                    count: 1,
+                    id: "minecraft:bamboo"
+                },
+                slot: 21
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:item_name": {text: "Stabbing Blaze Rod", color: "gold", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "26.2 swing_animation type: stab", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:max_stack_size": 1,
+                        "minecraft:swing_animation": {
+                            duration: 2,
+                            type: "stab"
+                        },
+                        "minecraft:weapon": {item_damage_per_attack: 0}
+                    },
+                    count: 1,
+                    id: "minecraft:blaze_rod"
+                },
+                slot: 22
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:enchantment_glint_override": 1b,
+                        "minecraft:item_model": "minecraft:end_portal_frame",
+                        "minecraft:item_name": {text: "Portal Frame Stick", color: "dark_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Uses the vanilla end portal frame item definition", color: "gray", italic: 0b}
+                        ]
+                    },
+                    count: 1,
+                    id: "minecraft:stick"
+                },
+                slot: 23
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:attribute_modifiers": [
+                            {amount: 40.0d, id: "broken_items:hidden_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+                            {amount: -2.0d, id: "broken_items:hidden_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+                        ],
+                        "minecraft:enchantments": {
+                            "minecraft:efficiency": 10,
+                            "minecraft:fortune": 10,
+                            "minecraft:sharpness": 10
+                        },
+                        "minecraft:item_name": {text: "Quietly Impossible Axe", color: "dark_aqua", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Its power components are hidden from the tooltip", color: "gray", italic: 0b}
+                        ],
+                        "minecraft:tooltip_display": {
+                            hidden_components: [
+                                "minecraft:attribute_modifiers",
+                                "minecraft:enchantments",
+                                "minecraft:unbreakable"
+                            ]
+                        },
+                        "minecraft:unbreakable": {}
+                    },
+                    count: 1,
+                    id: "minecraft:netherite_axe"
+                },
+                slot: 24
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:fireworks": {
+                            explosions: [
+                                {colors: [16711680, 16776960, 65280], fade_colors: [255], has_trail: 1b, has_twinkle: 1b, shape: "large_ball"},
+                                {colors: [16711935, 65535], fade_colors: [16777215], has_trail: 1b, has_twinkle: 1b, shape: "star"},
+                                {colors: [32768, 8388736], fade_colors: [16753920], has_trail: 1b, has_twinkle: 0b, shape: "creeper"},
+                                {colors: [255, 65535, 16777215], fade_colors: [16711680], has_trail: 0b, has_twinkle: 1b, shape: "burst"},
+                                {colors: [16753920, 16776960], fade_colors: [8388736], has_trail: 1b, has_twinkle: 1b, shape: "small_ball"}
+                            ],
+                            flight_duration: 10b
+                        },
+                        "minecraft:item_name": {text: "Prismatic Fivefold Rocket", color: "light_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Five bounded explosions; flight duration 10", color: "gray", italic: 0b}
+                        ]
+                    },
+                    count: 16,
+                    id: "minecraft:firework_rocket"
+                },
+                slot: 25
+            },
+            {
+                item: {
+                    components: {
+                        "minecraft:container": [
+                            {
+                                item: {
+                                    components: {
+                                        "minecraft:container": [
+                                            {item: {count: 16, id: "minecraft:diamond"}, slot: 0}
+                                        ],
+                                        "minecraft:item_name": {text: "Inner Diamond Shulker", color: "aqua", italic: 0b}
+                                    },
+                                    count: 1,
+                                    id: "minecraft:shulker_box"
+                                },
+                                slot: 0
+                            }
+                        ],
+                        "minecraft:item_name": {text: "Finite Container Paradox", color: "dark_purple", italic: 0b},
+                        "minecraft:lore": [
+                            {text: "Chest > Shulker > 16 Diamonds", color: "gray", italic: 0b},
+                            {text: "One finite nesting level; no recursion", color: "dark_gray", italic: 0b}
+                        ]
+                    },
+                    count: 1,
+                    id: "minecraft:chest"
+                },
+                slot: 26
+            }
+        ],
+        "minecraft:item_name": {text: "Forever Artifacts", color: "dark_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Experimental Items", color: "light_purple", italic: 0b},
+            {text: "Minecraft Java 26.2", color: "gray", italic: 0b},
+            {text: "Generated for offline testing", color: "dark_gray", italic: 0b}
+        ],
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:shulker_box"
+}

@@ -1,0 +1,21 @@
+{
+    components: {
+        "minecraft:enchantments": {
+            "minecraft:flame": 5,
+            "minecraft:infinity": 1,
+            "minecraft:mending": 1,
+            "minecraft:multishot": 5,
+            "minecraft:piercing": 10,
+            "minecraft:power": 10,
+            "minecraft:punch": 10,
+            "minecraft:quick_charge": 5
+        },
+        "minecraft:item_name": {text: "Contradiction Bow", color: "light_purple", italic: 0b},
+        "minecraft:lore": [
+            {text: "Bow and crossbow enchantments combined", color: "gray", italic: 0b}
+        ],
+        "minecraft:unbreakable": {}
+    },
+    count: 1,
+    id: "minecraft:bow"
+}

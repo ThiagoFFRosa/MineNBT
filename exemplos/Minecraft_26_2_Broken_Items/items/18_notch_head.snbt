@@ -1,0 +1,11 @@
+{
+    components: {
+        "minecraft:item_name": {text: "Notch Profile Head", color: "gold", italic: 0b},
+        "minecraft:lore": [
+            {text: "Profile name only; texture resolution may require network", color: "gray", italic: 0b}
+        ],
+        "minecraft:profile": "Notch"
+    },
+    count: 1,
+    id: "minecraft:player_head"
+}

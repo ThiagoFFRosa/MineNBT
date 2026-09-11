@@ -1,0 +1,80 @@
+{
+  "version": "26.2",
+  "type": "release",
+  "itemDefinitions": 1537,
+  "itemsCatalogued": 1537,
+  "catalogSource": "assets/*/items/**/*.json (visual definitions, not a runtime item registry)",
+  "textures": 3855,
+  "itemTextures": 796,
+  "blockTextures": 1269,
+  "models": 3928,
+  "atlasGeneratedSprites": 640,
+  "modelTextureValueTypes": {
+    "str": 6444,
+    "dict": 163
+  },
+  "icons": {
+    "direct": 520,
+    "model_resolved": 117,
+    "complex_model": 900,
+    "missing": 0
+  },
+  "missingItems": [],
+  "itemsWithResourceIssues": [],
+  "missingTranslations": {
+    "en_us": [],
+    "pt_br": []
+  },
+  "download": {
+    "client.jar": {
+      "cached": true,
+      "sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "size": 39193383,
+      "expected": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "status": "OK",
+      "url": "https://piston-data.mojang.com/v1/objects/2dc72797acbc1b63fc16a11c4ac393605f453754/client.jar"
+    }
+  },
+  "languages": [
+    {
+      "language": "en_us",
+      "path": "assets/minecraft/lang/en_us.json",
+      "source": "client.jar"
+    },
+    {
+      "language": "pt_br",
+      "path": "assets/minecraft/lang/pt_br.json",
+      "source": "https://resources.download.minecraft.net/6e/6ebc2361114ce07d71af2cbf00b82d96220ac5f7",
+      "sha1": "6ebc2361114ce07d71af2cbf00b82d96220ac5f7"
+    }
+  ],
+  "extractedFiles": 10968,
+  "extractedDirectories": {
+    "assets/.mcassetsroot": 1,
+    "assets/minecraft/atlases": 13,
+    "assets/minecraft/blockstates": 1198,
+    "assets/minecraft/equipment": 45,
+    "assets/minecraft/font": 7,
+    "assets/minecraft/gpu_warnlist.json": 1,
+    "assets/minecraft/items": 1537,
+    "assets/minecraft/lang": 2,
+    "assets/minecraft/models": 3928,
+    "assets/minecraft/particles": 112,
+    "assets/minecraft/post_effect": 6,
+    "assets/minecraft/regional_compliancies.json": 1,
+    "assets/minecraft/shaders": 80,
+    "assets/minecraft/texts": 4,
+    "assets/minecraft/textures": 4031,
+    "assets/minecraft/waypoint_style": 2
+  },
+  "output": "C:\\Users\\Fuzz.s\\Documents\\Coding\\NBT GEN\\minecraft-assets\\26.2",
+  "limitations": [
+    "Item definitions identify visual resources; they are not an authoritative runtime item registry.",
+    "Only static single-layer generated models without tint, animation or GUI transform get a simple icon.",
+    "No special/3D/dynamic models, palette permutations or component overrides are rendered.",
+    "Special texture identifiers are preserved without guessing renderer-specific texture paths.",
+    "All JAR assets are preserved; external asset-index downloads are limited to en_us/pt_br.",
+    "Custom names, glint, profiles, item_model and other stack components require future rendering."
+  ],
+  "totalBytes": 53661868
+}

@@ -1,0 +1,2391 @@
+{
+    "components": {
+        "minecraft:custom_name": {
+            "text": "Master Chest",
+            "italic": 0b
+        },
+        "minecraft:container": [
+            {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "ARMOR",
+                            "italic": 0b
+                        },
+                        "minecraft:container": [
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Legacy Netherite Helmet",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:respiration": 3,
+                                            "minecraft:aqua_affinity": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:trim": {
+                                            "material": "minecraft:quartz",
+                                            "pattern": "minecraft:silence"
+                                        },
+                                        "minecraft:attribute_modifiers": [
+                                            {
+                                                "type": "minecraft:armor",
+                                                "amount": 3.0d,
+                                                "id": "minecraft:armor.helmet",
+                                                "operation": "add_value",
+                                                "slot": "head"
+                                            },
+                                            {
+                                                "type": "minecraft:armor_toughness",
+                                                "amount": 3.0d,
+                                                "id": "minecraft:armor.helmet",
+                                                "operation": "add_value",
+                                                "slot": "head"
+                                            },
+                                            {
+                                                "type": "minecraft:knockback_resistance",
+                                                "amount": 0.10000000149011612d,
+                                                "id": "minecraft:armor.helmet",
+                                                "operation": "add_value",
+                                                "slot": "head"
+                                            },
+                                            {
+                                                "type": "minecraft:oxygen_bonus",
+                                                "amount": 9.0d,
+                                                "id": "master_chest:oxygen_bonus",
+                                                "operation": "add_value",
+                                                "slot": "head",
+                                                "display": {
+                                                    "type": "hidden"
+                                                }
+                                            }
+                                        ],
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_helmet"
+                                },
+                                "slot": 0
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Legacy Netherite Chestplate",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:trim": {
+                                            "material": "minecraft:quartz",
+                                            "pattern": "minecraft:silence"
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_chestplate"
+                                },
+                                "slot": 1
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Legacy Netherite Leggings",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:swift_sneak": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:trim": {
+                                            "material": "minecraft:quartz",
+                                            "pattern": "minecraft:silence"
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_leggings"
+                                },
+                                "slot": 2
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Legacy Netherite Boots",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:feather_falling": 4,
+                                            "minecraft:depth_strider": 3,
+                                            "minecraft:soul_speed": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:trim": {
+                                            "material": "minecraft:quartz",
+                                            "pattern": "minecraft:silence"
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_boots"
+                                },
+                                "slot": 3
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Armored Elytra",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:glider": {},
+                                        "minecraft:attribute_modifiers": [
+                                            {
+                                                "type": "minecraft:armor",
+                                                "amount": 8.0d,
+                                                "id": "minecraft:armor.chestplate",
+                                                "operation": "add_value",
+                                                "slot": "chest",
+                                                "display": {
+                                                    "type": "hidden"
+                                                }
+                                            },
+                                            {
+                                                "type": "minecraft:armor_toughness",
+                                                "amount": 3.0d,
+                                                "id": "minecraft:armor.chestplate",
+                                                "operation": "add_value",
+                                                "slot": "chest",
+                                                "display": {
+                                                    "type": "hidden"
+                                                }
+                                            },
+                                            {
+                                                "type": "minecraft:knockback_resistance",
+                                                "amount": 0.10000000149011612d,
+                                                "id": "minecraft:armor.chestplate",
+                                                "operation": "add_value",
+                                                "slot": "chest",
+                                                "display": {
+                                                    "type": "hidden"
+                                                }
+                                            }
+                                        ],
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:elytra"
+                                },
+                                "slot": 4
+                            }
+                        ]
+                    },
+                    "count": 1,
+                    "id": "minecraft:white_shulker_box"
+                },
+                "slot": 0
+            },
+            {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "TOOLS",
+                            "italic": 0b
+                        },
+                        "minecraft:container": [
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Fortune Pickaxe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:fortune": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_pickaxe"
+                                },
+                                "slot": 0
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Silk Pickaxe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:silk_touch": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_pickaxe"
+                                },
+                                "slot": 1
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Fortune Axe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:fortune": 3,
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_axe"
+                                },
+                                "slot": 2
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Silk Axe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:silk_touch": 1,
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_axe"
+                                },
+                                "slot": 3
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Fortune Shovel",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:fortune": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_shovel"
+                                },
+                                "slot": 4
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Silk Shovel",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:silk_touch": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_shovel"
+                                },
+                                "slot": 5
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Fortune Hoe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:fortune": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_hoe"
+                                },
+                                "slot": 6
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Silk Hoe",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:silk_touch": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_hoe"
+                                },
+                                "slot": 7
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Eternal Shears",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:efficiency": 5,
+                                            "minecraft:silk_touch": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:shears"
+                                },
+                                "slot": 8
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Eternal Flint and Steel",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:flint_and_steel"
+                                },
+                                "slot": 9
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Fishing Rod",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:luck_of_the_sea": 3,
+                                            "minecraft:lure": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:fishing_rod"
+                                },
+                                "slot": 10
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Eternal Brush",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:brush"
+                                },
+                                "slot": 11
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Carrot on a Stick",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:carrot_on_a_stick"
+                                },
+                                "slot": 12
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Warped Fungus on a Stick",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:warped_fungus_on_a_stick"
+                                },
+                                "slot": 13
+                            }
+                        ]
+                    },
+                    "count": 1,
+                    "id": "minecraft:gray_shulker_box"
+                },
+                "slot": 1
+            },
+            {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "WEAPONS",
+                            "italic": 0b
+                        },
+                        "minecraft:container": [
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "God Sword",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:sweeping_edge": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_sword"
+                                },
+                                "slot": 0
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "God Sword [Knockback]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:sweeping_edge": 3,
+                                            "minecraft:knockback": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_sword"
+                                },
+                                "slot": 1
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "God Mace",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:density": 5,
+                                            "minecraft:breach": 4,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:wind_burst": 3,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:mace"
+                                },
+                                "slot": 2
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "God Spear",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:lunge": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_spear"
+                                },
+                                "slot": 3
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "God Spear [Knockback]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:lunge": 3,
+                                            "minecraft:knockback": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_spear"
+                                },
+                                "slot": 4
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Bow [Clean]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 5
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Bow [Multishot]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 6
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Bow [Punch]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 7
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Bow [Multishot + Punch]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 8
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Multishot]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 3,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 9
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Multishot + Punch]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 3,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 10
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Single]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 3,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 11
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Single + Punch]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 3,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 12
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Machine Gun]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 5,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 13
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Crossbow [Machine Gun Single]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 5,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 14
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Trident [Loyalty]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:impaling": 5,
+                                            "minecraft:loyalty": 3,
+                                            "minecraft:channeling": 1,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:trident"
+                                },
+                                "slot": 15
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Trident [Riptide]",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:impaling": 5,
+                                            "minecraft:riptide": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:trident"
+                                },
+                                "slot": 16
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Eternal Shield",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:shield"
+                                },
+                                "slot": 17
+                            }
+                        ]
+                    },
+                    "count": 1,
+                    "id": "minecraft:red_shulker_box"
+                },
+                "slot": 2
+            },
+            {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "TESTS",
+                            "italic": 0b
+                        },
+                        "minecraft:container": [
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Mace Sharpness",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:density": 5,
+                                            "minecraft:breach": 4,
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:wind_burst": 3,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:mace"
+                                },
+                                "slot": 0
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Spear No Lunge",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:knockback": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_spear"
+                                },
+                                "slot": 1
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Bow Multishot II",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:multishot": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 2
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Bow Multishot III",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:multishot": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:bow"
+                                },
+                                "slot": 3
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Crossbow Multishot II",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 5,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:multishot": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 4
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Crossbow Multishot III",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 5,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:multishot": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 5
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Crossbow Quick Charge IV",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:quick_charge": 4,
+                                            "minecraft:multishot": 1,
+                                            "minecraft:power": 5,
+                                            "minecraft:flame": 1,
+                                            "minecraft:infinity": 1,
+                                            "minecraft:piercing": 4,
+                                            "minecraft:punch": 2,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:crossbow"
+                                },
+                                "slot": 6
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Mace Wind Burst IV",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:density": 5,
+                                            "minecraft:breach": 4,
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:wind_burst": 4,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:mace"
+                                },
+                                "slot": 7
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Mace Wind Burst V",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:density": 5,
+                                            "minecraft:breach": 4,
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:wind_burst": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:mace"
+                                },
+                                "slot": 8
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Glider Netherite Chestplate",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:protection": 5,
+                                            "minecraft:fire_protection": 5,
+                                            "minecraft:blast_protection": 5,
+                                            "minecraft:projectile_protection": 5,
+                                            "minecraft:thorns": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:trim": {
+                                            "material": "minecraft:quartz",
+                                            "pattern": "minecraft:silence"
+                                        },
+                                        "minecraft:glider": {},
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_chestplate"
+                                },
+                                "slot": 9
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Blocking God Sword",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:sweeping_edge": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:blocks_attacks": {
+                                            "block_delay_seconds": 0.25f,
+                                            "block_sound": "minecraft:item.shield.block",
+                                            "bypassed_by": "#minecraft:bypasses_shield",
+                                            "disabled_sound": "minecraft:item.shield.break",
+                                            "item_damage": {
+                                                "base": 1.0f,
+                                                "factor": 1.0f,
+                                                "threshold": 3.0f
+                                            }
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_sword"
+                                },
+                                "slot": 10
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Blocking Spear",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:enchantments": {
+                                            "minecraft:sharpness": 5,
+                                            "minecraft:smite": 5,
+                                            "minecraft:bane_of_arthropods": 5,
+                                            "minecraft:fire_aspect": 2,
+                                            "minecraft:looting": 3,
+                                            "minecraft:lunge": 3,
+                                            "minecraft:unbreaking": 3,
+                                            "minecraft:mending": 1
+                                        },
+                                        "minecraft:blocks_attacks": {
+                                            "block_delay_seconds": 0.25f,
+                                            "block_sound": "minecraft:item.shield.block",
+                                            "bypassed_by": "#minecraft:bypasses_shield",
+                                            "disabled_sound": "minecraft:item.shield.break",
+                                            "item_damage": {
+                                                "base": 1.0f,
+                                                "factor": 1.0f,
+                                                "threshold": 3.0f
+                                            }
+                                        },
+                                        "minecraft:unbreakable": {},
+                                        "minecraft:repair_cost": 0,
+                                        "minecraft:damage_resistant": {
+                                            "types": [
+                                                "minecraft:in_fire",
+                                                "minecraft:on_fire",
+                                                "minecraft:lava",
+                                                "minecraft:explosion",
+                                                "minecraft:player_explosion"
+                                            ]
+                                        },
+                                        "minecraft:tooltip_display": {
+                                            "hidden_components": [
+                                                "minecraft:unbreakable",
+                                                "minecraft:damage_resistant"
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:netherite_spear"
+                                },
+                                "slot": 11
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "AFK Potion",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:potion_contents": {
+                                            "custom_effects": [
+                                                {
+                                                    "id": "minecraft:regeneration",
+                                                    "amplifier": 1b,
+                                                    "duration": -1,
+                                                    "ambient": 1b,
+                                                    "show_particles": 0b,
+                                                    "show_icon": 0b
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "count": 1,
+                                    "id": "minecraft:potion"
+                                },
+                                "slot": 12
+                            }
+                        ]
+                    },
+                    "count": 1,
+                    "id": "minecraft:purple_shulker_box"
+                },
+                "slot": 3
+            },
+            {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "GLITCH BLOCKS",
+                            "italic": 0b
+                        },
+                        "minecraft:container": [
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "Nether Water Copper Grate",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "waterlogged": "true"
+                                        }
+                                    },
+                                    "count": 64,
+                                    "id": "minecraft:copper_grate"
+                                },
+                                "slot": 0
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston UP",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "up"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 1
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston DOWN",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "down"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 2
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston NORTH",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 3
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston SOUTH",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "south"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 4
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston EAST",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 5
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Piston WEST",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "west"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:piston"
+                                },
+                                "slot": 6
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston UP",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "up"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 7
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston DOWN",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "down"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 8
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston NORTH",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "north"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 9
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston SOUTH",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "south"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 10
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston EAST",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "east"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 11
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Headless Sticky Piston WEST",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "extended": "true",
+                                            "facing": "west"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:sticky_piston"
+                                },
+                                "slot": 12
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Lit Redstone Lamp",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "lit": "true"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:redstone_lamp"
+                                },
+                                "slot": 13
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Powered Rail",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "powered": "true"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:powered_rail"
+                                },
+                                "slot": 14
+                            },
+                            {
+                                "item": {
+                                    "components": {
+                                        "minecraft:custom_name": {
+                                            "text": "TEST - Powered Activator Rail",
+                                            "italic": 0b
+                                        },
+                                        "minecraft:block_state": {
+                                            "powered": "true"
+                                        }
+                                    },
+                                    "count": 16,
+                                    "id": "minecraft:activator_rail"
+                                },
+                                "slot": 15
+                            }
+                        ]
+                    },
+                    "count": 1,
+                    "id": "minecraft:orange_shulker_box"
+                },
+                "slot": 4
+            }
+        ]
+    },
+    "count": 1,
+    "id": "minecraft:chest"
+}

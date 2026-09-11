@@ -1,0 +1,27 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {amount: 50.0d, id: "broken_items:cursed_sword_damage", operation: "add_value", slot: "mainhand", type: "minecraft:attack_damage"},
+            {amount: -1.0d, id: "broken_items:cursed_sword_speed", operation: "add_value", slot: "mainhand", type: "minecraft:attack_speed"}
+        ],
+        "minecraft:enchantments": {
+            "minecraft:bane_of_arthropods": 10,
+            "minecraft:breach": 10,
+            "minecraft:density": 10,
+            "minecraft:fire_aspect": 10,
+            "minecraft:knockback": 10,
+            "minecraft:looting": 10,
+            "minecraft:sharpness": 10,
+            "minecraft:smite": 10,
+            "minecraft:wind_burst": 10
+        },
+        "minecraft:item_name": {text: "Paradox Blade", color: "dark_red", italic: 0b},
+        "minecraft:lore": [
+            {text: "Mutually exclusive enchantments coexist", color: "red", italic: 0b},
+            {text: "High but bounded attributes", color: "gray", italic: 0b}
+        ],
+        "minecraft:rarity": "epic"
+    },
+    count: 1,
+    id: "minecraft:netherite_sword"
+}
