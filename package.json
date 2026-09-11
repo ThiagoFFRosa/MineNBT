@@ -1,1 +1,29 @@
-{"name":"nbt-gen","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite","build":"tsc -b && vite build","test":"vitest run","validate:frontend":"python tools/validate_frontend.py"},"dependencies":{"@vitejs/plugin-react":"latest","three":"^0.180.0","vite":"^7.1.0","react":"^19.1.0","react-dom":"^19.1.0"},"devDependencies":{"@types/node":"^22.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0","@types/three":"^0.180.0","jsdom":"^26.0.0","tsx":"^4.20.0","typescript":"^5.8.0","vitest":"^3.2.0"}}
+{
+  "name": "nbt-gen",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "validate:frontend": "python tools/validate_frontend.py"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "jsdom": "^26.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
