@@ -1,2 +1,16 @@
-import { useMemo,useState } from 'react';import { registry,filterRegistry,type ItemFilter } from '../minecraft/registry/registry';import { minecraftVersion } from '../minecraft/version';import { ItemPicker } from '../components/ItemPicker';import { Preview } from '../components/Preview';import { RendererTestPage } from '../components/RendererTestPage';import './styles.css';
-export default function App(){const [query,setQuery]=useState('');const [filter,setFilter]=useState<ItemFilter>('all');const [selected,setSelected]=useState(registry.find(i=>i.id==='minecraft:diamond_sword')??registry[0]);const items=useMemo(()=>filterRegistry(registry,query,filter),[query,filter]);if(import.meta.env.DEV&&location.pathname==='/renderer-test')return <RendererTestPage/>;return <div className="shell"><header><div className="brand"><span className="cube">◆</span><div><b>NBT GEN</b><small>CATÁLOGO VISUAL</small></div></div><span className="version">Minecraft Java {minecraftVersion}</span></header><section className="workspace"><aside><div className="picker-head"><div><h2>Biblioteca</h2><span>{items.length.toLocaleString('pt-BR')} de {registry.length.toLocaleString('pt-BR')} itens</span></div><label className="search"><span>⌕</span><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar por nome ou ID…"/></label><nav>{([['all','Todos'],['item','Itens'],['block_item','Blocos']] as [ItemFilter,string][]).map(([id,label])=><button className={filter===id?'active':''} onClick={()=>setFilter(id)} key={id}>{label}</button>)}</nav></div><ItemPicker items={items} selected={selected.id} onSelect={setSelected}/>{!items.length&&<div className="empty">Nenhum item encontrado.</div>}</aside><Preview item={selected}/></section>{import.meta.env.DEV&&<footer>DEV · <a href="/renderer-test">Renderer test</a> · Registry {registry.length} · WebGL compartilhado/lazy</footer>}</div>}
+import { useCallback,useEffect,useMemo,useState } from 'react';
+import { LandingPage } from '../components/LandingPage';
+import { EditorPage } from '../components/editor/EditorPage';
+import { RendererTestPage } from '../components/RendererTestPage';
+import type { NBTGenProject } from '../minecraft/item/model';
+import './styles.css';
+
+const navigate=(path:string)=>{history.pushState({},'',path);window.dispatchEvent(new PopStateEvent('popstate'))};
+export default function App(){
+ const [path,setPath]=useState(location.pathname);const [incoming,setIncoming]=useState<NBTGenProject>();
+ useEffect(()=>{const listener=()=>setPath(location.pathname);addEventListener('popstate',listener);return()=>removeEventListener('popstate',listener)},[]);
+ const openEditor=useCallback((project?:NBTGenProject)=>{setIncoming(project);navigate('/editor')},[]);
+ if(import.meta.env.DEV&&path==='/renderer-test')return <RendererTestPage/>;
+ if(path==='/editor')return <EditorPage initialProject={incoming} onHome={()=>navigate('/')}/>;
+ return <LandingPage onCreate={()=>openEditor()} onImport={openEditor}/>;
+}
