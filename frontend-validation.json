@@ -1,10 +1,16 @@
 {
   "minecraftVersion": "26.2",
-  "generatedAt": "2026-09-11T18:53:59.231943+00:00",
+  "generatedAt": "2026-09-11T19:37:44.616657+00:00",
   "totalSelectable": 1536,
-  "renderable": 1362,
+  "structurallyRenderable": 1362,
   "unsupported": 174,
-  "coveragePercent": 88.67,
+  "structuralCoveragePercent": 88.67,
+  "runtimeVisualValidation": {
+    "tested": 0,
+    "passed": 0,
+    "failed": 0,
+    "note": "Run /renderer-test in development; no whole-catalog visual rate is inferred."
+  },
   "breakdown": {
     "direct": 520,
     "geometry": 725,
@@ -80,5 +86,5 @@
       "status": "renderable"
     }
   },
-  "method": "Every selectable definition and complete model parent chain was parsed; geometry requires non-empty vanilla elements."
+  "method": "Structural audit only: every selectable definition and complete model parent chain was parsed; geometry requires non-empty vanilla elements."
 }
