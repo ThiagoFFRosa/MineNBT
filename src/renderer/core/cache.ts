@@ -1,0 +1,1 @@
+export class AsyncCache<T>{ private values=new Map<string,Promise<T>>(); constructor(private loader:(key:string)=>Promise<T>){} get(key:string){let value=this.values.get(key);if(!value){value=this.loader(key);this.values.set(key,value);value.catch(()=>this.values.delete(key));}return value} clear(){this.values.clear()} get size(){return this.values.size} }

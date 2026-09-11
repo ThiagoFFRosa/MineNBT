@@ -1,0 +1,3 @@
+import type { RegistryItem } from '../types/minecraft';
+export function ItemPicker({items,selected,onSelect}:{items:RegistryItem[];selected:string;onSelect:(i:RegistryItem)=>void}){return <div className="item-grid" role="listbox" aria-label="Itens do Minecraft">{items.map(item=><button type="button" role="option" aria-selected={item.id===selected} title={`${item.displayNamePtBr}\n${item.displayName}\n${item.id}`} className={`item-card ${item.id===selected?'selected':''}`} key={item.id} onClick={()=>onSelect(item)}><span className="icon-slot"><LazyIcon item={item}/></span><span>{item.displayNamePtBr}</span></button>)}</div>}
+import { ItemIcon as LazyIcon } from './ItemIcon';

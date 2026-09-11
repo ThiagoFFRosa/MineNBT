@@ -127,3 +127,20 @@ mas a auditoria detalha tint aninhado, animacoes em texturas de blocos e disting
 tipos de tint de tipos de nos. Os 117 model_resolved continuam sendo texturas
 simples, nao modelos multicamada. O valor totalBytes do report.json original
 representa a etapa de sincronizacao/auditoria SNBT, anterior a estes derivados.
+
+## Frontend NBT GEN — 26.2
+
+A validação offline de 11/09/2026 percorreu as 1.536 definições selecionáveis e
+suas cadeias completas de modelos. O resultado reproduzível está em
+`frontend-validation.json` (`python tools/validate_frontend.py`): 1.362
+renderizáveis (88,67%), sendo 520 direct, 117 model_resolved e 725 geometry; 174
+permanecem em fallback. O breakdown detalhado e os 14 golden items estão no JSON.
+
+O desenho mantém um WebGL context compartilhado e renderização lazy. Não foi
+possível medir memória real, abrir o site ou gerar screenshots neste ambiente,
+pois o proxy respondeu HTTP 403 ao `npm install`; portanto não há estimativa
+inventada nem alegação de validação visual. A inspeção de WebGL deve ser repetida
+após instalar dependências em um ambiente com acesso ao registry npm. Os 38 testes
+Python executáveis passaram; 11 testes que dependem do `raw/client.jar` oficial
+não puderam executar porque esse arquivo ignorado não está no checkout e o mesmo
+proxy também bloqueou seu download.

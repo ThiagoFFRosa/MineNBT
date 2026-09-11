@@ -84,3 +84,45 @@ Os catálogos originais e os exemplos nao sao modificados pela auditoria.
 A projecao mede suporte potencial aos ramos vanilla, nao imagens renderizadas
 nem suporte irrestrito a components/resource packs. O sincronizador original
 continua sem renderer; direct/model_resolved significam lookup de textura simples.
+
+## Frontend NBT GEN (catálogo e renderer base)
+
+A primeira interface funcional usa **React 19, TypeScript, Vite e Three.js**. Foi
+desenvolvida e validada com Node.js 20.20.2. Os assets continuam em
+`minecraft-assets/<versao>/`: um plugin Vite mínimo serve diretamente esse
+diretório, sem links simbólicos ou uma segunda cópia no código-fonte (no build,
+ele é incluído normalmente em `dist`). Isso funciona também no Windows.
+
+```powershell
+npm install
+npm run dev
+npm test
+npm run build
+npm run validate:frontend
+```
+
+Abra o endereço exibido pelo Vite. O picker usa as 1.536 entradas `selectable`
+do registry oficial, busca ID/nome inglês/pt-BR sem diferenciar acentos e filtra
+itens e Block Items. O grid usa imagens para sprites e `IntersectionObserver`
+para só resolver geometria próxima da viewport.
+
+### Arquitetura do frontend
+
+- `src/minecraft`: versão, registry, pesquisa e caminhos de assets seguros;
+- `src/renderer/models`: herança de modelos, variáveis `#texture` e caches;
+- `src/renderer/block`: geometria vanilla e transformação `display.gui`;
+- `src/renderer/textures`: cache de textura com nearest-neighbor;
+- `src/components` e `src/app`: estado e apresentação React, sem lógica de assets.
+
+O renderer 3D é isolado e mantém **um único contexto WebGL compartilhado**. Cada
+preview é convertido em imagem e guardado em memória; geometrias temporárias são
+descartadas. Faces, UV, rotação de face/elemento, materiais transparentes,
+iluminação previsível, câmera ortográfica e transformações GUI são suportadas.
+`cullface` é deliberadamente ignorado no preview de inventário; ambient occlusion
+e iluminação vanilla são aproximados.
+
+Renderers especiais, tint dinâmico, layers, state dispatch, animações, atlas,
+conteúdo de bundles e editores NBT/components permanecem explicitamente fora do
+escopo. Esses itens não desaparecem: recebem fallback e diagnóstico. Execute
+`npm run validate:frontend` para recalcular `frontend-validation.json` a partir de
+todos os itens e modelos reais da versão atual.

@@ -1,0 +1,84 @@
+{
+  "minecraftVersion": "26.2",
+  "generatedAt": "2026-09-11T18:53:59.231943+00:00",
+  "totalSelectable": 1536,
+  "renderable": 1362,
+  "unsupported": 174,
+  "coveragePercent": 88.67,
+  "breakdown": {
+    "direct": 520,
+    "geometry": 725,
+    "unsupported": 174,
+    "model_resolved": 117
+  },
+  "unsupportedBreakdown": {
+    "special_model": 63,
+    "select": 39,
+    "tint": 22,
+    "block_model": 19,
+    "bundle_selected_item": 17,
+    "condition": 6,
+    "invalid_asset": 5,
+    "range_dispatch": 2,
+    "geometry": 1
+  },
+  "goldenTests": {
+    "minecraft:diamond_sword": {
+      "renderer": "direct",
+      "status": "renderable"
+    },
+    "minecraft:netherite_sword": {
+      "renderer": "direct",
+      "status": "renderable"
+    },
+    "minecraft:furnace": {
+      "renderer": "geometry",
+      "status": "renderable"
+    },
+    "minecraft:spawner": {
+      "renderer": "geometry",
+      "status": "renderable"
+    },
+    "minecraft:chest": {
+      "renderer": "unsupported",
+      "status": "special_model"
+    },
+    "minecraft:purple_shulker_box": {
+      "renderer": "unsupported",
+      "status": "special_model"
+    },
+    "minecraft:potion": {
+      "renderer": "unsupported",
+      "status": "tint"
+    },
+    "minecraft:splash_potion": {
+      "renderer": "unsupported",
+      "status": "tint"
+    },
+    "minecraft:bow": {
+      "renderer": "unsupported",
+      "status": "condition"
+    },
+    "minecraft:crossbow": {
+      "renderer": "unsupported",
+      "status": "select"
+    },
+    "minecraft:bundle": {
+      "renderer": "unsupported",
+      "status": "bundle_selected_item"
+    },
+    "minecraft:player_head": {
+      "renderer": "unsupported",
+      "status": "special_model"
+    },
+    "minecraft:written_book": {
+      "renderer": "direct",
+      "status": "renderable"
+    },
+    "minecraft:firework_rocket": {
+      "renderer": "direct",
+      "status": "renderable"
+    }
+  },
+  "method": "Every selectable definition and complete model parent chain was parsed; geometry requires non-empty vanilla elements."
+}
