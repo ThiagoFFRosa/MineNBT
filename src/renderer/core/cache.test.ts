@@ -1,0 +1,1 @@
+import { expect,it,vi } from 'vitest';import { AsyncCache } from './cache';it('deduplicates concurrent cache loads',async()=>{const loader=vi.fn(async(k:string)=>k);const cache=new AsyncCache(loader);expect(await Promise.all([cache.get('x'),cache.get('x')])).toEqual(['x','x']);expect(loader).toHaveBeenCalledOnce()});

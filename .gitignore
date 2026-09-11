@@ -3,3 +3,7 @@ minecraft-assets/*/raw/client.jar
 minecraft-assets/.sync-*/
 __pycache__/
 *.py[cod]
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
