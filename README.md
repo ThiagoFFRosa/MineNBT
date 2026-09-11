@@ -126,3 +126,39 @@ conteúdo de bundles e editores NBT/components permanecem explicitamente fora do
 escopo. Esses itens não desaparecem: recebem fallback e diagnóstico. Execute
 `npm run validate:frontend` para recalcular `frontend-validation.json` a partir de
 todos os itens e modelos reais da versão atual.
+
+# NBT GEN — editor de ItemStacks
+
+A aplicação agora usa `/` como landing, `/editor` como workspace e mantém `/renderer-test` como ferramenta exclusiva de desenvolvimento. O fluxo principal abre o seletor pesquisável dos 1.536 itens, cria um `EditableItem` moderno (`id`, `count`, `components`) e oferece preview, validação e exportação.
+
+## Arquitetura do editor
+
+- `src/minecraft/item/`: modelo interno normalizado, operações imutáveis, capabilities e validação.
+- `src/minecraft/nbt/`: parser/serializer SNBT, command moderno e Project JSON.
+- `src/components/editor/`: shell, editor genérico e editor recursivo de containers.
+- `src/renderer/`: permanece independente da UI; caches e contexto WebGL compartilhado são reutilizados.
+- `exemplos/`: corpus de fixtures e referência, nunca importado como código experimental no bundle.
+
+Chests, barrels e shulker boxes têm 27 slots. Cada slot contém o mesmo `EditableItem`, permitindo nesting sem um schema reduzido. Somente o caminho aberto é montado, e a inspeção informa profundidade, total de itens e tamanho estimado. Undo/redo mantém uma janela de 50 estados imutáveis.
+
+Há UI visual para text components, lore, enchantments sem limite artificial, `unbreakable` e valores numéricos comuns. Components conhecidos sem formulário dedicado e components desconhecidos continuam preservados no editor JSON estruturado.
+
+## Formatos
+
+- Import real: Project JSON e SNBT moderno.
+- Export real: SNBT, `/give` com component syntax e Project JSON.
+- NBT binário aparece apenas como “Em desenvolvimento”; nenhum arquivo falso é produzido.
+
+O parser aceita compounds, lists, strings escapadas, bare values e sufixos numéricos. Nesta versão os números são normalizados para `number`; preservar a largura exata da tag numérica e importar NBT binário permanecem limitações documentadas.
+
+## Frontend
+
+```bash
+npm install
+npm run dev
+npm test
+npm run build
+npm run validate:frontend
+```
+
+Desktop é prioritário; em telas menores a navegação compacta e o preview passa para baixo do editor.
