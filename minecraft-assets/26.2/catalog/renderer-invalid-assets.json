@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "minecraft:large_amethyst_bud",
+      "definition": "assets/minecraft/items/large_amethyst_bud.json",
+      "referenceChain": [
+        "assets/minecraft/items/large_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/large_amethyst_bud.json",
+        "assets/minecraft/textures/block/large_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "exception": [],
+      "rootCause": "V1 model resolver could not complete this asset chain",
+      "fix": "Handled through recursive V2 evaluation and explicit diagnostics."
+    },
+    {
+      "id": "minecraft:medium_amethyst_bud",
+      "definition": "assets/minecraft/items/medium_amethyst_bud.json",
+      "referenceChain": [
+        "assets/minecraft/items/medium_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/medium_amethyst_bud.json",
+        "assets/minecraft/textures/block/medium_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "exception": [],
+      "rootCause": "V1 model resolver could not complete this asset chain",
+      "fix": "Handled through recursive V2 evaluation and explicit diagnostics."
+    },
+    {
+      "id": "minecraft:open_eyeblossom",
+      "definition": "assets/minecraft/items/open_eyeblossom.json",
+      "referenceChain": [
+        "assets/minecraft/items/open_eyeblossom.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/open_eyeblossom.json",
+        "assets/minecraft/textures/block/open_eyeblossom.png",
+        "assets/minecraft/textures/block/open_eyeblossom_emissive.png",
+        "minecraft:builtin/generated"
+      ],
+      "exception": [],
+      "rootCause": "V1 model resolver could not complete this asset chain",
+      "fix": "Handled through recursive V2 evaluation and explicit diagnostics."
+    },
+    {
+      "id": "minecraft:sculk_vein",
+      "definition": "assets/minecraft/items/sculk_vein.json",
+      "referenceChain": [
+        "assets/minecraft/items/sculk_vein.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/sculk_vein.json",
+        "assets/minecraft/textures/block/sculk_vein.png",
+        "minecraft:builtin/generated"
+      ],
+      "exception": [],
+      "rootCause": "V1 model resolver could not complete this asset chain",
+      "fix": "Handled through recursive V2 evaluation and explicit diagnostics."
+    },
+    {
+      "id": "minecraft:small_amethyst_bud",
+      "definition": "assets/minecraft/items/small_amethyst_bud.json",
+      "referenceChain": [
+        "assets/minecraft/items/small_amethyst_bud.json",
+        "assets/minecraft/models/item/amethyst_bud.json",
+        "assets/minecraft/models/item/generated.json",
+        "assets/minecraft/models/item/small_amethyst_bud.json",
+        "assets/minecraft/textures/block/small_amethyst_bud.png",
+        "minecraft:builtin/generated"
+      ],
+      "exception": [],
+      "rootCause": "V1 model resolver could not complete this asset chain",
+      "fix": "Handled through recursive V2 evaluation and explicit diagnostics."
+    }
+  ]
+}

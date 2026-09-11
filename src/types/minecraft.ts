@@ -6,4 +6,5 @@ export interface ModelFace { uv?:[number,number,number,number]; texture:string; 
 export interface ModelElement { from:Vec3; to:Vec3; rotation?:{origin:Vec3;axis:'x'|'y'|'z';angle:number;rescale?:boolean}; shade?:boolean; faces:Partial<Record<'down'|'up'|'north'|'south'|'west'|'east',ModelFace>> }
 export interface VanillaModel { parent?:string; textures?:Record<string,string>; elements?:ModelElement[]; ambientocclusion?:boolean; display?:Record<string,ModelTransform> }
 export interface ResolvedModel extends VanillaModel { textures:Record<string,string>; elements?:ModelElement[]; chain:string[] }
-export type RenderPlan = {type:'direct'|'model_resolved';textureUrl:string;label:string}|{type:'geometry';model:ResolvedModel;label:string}|{type:'unsupported';reason:string;label:string;diagnostic?:string};
+export interface RenderLayer { textureUrl:string; tint?:number }
+export type RenderPlan = {type:'direct'|'model_resolved';textureUrl:string;label:string}|{type:'layers';layers:RenderLayer[];label:string}|{type:'special';textureUrl:string;specialType:string;label:string}|{type:'geometry';model:ResolvedModel;label:string}|{type:'unsupported';reason:string;label:string;diagnostic?:string};
